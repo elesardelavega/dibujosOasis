@@ -1,0 +1,2 @@
+2024-09-19T16:11:02+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\API\WP\OAuthService::deactivate Error revoking the WPCOM token: 
+2024-09-19T16:13:25+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\API\WP\OAuthService::deactivate Error revoking the WPCOM token: 

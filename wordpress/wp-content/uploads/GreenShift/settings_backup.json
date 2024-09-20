@@ -1,0 +1,14 @@
+{
+    "breakpoints": {
+        "mobile": "550",
+        "tablet": "",
+        "desktop": "",
+        "row": "1064"
+    },
+    "localfont": "{\"Rubik\":{\"woff2\":\"\",\"woff\":\"\",\"tiff\":\"\",\"ttf\":\"\",\"preloaded\":\"\"}}",
+    "localfontcss": "@font-face {font-family: \"Rubik\";src: ;font-display: swap;}",
+    "_locale": "user",
+    "elements": [],
+    "colours": [],
+    "gradients": []
+}
