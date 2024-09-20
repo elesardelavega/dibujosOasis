@@ -4,7 +4,13 @@
 .Rhistory
 .RData
 .DS_Store
-wordpress/*
+wordpress/wp-admin/*
+wordpress/wp-includes/*
+wordpress/wp-content/jetpack-waf/*
+wordpress/wp-content/upgrade/*
+wordpress/wp-content/upgrade-temp-backup/*
+wordpress/wp-content/db.php
+wordpress/wp-content/index.php
 !wordpress/.keep
 mysql/*
 !mysql/.keep
