@@ -1,6 +1,6 @@
 /*
 CTC Separate Stylesheet
-Updated: 2024-09-20 11:46:46
+Updated: 2024-09-20 17:04:38
 */
 
 .gs-floating-search-block form {
@@ -19,4 +19,7 @@ Updated: 2024-09-20 11:46:46
 .wp-block-search__inside-wrapper {
     width: 30%;
     float: right;
+}
+html {
+    margin-top: 0;
 }
