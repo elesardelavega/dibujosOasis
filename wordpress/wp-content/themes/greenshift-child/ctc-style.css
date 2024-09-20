@@ -1,5 +1,22 @@
 /*
 CTC Separate Stylesheet
-Updated: 2024-09-20 10:42:59
+Updated: 2024-09-20 11:46:46
 */
 
+.gs-floating-search-block form {
+    width: 100%;
+    max-width: 1064px;
+    max-width: 1440px;
+    max-width: 1065px;
+    height: 30px;
+    float: right;
+    margin: 0 auto !important;
+}
+.gs-floating-search-block.gs-floatsearch-active {
+    background-color: transparent !important;
+    padding: 0;
+}
+.wp-block-search__inside-wrapper {
+    width: 30%;
+    float: right;
+}

@@ -11,4 +11,22 @@ Updated: 2024-09-20 10:42:56
 
 */
 
+.gs-floating-search-block.gs-floatsearch-active {
+    padding: 0;
+    background-color: transparent !important;
+}
 
+.gs-floating-search-block form {
+    max-width: 1065px;
+    width: 100%;
+    height: 30px;
+    margin: 0 auto !important;
+}
+
+.wp-block-search__inside-wrapper {
+    float: right;
+}
+
+.wp-block-search__inside-wrapper {
+    width: 30%;
+}
