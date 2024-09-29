@@ -1,14 +1,90 @@
 {
-    "breakpoints": {
-        "mobile": "550",
-        "tablet": "",
-        "desktop": "",
-        "row": "1064"
+    "colours": {
+        "gs-color-style-2": "#1556ee",
+        "gs-color-style-4": "#f37a1f",
+        "gs-color-style-6": "#d01313",
+        "gs-color-style-0": "#232f3e",
+        "gs-color-style-1": "#eff0f2",
+        "gs-color-style-3": "#8d949e"
     },
-    "localfont": "{\"Rubik\":{\"woff2\":\"\",\"woff\":\"\",\"tiff\":\"\",\"ttf\":\"\",\"preloaded\":\"\"}}",
-    "localfontcss": "@font-face {font-family: \"Rubik\";src: ;font-display: swap;}",
-    "_locale": "user",
-    "elements": [],
-    "colours": [],
-    "gradients": []
+    "elements": {
+        "h1": {
+            "typography": {
+                "textShadow": [],
+                "size": [
+                    "60px"
+                ],
+                "line_height": [
+                    "68px"
+                ],
+                "customweight": 600,
+                "localfontfamily": "Inter",
+                "letter_spacing": [
+                    ""
+                ],
+                "transform": ""
+            },
+            "css": "body h1{font-family:Inter, sans-serif;}body h1{font-size:60px;line-height:68px;}body h1{font-weight:600!important;}h1.wp-block-heading{font-family:Inter, sans-serif;}h1.wp-block-heading{font-size:60px;line-height:68px;}h1.wp-block-heading{font-weight:600!important;}",
+            "admincss": "body .editor-styles-wrapper h1{font-family:Inter, sans-serif;}body .editor-styles-wrapper h1{font-size:60px;line-height:68px;}body .editor-styles-wrapper h1{font-weight:600!important;}body.editor-styles-wrapper h1{font-family:Inter, sans-serif;}body.editor-styles-wrapper h1{font-size:60px;line-height:68px;}body.editor-styles-wrapper h1{font-weight:600!important;}body .editor-styles-wrapper h1.wp-block-heading{font-family:Inter, sans-serif;}body .editor-styles-wrapper h1.wp-block-heading{font-size:60px;line-height:68px;}body .editor-styles-wrapper h1.wp-block-heading{font-weight:600!important;}body.editor-styles-wrapper h1.wp-block-heading{font-family:Inter, sans-serif;}body.editor-styles-wrapper h1.wp-block-heading{font-size:60px;line-height:68px;}body.editor-styles-wrapper h1.wp-block-heading{font-weight:600!important;}"
+        },
+        "h2": {
+            "typography": {
+                "textShadow": [],
+                "size": [
+                    "48px"
+                ],
+                "line_height": [
+                    "56px"
+                ],
+                "customweight": 700,
+                "localfontfamily": "Inter",
+                "letter_spacing": [
+                    ""
+                ],
+                "transform": ""
+            },
+            "css": "body h2{font-family:Inter, sans-serif;}body h2{font-size:48px;line-height:56px;}body h2{font-weight:700!important;}h2.wp-block-heading{font-family:Inter, sans-serif;}h2.wp-block-heading{font-size:48px;line-height:56px;}h2.wp-block-heading{font-weight:700!important;}",
+            "admincss": "body .editor-styles-wrapper h2{font-family:Inter, sans-serif;}body .editor-styles-wrapper h2{font-size:48px;line-height:56px;}body .editor-styles-wrapper h2{font-weight:700!important;}body.editor-styles-wrapper h2{font-family:Inter, sans-serif;}body.editor-styles-wrapper h2{font-size:48px;line-height:56px;}body.editor-styles-wrapper h2{font-weight:700!important;}body .editor-styles-wrapper h2.wp-block-heading{font-family:Inter, sans-serif;}body .editor-styles-wrapper h2.wp-block-heading{font-size:48px;line-height:56px;}body .editor-styles-wrapper h2.wp-block-heading{font-weight:700!important;}body.editor-styles-wrapper h2.wp-block-heading{font-family:Inter, sans-serif;}body.editor-styles-wrapper h2.wp-block-heading{font-size:48px;line-height:56px;}body.editor-styles-wrapper h2.wp-block-heading{font-weight:700!important;}"
+        },
+        "h3": {
+            "typography": {
+                "textShadow": [],
+                "size": [
+                    "40px"
+                ],
+                "line_height": [
+                    "48px"
+                ],
+                "customweight": 600,
+                "localfontfamily": "Inter",
+                "letter_spacing": [
+                    ""
+                ],
+                "transform": ""
+            },
+            "css": "body h3{font-family:Inter, sans-serif;}body h3{font-size:40px;line-height:48px;}body h3{font-weight:600!important;}h3.wp-block-heading{font-family:Inter, sans-serif;}h3.wp-block-heading{font-size:40px;line-height:48px;}h3.wp-block-heading{font-weight:600!important;}",
+            "admincss": "body .editor-styles-wrapper h3{font-family:Inter, sans-serif;}body .editor-styles-wrapper h3{font-size:40px;line-height:48px;}body .editor-styles-wrapper h3{font-weight:600!important;}body.editor-styles-wrapper h3{font-family:Inter, sans-serif;}body.editor-styles-wrapper h3{font-size:40px;line-height:48px;}body.editor-styles-wrapper h3{font-weight:600!important;}body .editor-styles-wrapper h3.wp-block-heading{font-family:Inter, sans-serif;}body .editor-styles-wrapper h3.wp-block-heading{font-size:40px;line-height:48px;}body .editor-styles-wrapper h3.wp-block-heading{font-weight:600!important;}body.editor-styles-wrapper h3.wp-block-heading{font-family:Inter, sans-serif;}body.editor-styles-wrapper h3.wp-block-heading{font-size:40px;line-height:48px;}body.editor-styles-wrapper h3.wp-block-heading{font-weight:600!important;}"
+        },
+        "p": {
+            "typography": {
+                "textShadow": [],
+                "size": [
+                    "17px"
+                ],
+                "line_height": [
+                    ""
+                ],
+                "customweight": "normal",
+                "localfontfamily": "Inter",
+                "letter_spacing": [
+                    ""
+                ],
+                "transform": ""
+            },
+            "css": "body p{font-family:Inter, sans-serif;}body p{font-size:17px;}body p{font-weight:normal!important;}body{font-family:Inter, sans-serif;}body{font-size:17px;}body{font-weight:normal!important;}",
+            "admincss": "body .editor-styles-wrapper p{font-family:Inter, sans-serif;}body .editor-styles-wrapper p{font-size:17px;}body .editor-styles-wrapper p{font-weight:normal!important;}body.editor-styles-wrapper p{font-family:Inter, sans-serif;}body.editor-styles-wrapper p{font-size:17px;}body.editor-styles-wrapper p{font-weight:normal!important;}body .editor-styles-wrapper p.wp-block-heading{font-family:Inter, sans-serif;}body .editor-styles-wrapper p.wp-block-heading{font-size:17px;}body .editor-styles-wrapper p.wp-block-heading{font-weight:normal!important;}body.editor-styles-wrapper p.wp-block-heading{font-family:Inter, sans-serif;}body.editor-styles-wrapper p.wp-block-heading{font-size:17px;}body.editor-styles-wrapper p.wp-block-heading{font-weight:normal!important;}body .editor-styles-wrapper{font-family:Inter, sans-serif;}body .editor-styles-wrapper{font-size:17px;}body .editor-styles-wrapper{font-weight:normal!important;}body.editor-styles-wrapper{font-family:Inter, sans-serif;}body.editor-styles-wrapper{font-size:17px;}body.editor-styles-wrapper{font-weight:normal!important;}"
+        }
+    },
+    "localfont": "{\"Rubik\":{\"woff2\":\"\",\"woff\":\"\",\"tiff\":\"\",\"ttf\":\"\",\"preloaded\":\"on\"}}",
+    "localfontcss": "@font-face {font-family: \"Rubik\";src: ;font-display: swap;}"
 }

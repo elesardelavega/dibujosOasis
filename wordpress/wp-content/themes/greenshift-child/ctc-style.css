@@ -23,3 +23,7 @@ Updated: 2024-09-20 17:04:38
 html {
     margin-top: 0;
 }
+
+.image-banner-rotate {
+    transform: rotate(350deg);
+}

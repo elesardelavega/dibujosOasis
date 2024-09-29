@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-09-03 16:11:23+0000\n"
+"PO-Revision-Date: 2024-09-24 08:01:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,20 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
+
+#: src/integrations/admin/check-required-version.php:115
+msgid "Required Yoast SEO version"
+msgstr "Versión necesaria de Yoast SEO"
+
+#: src/integrations/admin/check-required-version.php:91
+msgid "The package could not be installed because it's not supported by the currently installed Yoast SEO version."
+msgstr "El paquete no se ha podido instalar porque no es compatible con la versión de Yoast SEO instalada actualmente."
+
+#. translators: 1: Current Yoast SEO version, 2: Version required by the
+#. uploaded plugin.
+#: src/integrations/admin/check-required-version.php:84
+msgid "The Yoast SEO version on your site is %1$s, however the uploaded plugin requires %2$s."
+msgstr "La versión de Yoast SEO en tu sitio es la %1$s; sin embargo, el plugin cargado requiere la %2$s."
 
 #: src/user-meta/framework/custom-meta/noindex-author.php:108
 msgid "Do not allow search engines to show this author's archives in search results."
@@ -440,10 +454,10 @@ msgstr "Atrae más clientes locales a tu web y a tu tienda física"
 msgid "It looks like you've enabled media pages. We recommend that you help us to re-analyze your site by running the SEO data optimization. "
 msgstr "Parece ser que has activado las páginas de medios. Recomendamos que nos ayudes a volver a analizar tu sitio ejecutando la optimización de datos SEO. "
 
-#: admin/formatter/class-metabox-formatter.php:153 inc/class-wpseo-rank.php:156
-#: inc/class-wpseo-rank.php:240 js/dist/block-editor.js:563
-#: js/dist/editor-modules.js:324 js/dist/elementor.js:93
-#: js/dist/externals-components.js:188 js/dist/externals-components.js:277
+#: inc/class-wpseo-rank.php:156 inc/class-wpseo-rank.php:240
+#: js/dist/block-editor.js:563 js/dist/editor-modules.js:324
+#: js/dist/elementor.js:93 js/dist/externals-components.js:188
+#: js/dist/externals-components.js:277
 #: js/dist/frontend-inspector-resources.js:1 js/dist/post-edit.js:17
 #: js/dist/term-edit.js:1
 msgid "Potentially non-inclusive"
@@ -706,20 +720,11 @@ msgstr "Elimina la sección de análisis de lenguaje inclusivo de la caja meta y
 msgid "Discover why inclusive language is important for SEO."
 msgstr "Descubre por qué el lenguaje inclusivo es importante para el SEO."
 
-#. translators: %1$s expands to the opening anchor tag, %2$s to the closing
-#. anchor tag, %3$s to the inclusive language score.
-#: admin/formatter/class-metabox-formatter.php:136
-#: admin/formatter/class-metabox-formatter.php:143
-#: admin/formatter/class-metabox-formatter.php:150
-#: admin/formatter/class-metabox-formatter.php:157
-msgid "%1$sInclusive language%2$s: %3$s"
-msgstr "%1$sLenguaje inclusivo%2$s: %3$s"
-
 #: inc/class-wpseo-admin-bar-menu.php:269
 msgid "Front-end SEO inspector"
 msgstr "Inspector SEO en portada"
 
-#: admin/class-yoast-form.php:944
+#: admin/class-yoast-form.php:931
 msgid "Unlock with Premium!"
 msgstr "¡Desbloquear con la versión Premium!"
 
@@ -1364,7 +1369,7 @@ msgstr "El término no se considera válido. WordPress ha dado la siguiente raz�
 msgid "The post could not be found."
 msgstr "No se ha podido encontrar la entrada."
 
-#: admin/class-yoast-form.php:1079 js/dist/first-time-configuration.js:15
+#: admin/class-yoast-form.php:1066 js/dist/first-time-configuration.js:15
 msgid "This feature has been disabled since subsites never send tracking data."
 msgstr "Esta característica ha sido desactivada, ya que los subsitios nunca envían datos de seguimiento."
 
@@ -1781,11 +1786,11 @@ msgstr "%1$sIr a la página de ajustes de comentarios%2$s"
 #. translators: 1: Link start tag to the Firefox website, 2: Link start tag to
 #. the Chrome website, 3: Link start tag to the Edge website, 4: Link closing
 #. tag.
-#: admin/metabox/class-metabox.php:154 admin/taxonomy/class-taxonomy.php:113
+#: admin/metabox/class-metabox.php:153 admin/taxonomy/class-taxonomy.php:113
 msgid "The browser you are currently using is unfortunately rather dated. Since we strive to give you the best experience possible, we no longer support this browser. Instead, please use %1$sFirefox%4$s, %2$sChrome%4$s or %3$sMicrosoft Edge%4$s."
 msgstr "Lamentablemente, el navegador que estás usando actualmente está bastante anticuado. Dado que nos esforzamos para ofrecerte la mejor experiencia posible, ya no tenemos compatibilidad con este navegador. En su lugar, usa %1$sFirefox%4$s, %2$sChrome%4$s o %3$sMicrosoft Edge%4$s."
 
-#: admin/metabox/class-metabox.php:193
+#: admin/metabox/class-metabox.php:197
 msgid "If you want to apply advanced <code>meta</code> robots settings for this page, please define them in the following field."
 msgstr "Si deseas aplicar ajustes avanzados de <code>meta</code> robots para esta página, por favor, defínelos en el siguiente campo."
 
@@ -1828,7 +1833,7 @@ msgstr "¿Quieres aprender SEO del equipo Yoast? ¡Consulta nuestros %1$s!"
 msgid "Learn SEO"
 msgstr "Aprender SEO"
 
-#: admin/metabox/class-metabox.php:426 js/dist/block-editor.js:597
+#: admin/metabox/class-metabox.php:430 js/dist/block-editor.js:597
 #: js/dist/elementor.js:576 js/dist/new-settings.js:11
 #: js/dist/new-settings.js:16 js/dist/new-settings.js:20
 #: js/dist/new-settings.js:61 js/dist/new-settings.js:244
@@ -1878,24 +1883,6 @@ msgstr[1] "El formulario contiene %1$s errores. %2$s"
 #: admin/views/licenses.php:249 admin/views/licenses.php:353
 msgid "Activate %s for your site on MyYoast"
 msgstr "Activa %s para tu sitio en MyYoast"
-
-#. translators: %1$s expands to the opening anchor tag, %2$s to the closing
-#. anchor tag, %3$s to the SEO score.
-#: admin/formatter/class-metabox-formatter.php:76
-#: admin/formatter/class-metabox-formatter.php:83
-#: admin/formatter/class-metabox-formatter.php:90
-#: admin/formatter/class-metabox-formatter.php:97
-msgid "%1$sSEO%2$s: %3$s"
-msgstr "%1$sSEO%2$s: %3$s"
-
-#. translators: %1$s expands to the opening anchor tag, %2$s to the closing
-#. anchor tag, %3$s to the readability score.
-#: admin/formatter/class-metabox-formatter.php:106
-#: admin/formatter/class-metabox-formatter.php:113
-#: admin/formatter/class-metabox-formatter.php:120
-#: admin/formatter/class-metabox-formatter.php:127
-msgid "%1$sReadability%2$s: %3$s"
-msgstr "%1$sLegibilidad%2$s: %3$s"
 
 #. translators: %s expands to the score
 #: admin/statistics/class-statistics-service.php:216
@@ -2117,12 +2104,7 @@ msgstr "Esta pestaña te permite desactivar selectivamente características de %
 msgid "%s is a required feature toggle argument."
 msgstr "%s es un argumento obligatorio de activación de la característica."
 
-#: admin/class-yoast-form.php:775 admin/metabox/class-metabox.php:648
-#: admin/taxonomy/class-taxonomy-fields-presenter.php:133
-msgid "Clear Image"
-msgstr "Vaciar imagen"
-
-#: admin/class-yoast-form.php:1075 js/dist/first-time-configuration.js:15
+#: admin/class-yoast-form.php:1062 js/dist/first-time-configuration.js:15
 msgid "This feature has been disabled by the network admin."
 msgstr "Esta característica la ha desactivado el administrador de la red."
 
@@ -2516,12 +2498,12 @@ msgstr "No permitir a los motores de búsqueda mostrar %s en los resultados."
 msgid "this author's archives"
 msgstr "archivos de este autor"
 
-#: admin/class-yoast-form.php:971 admin/class-yoast-form.php:1011
+#: admin/class-yoast-form.php:958 admin/class-yoast-form.php:998
 #: js/dist/externals/componentsNew.js:767
 msgid "On"
 msgstr "Activo"
 
-#: admin/class-yoast-form.php:972 admin/class-yoast-form.php:1012
+#: admin/class-yoast-form.php:959 admin/class-yoast-form.php:999
 #: admin/views/class-yoast-feature-toggles.php:160
 #: js/dist/externals/componentsNew.js:767
 msgid "Off"
@@ -2559,22 +2541,22 @@ msgstr "Alternar mapa del sitio XML de %1$s"
 
 #. translators: %s expands to an indexable object's name, like a post type or
 #. taxonomy
-#: admin/class-yoast-form.php:982
+#: admin/class-yoast-form.php:969
 msgid "Show %s in search results?"
 msgstr "¿Mostramos %s en los resultados de búsqueda?"
 
 #. translators: %1$s expands to Yes or No,  %2$s expands to the post type name.
-#: admin/metabox/class-metabox.php:183
+#: admin/metabox/class-metabox.php:187
 msgid "Default for %2$s, currently: %1$s"
 msgstr "Por defecto es %2$s, actualmente: %1$s"
 
 #. translators: %s expands to the post type name.
-#: admin/metabox/class-metabox.php:178
+#: admin/metabox/class-metabox.php:182
 msgid "Allow search engines to show this %s in search results?"
 msgstr "¿Permitir a los motores de búsqueda mostrar esta %s en los resultados?"
 
 #. translators: %1$s expands to the post type name.
-#: admin/metabox/class-metabox.php:188
+#: admin/metabox/class-metabox.php:192
 msgid "Should search engines follow links on this %1$s?"
 msgstr "¿Deberían los motores de búsqueda seguir los enlaces que hay en esta %1$s?"
 
@@ -2703,7 +2685,7 @@ msgstr "Gestiona tu suscripción de %s en MyYoast"
 #. translators: Hidden accessibility text.
 #: admin/class-admin-utils.php:79 admin/class-premium-popup.php:83
 #: admin/class-premium-upsell-admin-block.php:102
-#: admin/class-yoast-form.php:946 admin/views/licenses.php:130
+#: admin/class-yoast-form.php:933 admin/views/licenses.php:130
 #: admin/watchers/class-slug-change-watcher.php:232
 #: src/integrations/admin/workouts-integration.php:214
 #: src/integrations/admin/workouts-integration.php:244
@@ -2918,7 +2900,7 @@ msgstr "Menú de la barra de administración"
 msgid "Features"
 msgstr "Características"
 
-#: admin/metabox/class-metabox.php:174 js/dist/externals/analysis.js:150
+#: admin/metabox/class-metabox.php:178 js/dist/externals/analysis.js:150
 #: js/dist/externals/analysis.js:275
 #: js/dist/externals/replacementVariableEditor.js:26
 #: js/dist/externals/searchMetadataPreviews.js:62 js/dist/new-settings.js:9
@@ -2983,13 +2965,13 @@ msgstr "Guión corto"
 msgid "Dash"
 msgstr "Guión"
 
-#: admin/metabox/class-metabox.php:185 admin/metabox/class-metabox.php:190
+#: admin/metabox/class-metabox.php:189 admin/metabox/class-metabox.php:194
 #: js/dist/block-editor.js:272 js/dist/classic-editor.js:257
 #: js/dist/elementor.js:390
 msgid "No"
 msgstr "No"
 
-#: admin/metabox/class-metabox.php:184 admin/metabox/class-metabox.php:189
+#: admin/metabox/class-metabox.php:188 admin/metabox/class-metabox.php:193
 #: js/dist/block-editor.js:272 js/dist/classic-editor.js:257
 #: js/dist/elementor.js:390
 msgid "Yes"
@@ -3075,9 +3057,6 @@ msgstr "Análisis de legibilidad"
 msgid "Disable readability analysis"
 msgstr "Desactivar el análisis de legibilidad"
 
-#: admin/formatter/class-metabox-formatter.php:86
-#: admin/formatter/class-metabox-formatter.php:116
-#: admin/formatter/class-metabox-formatter.php:146
 #: admin/statistics/class-statistics-service.php:217
 #: inc/class-wpseo-rank.php:140 inc/class-wpseo-rank.php:176
 #: inc/class-wpseo-rank.php:208 inc/class-wpseo-rank.php:235
@@ -3097,9 +3076,11 @@ msgstr "Quita la pestaña de legibilidad de la caja meta y desactiva todas las s
 msgid "We have detected the following issues that affect the SEO of your site."
 msgstr "Hemos detectado los siguientes problemas que afectan al SEO de tu sitio."
 
-#: admin/formatter/class-metabox-formatter.php:79
-#: admin/formatter/class-metabox-formatter.php:109
-#: admin/formatter/class-metabox-formatter.php:139 inc/class-wpseo-rank.php:138
+#: inc/class-wpseo-rank.php:138 js/dist/block-editor.js:563
+#: js/dist/editor-modules.js:324 js/dist/elementor.js:93
+#: js/dist/externals-components.js:188
+#: js/dist/frontend-inspector-resources.js:1 js/dist/post-edit.js:17
+#: js/dist/term-edit.js:1
 msgid "Not available"
 msgstr "No disponible"
 
@@ -3326,9 +3307,6 @@ msgstr "Analizar esta página"
 msgid "The post %1$s appeared first on %2$s."
 msgstr "La entrada %1$s se publicó primero en %2$s."
 
-#: admin/formatter/class-metabox-formatter.php:100
-#: admin/formatter/class-metabox-formatter.php:130
-#: admin/formatter/class-metabox-formatter.php:160
 #: admin/statistics/class-statistics-service.php:227
 #: inc/class-wpseo-rank.php:142 inc/class-wpseo-rank.php:186
 #: inc/class-wpseo-rank.php:218 inc/class-wpseo-rank.php:245
@@ -3765,11 +3743,6 @@ msgstr "El plugin %1$s podría provocar problemas usado conjuntamente con %2$s."
 msgid "Deactivate %s"
 msgstr "Desactivar %s"
 
-#: admin/class-yoast-form.php:767 admin/metabox/class-metabox.php:643
-#: admin/taxonomy/class-taxonomy-fields-presenter.php:127
-msgid "Upload Image"
-msgstr "Subir imagen"
-
 #: admin/class-meta-columns.php:118
 msgid "Meta Desc."
 msgstr "Meta Desc."
@@ -3797,17 +3770,10 @@ msgstr "Tanto %1$s como %2$s pueden crear mapas de sitio XML. Tener dos mapas de
 msgid "%s Posts Overview"
 msgstr "Información general de entradas de %s"
 
-#: admin/metabox/class-metabox.php:946
-#: src/integrations/third-party/elementor.php:448
-msgid "SEO issue: The featured image should be at least 200 by 200 pixels to be picked up by Facebook and other social media sites."
-msgstr "Problema de SEO: La imagen destacada debe ser de al menos 200 por 200 píxeles para que la use Facebook y otros sitios de redes sociales."
-
 #: admin/class-meta-columns.php:262
 msgid "All SEO Scores"
 msgstr "Todas las puntuaciones SEO"
 
-#: admin/formatter/class-metabox-formatter.php:93
-#: admin/formatter/class-metabox-formatter.php:123
 #: admin/statistics/class-statistics-service.php:222
 #: inc/class-wpseo-rank.php:141 inc/class-wpseo-rank.php:181
 #: inc/class-wpseo-rank.php:213 js/dist/block-editor.js:563
@@ -3909,25 +3875,25 @@ msgstr "Estado de publicación"
 msgid "Page URL/Slug"
 msgstr "URL/Slug de página"
 
-#: admin/metabox/class-metabox.php:180
+#: admin/metabox/class-metabox.php:184
 msgid "Warning: even though you can set the meta robots setting here, the entire site is set to noindex in the sitewide privacy settings, so these settings won't have an effect."
 msgstr "¡Aviso! Aunque puedes establecer aquí el meta robots, toda la web está establecida como noindex en los ajustes de privacidad para toda la web, por lo que estos ajustes no tendrán efecto."
 
-#: admin/metabox/class-metabox.php:196 js/dist/block-editor.js:276
+#: admin/metabox/class-metabox.php:200 js/dist/block-editor.js:276
 #: js/dist/classic-editor.js:261 js/dist/elementor.js:394
 msgid "No Snippet"
 msgstr "Sin snippet"
 
-#: admin/metabox/class-metabox.php:211
+#: admin/metabox/class-metabox.php:215
 msgid "The URL that this page should redirect to."
 msgstr "La URL a la que debe redirigir esta página."
 
-#: admin/metabox/class-metabox.php:198 js/dist/block-editor.js:277
+#: admin/metabox/class-metabox.php:202 js/dist/block-editor.js:277
 #: js/dist/classic-editor.js:262 js/dist/elementor.js:395
 msgid "Breadcrumbs Title"
 msgstr "Título de las migas de pan"
 
-#: admin/metabox/class-metabox.php:192 js/dist/block-editor.js:276
+#: admin/metabox/class-metabox.php:196 js/dist/block-editor.js:276
 #: js/dist/classic-editor.js:261 js/dist/elementor.js:394
 msgid "Meta robots advanced"
 msgstr "Meta robots avanzado"
@@ -3936,13 +3902,7 @@ msgstr "Meta robots avanzado"
 msgid "Tools"
 msgstr "Herramientas"
 
-#: admin/metabox/class-metabox.php:884 admin/taxonomy/class-taxonomy.php:168
-#: admin/taxonomy/class-taxonomy.php:319
-#: src/integrations/third-party/elementor.php:391
-msgid "(no parent)"
-msgstr "(sin superior)"
-
-#: admin/metabox/class-metabox.php:194 js/dist/block-editor.js:276
+#: admin/metabox/class-metabox.php:198 js/dist/block-editor.js:276
 #: js/dist/classic-editor.js:261 js/dist/elementor.js:394
 msgid "No Image Index"
 msgstr "Ningun Indice de imagen"
@@ -3975,12 +3935,6 @@ msgstr "Filtro"
 msgid "Extensions"
 msgstr "Extensiones"
 
-#: admin/class-config.php:116 admin/metabox/class-metabox.php:911
-#: admin/taxonomy/class-taxonomy.php:187
-#: src/integrations/third-party/elementor.php:417
-msgid "Use Image"
-msgstr "Usar imagen"
-
 #: admin/class-admin.php:190
 msgid "Posts"
 msgstr "Entradas"
@@ -3989,7 +3943,7 @@ msgstr "Entradas"
 msgid "Post is set to noindex."
 msgstr "Entrada está establecida como noindex."
 
-#: admin/metabox/class-metabox.php:434
+#: admin/metabox/class-metabox.php:438
 #: admin/taxonomy/class-taxonomy-metabox.php:160 js/dist/new-settings.js:20
 msgid "Social"
 msgstr "Social"
@@ -4000,16 +3954,16 @@ msgstr "Social"
 msgid "General"
 msgstr "General"
 
-#: admin/metabox/class-metabox.php:210
+#: admin/metabox/class-metabox.php:214
 msgid "301 Redirect"
 msgstr "Redirección 301"
 
-#: admin/metabox/class-metabox.php:201 js/dist/block-editor.js:278
+#: admin/metabox/class-metabox.php:205 js/dist/block-editor.js:278
 #: js/dist/classic-editor.js:263 js/dist/elementor.js:396
 msgid "Canonical URL"
 msgstr "URL canónica"
 
-#: admin/metabox/class-metabox.php:199
+#: admin/metabox/class-metabox.php:203
 msgid "Title to use for this page in breadcrumb paths"
 msgstr "Título a usar para esta página en la cadena de breadcrumbs"
 
@@ -4031,7 +3985,7 @@ msgstr "Las configuraciones no pueden importarse:"
 msgid "Settings successfully imported."
 msgstr "Las configuraciones han sido importadas con éxito."
 
-#: admin/metabox/class-metabox.php:409
+#: admin/metabox/class-metabox.php:413
 #: admin/taxonomy/class-taxonomy-metabox.php:142
 #: inc/class-wpseo-admin-bar-menu.php:711
 #: src/services/health-check/report-builder.php:168
@@ -4060,7 +4014,7 @@ msgstr "Mapas del sitio XML"
 msgid "Huge SEO Issue: You're blocking access to robots."
 msgstr "Enorme problema de SEO: Estás bloqueando el acceso a los robots."
 
-#: admin/metabox/class-metabox.php:195 js/dist/block-editor.js:276
+#: admin/metabox/class-metabox.php:199 js/dist/block-editor.js:276
 #: js/dist/classic-editor.js:261 js/dist/elementor.js:394
 msgid "No Archive"
 msgstr "Aplicar atributo «No Archive»"
@@ -4070,7 +4024,7 @@ msgid "Focus keyword"
 msgstr "Frase clave objetivo"
 
 #. translators: 1: link open tag; 2: link close tag.
-#: admin/metabox/class-metabox.php:205
+#: admin/metabox/class-metabox.php:209
 msgid "The canonical URL that this page should point to. Leave empty to default to permalink. %1$sCross domain canonical%2$s supported too."
 msgstr "La URL canónica a la que esta página debería señalar. Déjala vacía para usar por defecto el enlace permanente. También es compatible con %1$scanonical entre dominios%2$s."
 
@@ -4078,7 +4032,7 @@ msgstr "La URL canónica a la que esta página debería señalar. Déjala vacía
 msgid "FAQ"
 msgstr "FAQ"
 
-#: admin/metabox/class-metabox.php:175
+#: admin/metabox/class-metabox.php:179
 #: js/dist/externals/replacementVariableEditor.js:26
 #: js/dist/externals/searchMetadataPreviews.js:62 js/dist/new-settings.js:9
 #: js/dist/new-settings.js:13 js/dist/new-settings.js:16
