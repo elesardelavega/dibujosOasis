@@ -38,3 +38,8 @@ html {
 .image-banner-rotate {
     transform: rotate(352deg);
 }
+
+legend.wpforms-field-label {
+    color: #000000;
+    font-family: Raleway, sans-serif;
+}
