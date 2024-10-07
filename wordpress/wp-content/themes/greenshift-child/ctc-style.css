@@ -1,6 +1,6 @@
 /*
 CTC Separate Stylesheet
-Updated: 2024-09-20 17:04:38
+Updated: 2024-10-07 19:57:47
 */
 
 .gs-floating-search-block form {
@@ -23,7 +23,44 @@ Updated: 2024-09-20 17:04:38
 html {
     margin-top: 0;
 }
-
-.image-banner-rotate {
-    transform: rotate(350deg);
+.wpforms-container .wpforms-form .wpforms-field-label {
+    color: #000;
+    font-family: Raleway, sans-serif;
+}
+.wpforms-container .wpforms-form .wpforms-field-sublabel {
+    color: #1c263694;
+    font-family: Raleway, sans-serif;
+}
+button.wpforms-submit.button-form {
+    background-color: var(--wp--preset--color--primary) !important;
+    -moz-transition: all 0.3s ease-in-out !important;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    -o-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    -moz-box-shadow: 0 3px 3px 0 var(--wp--preset--color--basecolor, #000) !important;
+    -webkit-box-shadow: 0 3px 3px 0 var(--wp--preset--color--basecolor, #000) !important;
+    -o-box-shadow: 0 3px 3px 0 var(--wp--preset--color--basecolor, #000) !important;
+    box-shadow: 0 3px 3px 0 var(--wp--preset--color--basecolor, #000) !important;
+}
+button.wpforms-submit.button-form:hover {
+    background-color: var(--wpforms-button-background-color-alt, var(--wpforms-button-background-color)) !important;
+    background-color: var(--wp--preset--color--primary) !important;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -moz-box-shadow: 0 5px 5px 0 #bbae7f !important;
+    -webkit-box-shadow: 0 5px 5px 0 #bbae7f !important;
+    -moz-box-shadow: 0 5px 5px 0 var(--wp--preset--color--primary) !important;
+    -o-box-shadow: 0 5px 5px 0 #bbae7f !important;
+    -webkit-box-shadow: 0 5px 5px 0 var(--wp--preset--color--primary) !important;
+    box-shadow: 0 5px 5px 0 #bbae7f !important;
+    -o-box-shadow: 0 5px 5px 0 var(--wp--preset--color--primary) !important;
+    box-shadow: 0 5px 5px 0 var(--wp--preset--color--primary) !important;
+}
+div.wpforms-container-full button[type=submit]:hover {
+    background-color: var(--wp--preset--color--primary) !important;
 }
