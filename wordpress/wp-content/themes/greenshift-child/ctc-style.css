@@ -3,6 +3,7 @@ CTC Separate Stylesheet
 Updated: 2024-10-07 19:57:47
 */
 
+
 .gs-floating-search-block form {
     width: 100%;
     max-width: 1064px;
@@ -23,44 +24,47 @@ Updated: 2024-10-07 19:57:47
 html {
     margin-top: 0;
 }
-.wpforms-container .wpforms-form .wpforms-field-label {
-    color: #000;
+
+label.nombre-form {
+    font-size: 17px;
+    line-height: 26px;
     font-family: Raleway, sans-serif;
 }
-.wpforms-container .wpforms-form .wpforms-field-sublabel {
-    color: #1c263694;
-    font-family: Raleway, sans-serif;
+
+form.wpcf7-form input{
+    border: 1px solid var(--wp--preset--color--primary, #bbae7f);
+    max-height: 40px;
+    font-family: Rubik, sans-serif;
+    border-radius: 6px;
 }
-button.wpforms-submit.button-form {
-    background-color: var(--wp--preset--color--primary) !important;
-    -moz-transition: all 0.3s ease-in-out !important;
-    -webkit-transition: all 0.3s ease-in-out !important;
-    -o-transition: all 0.3s ease-in-out !important;
-    transition: all 0.3s ease-in-out !important;
-    font-size: 18px !important;
+
+form.wpcf7-form textarea {
+    border: 1px solid var(--wp--preset--color--primary, #bbae7f);
+    padding: 5px 5px;
+    max-height: 40px;
+    font-family: Rubik, sans-serif;
+}
+
+form.wpcf7-form .wpcf7-submit {
+    color: #ffffff;
     font-weight: 700 !important;
-    line-height: 24px !important;
-    -moz-box-shadow: 0 3px 3px 0 var(--wp--preset--color--basecolor, #000) !important;
-    -webkit-box-shadow: 0 3px 3px 0 var(--wp--preset--color--basecolor, #000) !important;
-    -o-box-shadow: 0 3px 3px 0 var(--wp--preset--color--basecolor, #000) !important;
-    box-shadow: 0 3px 3px 0 var(--wp--preset--color--basecolor, #000) !important;
-}
-button.wpforms-submit.button-form:hover {
-    background-color: var(--wpforms-button-background-color-alt, var(--wpforms-button-background-color)) !important;
-    background-color: var(--wp--preset--color--primary) !important;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center !important;
     transition: all 0.3s ease-in-out;
-    -moz-box-shadow: 0 5px 5px 0 #bbae7f !important;
-    -webkit-box-shadow: 0 5px 5px 0 #bbae7f !important;
-    -moz-box-shadow: 0 5px 5px 0 var(--wp--preset--color--primary) !important;
-    -o-box-shadow: 0 5px 5px 0 #bbae7f !important;
-    -webkit-box-shadow: 0 5px 5px 0 var(--wp--preset--color--primary) !important;
-    box-shadow: 0 5px 5px 0 #bbae7f !important;
-    -o-box-shadow: 0 5px 5px 0 var(--wp--preset--color--primary) !important;
-    box-shadow: 0 5px 5px 0 var(--wp--preset--color--primary) !important;
+    box-shadow: 0 3px 3px 0 var(--wp--preset--color--basecolor, #000000);
+    font-family: Rubik, sans-serif;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    background: none;
+    background-color: var(--wp--preset--color--primary);
+    border-radius: 5px;
+    border-width: 0;
+    width: 163.359px;
 }
-div.wpforms-container-full button[type=submit]:hover {
-    background-color: var(--wp--preset--color--primary) !important;
+
+form.wpcf7-form .wpcf7-submit:hover {
+    box-shadow: 0 5px 5px 0 #bbae7f;
 }

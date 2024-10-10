@@ -32,3 +32,19 @@ Updated: 2024-09-20 10:42:56
 html {
     margin-top: 0;
 }
+
+label.nombre-form {
+    font-size: 17px;
+    line-height: 26px;
+    font-family: Raleway, sans-serif;
+}
+
+form .wpcf7-form input{
+        border: 1px solid var(--wp--preset--color--primary, #bbae7f);
+        max-height: 40px;
+}
+
+form .wpcf7-form textarea {
+    padding: 5px 5px;
+    max-height: 40px;
+}
