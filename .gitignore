@@ -13,3 +13,5 @@ logs/nginx/*
 !logs/nginx/.keep
 _trash
 *.Rproj
+.idea/*
+wordpress/wp-content/uploads/*
