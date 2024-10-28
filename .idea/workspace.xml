@@ -4,7 +4,781 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="initial commit" />
+    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="add theme ocean and child, and updates">
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/oceanwp-es_ES-e4021d705a875b31e1608f24c9740a0b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/oceanwp-es_ES-f47a115f44a1dc9e9a1e8a92d0c39a0a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/oceanwp-es_ES.l10n.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/oceanwp-es_ES.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/oceanwp-es_ES.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/500.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/blog/blog-post-headers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/blog/blog-post-headers.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/edd/edd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/edd/edd.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/editor-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/editor-style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/gutenberg/gutenberg-editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/gutenberg/gutenberg-editor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/learndash/learndash.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/learndash/learndash.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/llms/llms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/llms/llms.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/bbpress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/bbpress.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/buddypress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/buddypress.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/elementor-editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/elementor-editor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/hamburgers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/hamburgers.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/3dx-r.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/3dx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/3dxy-r.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/3dxy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/3dy-r.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/3dy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/arrow-r.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/arrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/arrowalt-r.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/arrowalt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/arrowturn-r.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/arrowturn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/boring.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/collapse-r.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/collapse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/elastic-r.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/elastic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/minus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/slider-r.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/spin-r.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/spin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/spring-r.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/spring.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/squeeze.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/stand-r.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/stand.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/vortex-r.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/vortex.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/magnific-popup.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/sensei.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/sensei.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/slick.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/social-login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/third/social-login.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/hover-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/hover-style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/wishlist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/wishlist.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/woo-floating-bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/woo-floating-bar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/woo-mini-cart-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/woo-mini-cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/woo-mini-cart.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/woo-multistep-checkout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/woo-multistep-checkout.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/woo-quick-view.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/woo-quick-view.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/woo-star-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/woo-star-font.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/woocommerce-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/woocommerce.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/css/woo/woocommerce.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-v4compatibility.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-v4compatibility.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/owp-icons/owp-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/slick/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/slick/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/slick/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/slick/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/star/star.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/star/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/star/star.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/fonts/star/star.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/img/photoswipe/default-skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/img/photoswipe/default-skin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/img/photoswipe/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/img/placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/img/wishlist-loader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/blog-masonry.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/drop-down-mobile-menu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/drop-down-search.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/equal-height-elements.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/full-screen-menu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/full-screen-mobile-menu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/header-replace-search.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/mobile-search-icon.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/overlay-search.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/ow-infinite-scroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/ow-slider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/scroll-effect.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/scroll-top.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/sidebar-mobile-menu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/vendors/flickity-imagesloaded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/vendors/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/vendors/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/vendors/sidr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/vendors/smoothscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/vendors/support-old-oceanwp-addons/infinite-scroll.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/vendors/support-old-oceanwp-addons/jquery.nicescroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/vendors/support-old-oceanwp-addons/zoomico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/vertical-header.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/wp-plugins/easy-digital-downloads/edd-ajax-cart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/wp-plugins/easy-digital-downloads/edd-display-cart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/wp-plugins/woocommerce/woo-ajax-add-to-cart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/wp-plugins/woocommerce/woo-cat-widget.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/wp-plugins/woocommerce/woo-custom-features.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/wp-plugins/woocommerce/woo-display-cart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/wp-plugins/woocommerce/woo-floating-bar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/wp-plugins/woocommerce/woo-hover-style.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/wp-plugins/woocommerce/woo-mini-cart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/wp-plugins/woocommerce/woo-multi-step-checkout.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/wp-plugins/woocommerce/woo-off-canvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/wp-plugins/woocommerce/woo-quick-view.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/js/wp-plugins/woocommerce/woo-thumbnails.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/blog-masonry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/equal-height-elements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/header/vertical-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/menu/full-screen-menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/menu/mega-menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/menu/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/mobile-menu/drop-down-mobile-menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/mobile-menu/full-screen-mobile-menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/mobile-menu/sidebar-mobile-menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/ow-infinite-scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/ow-lightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/ow-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/scroll-effect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/scroll-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/search/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/search/drop-down-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/search/header-replace-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/search/mobile-search-icon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/search/overlay-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/theme/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/easy-digital-downloads/edd-ajax-cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/easy-digital-downloads/edd-display-cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/custom-features/remove-categories-count-parenthesis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/custom-features/reset-variations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/custom-features/woo-grid-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/custom-features/woo-guest-account-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/custom-features/woo-quantity-buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/custom-features/woo-scroll-to-review-tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/woo-ajax-add-to-cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/woo-cat-widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/woo-custom-features.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/woo-display-cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/woo-floating-bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/woo-hover-style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/woo-mini-cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/woo-multi-step-checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/woo-off-canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/woo-quick-view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/assets/src/js/wp-plugins/woocommerce/woo-thumbnails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/footer-pwa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/header-pwa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/activation-notice/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/activation-notice/assets/css/notice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/activation-notice/assets/css/notice.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/activation-notice/assets/img/oceanwp-blue-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/activation-notice/assets/js/notice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/activation-notice/assets/js/notice.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/activation-notice/class-oceanwp-plugin-manager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/activation-notice/class-oceanwp-upgrader-skin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/activation-notice/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/breadcrumbs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/assets/css/customizer-simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/assets/css/customizer-simple-line-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/assets/dist/index.asset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/assets/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/assets/dist/live-preview.asset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/assets/dist/live-preview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/assets/dist/style-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/assets/js/customize-search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/assets/js/customize-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/assets/js/customize-search.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/assets/svg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/callback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/controls-deprecated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/colors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/css.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/edd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/footer-copyright.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/footer-widget.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/learndash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/lifterlms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/selectors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/style-settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/topbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/typography.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/css-output/woocommerce.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/customizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/extend-section/class-panel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/extend-section/class-section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/extend-section/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/colors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/edd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/footer-copyright.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/footer-widget.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/learndash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/lifterlms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/page-settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/performance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/seo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/styles-and-settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/topbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/typography.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/options/woocommerce.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/sanitize.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/svg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/customizer/webfonts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/edd/edd-config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/edd/edd-helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/header-content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/oceanwp-strings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/oceanwp-svg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/oceanwp-theme-icons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/template-helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/css/theme-panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/css/theme-panel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/css/themepanel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/banners/admin-settings.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/banners/elementor-library.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/banners/elementor-widgets.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/banners/gunetberg-blocks.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/banners/help.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/banners/home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/banners/install-demos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/banners/ocean-images.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/banners/useful-plugins.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/banners/white-label.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/discussion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/document.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/help-center.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/admin-settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/check-mark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/customizer-controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/customizer-import-export.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/customizer-reset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/customizer-search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/diamond.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/disable-blog-edit-links.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/disable-elementor-library.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/disable-notifications.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/discussion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/document.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/elementor-library.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/elementor-widgets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/export.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/extra-settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/feature-requests.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/free-pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/get-some-love.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/google-maps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/google-recaptcha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/gunetberg-blocks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/help-center.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/import.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/install-demos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/life-saver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/limited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/love-corner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/mailchimp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/media-player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/metabox-settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/minimize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/monitor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/my-library.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/ocean-images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/plugin-download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/plugins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/question-mark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/quick-settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/quick-settings/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/quick-settings/footer-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/quick-settings/footer-widgets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/quick-settings/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/quick-settings/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/quick-settings/primary-colors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/quick-settings/top-bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/quick-settings/typography.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/regenerate-google-cache.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/share-the-love.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/showcase-website.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/svg-support.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/system-info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/team-work.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/theme-status.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/typefonts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/warning-badge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/white-label.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/wordpress-widgets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/icons/x-mark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/media-player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/monitor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/plugin-icons/weglot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/pro-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/team-work.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/images/themepanel-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/js/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/js/marked.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/js/theme-panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/assets/js/theme-panel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/includes/classes/class-helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/includes/js-messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/includes/plugins-compatibility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/theme-panel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/layout/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/layout/master.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/layout/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/layout/top-bar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/admin-settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/changelog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/customizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/elementor-library.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/elementor-widgets.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/extra-settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/free-vs-pro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/gutenberg-blocks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/install-demos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/integration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/ocean-images.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/plugin-upgrade-info.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/system-info.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/useful-plugins.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/themepanel/views/panes/white-label.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/third/class-amp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/third/class-bbpress.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/third/class-beaver-themer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/third/class-buddypress.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/third/class-elementor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/third/class-gutenberg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/third/class-learndash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/third/class-lifterlms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/third/class-pwa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/third/class-sensei.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/third/class-social-login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/walker/assets/menus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/walker/class-walker-edit-custom.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/walker/init.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/walker/menu-walker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/walker/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/woocommerce/woocommerce-config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/inc/woocommerce/woocommerce-helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/da_DK.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/da_DK.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/de_DE.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/de_DE.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/es_ES.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/es_ES.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/fa_IR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/fa_IR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/fr_FR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/fr_FR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/nb_NO.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/nb_NO.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/nl_NL.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/nl_NL.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/oceanwp.pot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/pl_PL.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/pl_PL.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/pt_BR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/pt_BR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/sv_SE.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/sv_SE.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/tr_TR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/tr_TR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/zh_CN.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/zh_CN.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/zh_ZH.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/languages/zh_ZH.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/offline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/edd/archive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/edd/shortcode-content-cart-button.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/edd/shortcode-content-excerpt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/edd/shortcode-content-image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/edd/shortcode-content-price.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/edd/single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/media/blog-entry-audio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/media/blog-entry-gallery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/media/blog-entry-link.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/media/blog-entry-video.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/media/blog-entry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/meta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/quote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/readmore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/thumbnail-style/category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/thumbnail-style/comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/thumbnail-style/date.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/entry/thumbnail-style/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/footer/copyright.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/footer/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/footer/widgets.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/logo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/search-dropdown.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/search-overlay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/search-replace.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/social.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/style/center-header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/style/custom-header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/style/full-screen-header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/style/medium-header-search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/style/medium-header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/style/top-header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/style/vertical-header-search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/style/vertical-header-toggle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/header/style/vertical-header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/library/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/mobile/mobile-dropdown.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/mobile/mobile-fullscreen-search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/mobile/mobile-fullscreen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/mobile/mobile-icon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/mobile/mobile-nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/mobile/mobile-search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/mobile/mobile-sidr-close.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/none.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/page-header-subheading.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/page-header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/page/article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/page/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/scroll-top.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/search/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/search/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/search/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/search/readmore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/search/thumbnail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/author-bio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/headers/header-2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/headers/header-3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/headers/header-4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/headers/header-5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/headers/header-6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/headers/header-7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/media/blog-single-audio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/media/blog-single-gallery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/media/blog-single-link.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/media/blog-single-quote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/media/blog-single-video.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/media/blog-single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/meta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/metas/meta-2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/metas/meta-3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/metas/meta-4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/next-prev.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/related-posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/single/tags.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/topbar/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/topbar/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/topbar/nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/partials/topbar/social.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/_config.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/base/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/base/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/base/_normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/base/_shared.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/blog-post-headers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/_404.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/_comments.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/_custom-selects.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/_next-prev.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/_page-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/_search.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_blog-entries.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_blog-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_blog-large.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_blog-meta.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_blog-thumbnail.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_gallery-format.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_link-format.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_quote-format.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_single-author-bio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_single-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_single-next-prev.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_single-post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_single-related-posts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_single-tags.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/blog/_video-audio-formats.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/footer/_footer-bottom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/footer/_footer-widgets.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/footer/_scroll-top.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_header-center.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_header-custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_header-fullscreen.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_header-medium.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_header-top.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_header-transparent.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_header-vertical.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_links_effect.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_megamenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_search-dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_search-overlay.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_search-replace.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/header/_socialmenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/mobile/_dropdown-mobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/mobile/_fullscreen-mobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/plugins/_flickity.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/plugins/_general.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/plugins/_magnific-popup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/plugins/_perfect-scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/plugins/_sidr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/sidebar/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/topbar/_topbar-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/topbar/_topbar-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/topbar/_topbar-social.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/components/topbar/_topbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/edd.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/edd/_edd-cart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/edd/_edd.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/gutenberg-editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/hover-style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/learndash.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/learndash/learndash.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/llms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/llms/llms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/stylesheet.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/wishlist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/woo-floating-bar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/woo-mini-cart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/woo-multistep-checkout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/woo-quick-view.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/woo/_woo-cat-widget.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/woo/_woo-mobile-cart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/woo/_woo-nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/woo/_woo-off-canvas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/woo/_woo-quantity.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/woo/_woo-responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/woo/_woocommerce.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sass/woocommerce.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/searchform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sidebar-left.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/singular.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/templates/landing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/tribe-events/default-template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/add-to-wishlist-button.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/cart/mini-cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/checkout/checkout-timeline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/checkout/form-multistep-checkout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/content-single-product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/loop/loop-start.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/loop/thumbnail/featured-image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/loop/thumbnail/gallery-slider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/loop/thumbnail/image-swap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/owp-archive-product-hover.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/owp-archive-product-thumbnails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/owp-archive-product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/owp-off-canvas-sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/owp-single-product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/quick-view-content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/quick-view-image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/quick-view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/result-count.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/share.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/single-product/product-image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/single-product/title.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/wc-content-wrapper-end.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/woocommerce/wc-content-wrapper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp/wpml-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/akismet-es_ES.l10n.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/akismet-es_ES.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/akismet-es_ES.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/hello-dolly-es_ES.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/hello-dolly-es_ES.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/twentytwentyfour-es_ES.l10n.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/twentytwentyfour-es_ES.l10n.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/twentytwentyfour-es_ES.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/twentytwentyfour-es_ES.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/twentytwentyfour-es_ES.po" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/twentytwentyfour-es_ES.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/twentytwentythree-es_ES.l10n.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/twentytwentythree-es_ES.l10n.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/twentytwentythree-es_ES.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/twentytwentythree-es_ES.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/twentytwentythree-es_ES.po" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/twentytwentythree-es_ES.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/_inc/akismet-admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/_inc/akismet-admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/_inc/akismet-frontend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/_inc/akismet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/_inc/akismet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/_inc/fonts/inter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/_inc/img/akismet-refresh-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/_inc/img/akismet-refresh-logo@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/_inc/img/arrow-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/_inc/img/icon-external.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/_inc/img/logo-a-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/_inc/img/logo-full-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/_inc/rtl/akismet-admin-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/_inc/rtl/akismet-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/akismet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/class.akismet-admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/class.akismet-cli.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/class.akismet-rest-api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/class.akismet-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/class.akismet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/views/activate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/views/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/views/connect-jp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/views/enter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/views/get.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/views/logo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/views/notice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/views/predefined.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/views/setup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/views/start.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/views/stats.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/views/title.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/akismet/wrapper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/hello.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/banner-hero.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/banner-hero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/banner-project-description.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/banner-project-description.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/cta-content-image-on-right.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/cta-content-image-on-right.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/cta-pricing.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/cta-pricing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/cta-rsvp.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/cta-rsvp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/cta-services-image-left.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/cta-services-image-left.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/cta-subscribe-centered.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/cta-subscribe-centered.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/footer-centered-logo-nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/footer-centered-logo-nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/footer-colophon-3-col.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/footer-colophon-3-col.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/gallery-full-screen-image.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/gallery-full-screen-image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/gallery-offset-images-grid-2-col.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/gallery-offset-images-grid-2-col.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/gallery-offset-images-grid-3-col.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/gallery-offset-images-grid-3-col.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/gallery-offset-images-grid-4-col.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/gallery-offset-images-grid-4-col.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/gallery-project-layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/gallery-project-layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-about-business.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-about-business.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-home-blogging.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-home-blogging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-home-business.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-home-business.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-home-portfolio-gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-home-portfolio-gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-home-portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-home-portfolio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-newsletter-landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-newsletter-landing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-portfolio-overview.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-portfolio-overview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-rsvp-landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/page-rsvp-landing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/posts-1-col.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/posts-1-col.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/posts-3-col.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/posts-3-col.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/posts-grid-2-col.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/posts-grid-2-col.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/posts-images-only-3-col.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/posts-images-only-3-col.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/posts-images-only-offset-4-col.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/posts-images-only-offset-4-col.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/posts-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/posts-list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/team-4-col.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/team-4-col.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/testimonial-centered.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/testimonial-centered.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/text-alternating-images.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/text-alternating-images.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/text-centered-statement-small.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/text-centered-statement-small.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/text-centered-statement.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/text-centered-statement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/text-faq.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/text-faq.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/text-feature-grid-3-col.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/text-feature-grid-3-col.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/text-project-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/text-project-details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/text-title-left-image-right.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/patterns/text-title-left-image-right.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/screenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/theme.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyfour/theme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/parts/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/parts/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/patterns/call-to-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/patterns/call-to-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/patterns/footer-default.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/patterns/footer-default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/patterns/post-meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/patterns/post-meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/screenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/styles/aubergine.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/styles/aubergine.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/templates/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/templates/archive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/theme.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentythree/theme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentytwo/parts/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentytwo/parts/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentytwo/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentytwo/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentytwo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentytwo/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentytwo/theme.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentytwo/theme.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +793,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -33,7 +812,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/elesardelavega/dibujosOasis.git",
-    "accountId": "aa72f698-90e5-49c1-a59b-ea231eb60c9a"
+    "accountId": "42e5f86d-de70-474f-9196-da2b9e148726"
   }
 }]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.2.11/bin/php" />
@@ -49,7 +828,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.codeium.enabled": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/theme-child",
     "last_opened_file_path": "/Users/macbook/Documents/proyectos/dibujosoasis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -77,7 +856,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730133354045</updated>
       <workItem from="1730133355152" duration="80000" />
-      <workItem from="1730142872101" duration="819000" />
+      <workItem from="1730142872101" duration="1988000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -87,14 +866,24 @@
       <option name="project" value="LOCAL" />
       <updated>1730143534034</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1730143998754</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730143998754</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add theme ocean and child, and updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="add theme ocean and child, and updates" />
   </component>
 </project>
