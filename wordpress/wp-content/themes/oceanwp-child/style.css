@@ -8,4 +8,10 @@ Template: oceanwp
 Version: 1.0.0
 */
 
-/* Aquí puedes agregar tus estilos personalizados */
+.wp-block-group.fila-banner-home {
+    gap: 50px;
+}
+
+.wp-block-uagb-image.line-banner {
+    margin-top: -25px;
+}
