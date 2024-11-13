@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Spectra &#8211; WordPress Gutenberg Blocks - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-24 18:27:33+0000\n"
+"PO-Revision-Date: 2024-11-06 10:46:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,6 +15,18 @@ msgstr ""
 #: classes/class-uagb-fse-fonts-compatibility.php:187
 msgid "normal"
 msgstr "normal"
+
+#: classes/class-uagb-admin.php:464 admin-core/assets/build/dashboard-app.js:1
+msgid "Upgrade Now"
+msgstr "Actualizar ahora"
+
+#: classes/class-uagb-admin.php:462
+msgid "Maximize your popup potential with Spectra Pro. Unlock enhanced features, intuitive design options, and increased conversions!"
+msgstr "Maximiza tu potencial de ventanas emergentes con Spectra Pro. Desbloquea funciones mejoradas, opciones de diseño intuitivas y ¡aumenta las conversiones!"
+
+#: classes/class-uagb-admin.php:461
+msgid "Want to do more with Popup Builder?"
+msgstr "¿Quieres hacer más cosas con Popup Builder?"
 
 #: blocks-config/uagb-controls/spectra-icons-v6-3.php:319
 msgid "Shapes"
@@ -52,6 +64,369 @@ msgstr "Consigue Spectra Pro"
 msgctxt "block title"
 msgid "Spectra AI"
 msgstr "Spectra IA"
+
+#: lib/zip-ai/classes/sidebar-configurations.php:265
+msgid "You have no credits left."
+msgstr "No te quedan créditos."
+
+#: lib/zip-ai/classes/sidebar-configurations.php:264
+msgid "Invalid auth token."
+msgstr "Token de identificación no válido."
+
+#: lib/zip-ai/classes/sidebar-configurations.php:185
+msgid "The message array was not supplied"
+msgstr "No se ha proporcionado el array de mensajes"
+
+#: lib/zip-ai/classes/helper.php:269
+msgid "The ZipWP API server encountered an error."
+msgstr "El servidor API de ZipWP ha encontrado un error."
+
+#: lib/zip-ai/classes/helper.php:259
+msgid "The ZipWP API server is not responding."
+msgstr "El servidor API de ZipWP no responde."
+
+#: lib/zip-ai/classes/helper.php:235
+msgid "The ZipWP Token is not set."
+msgstr "El token de ZipWP no está configurado."
+
+#: lib/zip-ai/classes/helper.php:225
+msgid "The ZipWP Endpoint was not declared"
+msgstr "No se ha declarado la variable de ZipWP"
+
+#. translators: %1$s: HTML link start tag, %2$s: HTML link end tag.
+#: lib/zip-ai/classes/admin-configurations.php:513
+msgid "Thank you for using %1$sZip AI.%2$s"
+msgstr "Gracias por utilizar %1$sZip AI.%2$s"
+
+#: lib/gutenberg-templates/inc/traits/helper.php:264
+#: lib/zip-ai/classes/helper.php:206
+msgid "The Zip AI Middleware encountered an error."
+msgstr "Zip AI Middleware ha encontrado un error."
+
+#: lib/gutenberg-templates/inc/traits/helper.php:254
+#: lib/zip-ai/classes/helper.php:196
+msgid "The Zip AI Middleware is not responding."
+msgstr "Zip AI Middleware no responde."
+
+#: lib/gutenberg-templates/inc/traits/helper.php:232
+#: lib/zip-ai/classes/helper.php:161
+msgid "The Zip AI Auth Token is not set."
+msgstr "El token de identificación de Zip AI no está configurado."
+
+#: lib/gutenberg-templates/inc/traits/helper.php:222
+#: lib/zip-ai/classes/helper.php:151
+msgid "The Zip AI Endpoint was not declared"
+msgstr "No se ha declarado la variable de Zip AI"
+
+#. Translators: %s is API URL.
+#: lib/gutenberg-templates/inc/importer/template-kit-importer.php:56
+msgid "Invalid Request URL - %s"
+msgstr "URL de solicitud no válida - %s"
+
+#: lib/gutenberg-templates/inc/importer/plugin.php:810
+msgid "Something wrong"
+msgstr "Algo salió mal"
+
+#: lib/gutenberg-templates/inc/importer/plugin.php:767
+msgid "You are not allowed to perform this action."
+msgstr "No tienes permisos para realizar esta acción."
+
+#: lib/gutenberg-templates/inc/importer/plugin.php:269
+#: lib/gutenberg-templates/inc/importer/plugin.php:273
+#: lib/gutenberg-templates/inc/importer/plugin.php:436
+#: lib/zip-ai/classes/sidebar-configurations.php:250
+msgid "Something went wrong"
+msgstr "Algo salió mal"
+
+#: lib/gutenberg-templates/inc/importer/plugin.php:244
+#: lib/gutenberg-templates/inc/importer/plugin.php:292
+#: lib/gutenberg-templates/inc/importer/plugin.php:336
+#: lib/gutenberg-templates/inc/importer/plugin.php:360
+#: lib/gutenberg-templates/inc/importer/plugin.php:450
+#: lib/gutenberg-templates/inc/importer/plugin.php:798
+#: lib/gutenberg-templates/inc/importer/sync-library.php:319
+#: lib/gutenberg-templates/inc/importer/sync-library.php:446
+#: lib/gutenberg-templates/inc/importer/sync-library.php:471
+#: lib/gutenberg-templates/inc/importer/sync-library.php:514
+#: lib/gutenberg-templates/inc/importer/sync-library.php:805
+#: lib/gutenberg-templates/inc/importer/sync-library.php:840
+#: lib/gutenberg-templates/inc/importer/template-kit-importer.php:43
+#: lib/gutenberg-templates/inc/importer/template-kit-importer.php:109
+#: lib/gutenberg-templates/inc/traits/upgrade.php:33
+msgid "You are not allowed to perform this action"
+msgstr "No tienes permisos para realizar esta accion"
+
+#: lib/gutenberg-templates/inc/classes/ast-block-templates-notices.php:57
+msgid "Resolve file permission issue"
+msgstr "Resolver problema de permisos de archivo"
+
+#: lib/gutenberg-templates/inc/classes/ast-block-templates-notices.php:57
+msgid "Doc: "
+msgstr "Documento: "
+
+#: lib/gutenberg-templates/inc/classes/ast-block-templates-notices.php:53
+msgid "File Permissions Needed - Importing patterns, pages, and templates from Design Library requires proper file permissions. For guidance on resolving this issue and ensuring smooth importing processes, please refer to the accompanying documentation."
+msgstr "Se necesitan permisos de archivo - La importación de patrones, páginas y plantillas desde la biblioteca de diseño requiere permisos de archivo adecuados. Para resolver este problema y garantizar un proceso de importación sin problemas, consulta la documentación adjunta."
+
+#: lib/gutenberg-templates/inc/api/settings.php:182
+msgid "Sorry, settings are not saved."
+msgstr "Lo siento, no se han guardado los ajustes."
+
+#: lib/gutenberg-templates/inc/api/favorite.php:178
+msgid "Action failed"
+msgstr "Acción fallida"
+
+#: lib/gutenberg-templates/inc/api/blocks.php:93
+#: lib/gutenberg-templates/inc/api/category.php:93
+#: lib/gutenberg-templates/inc/api/description.php:107
+#: lib/gutenberg-templates/inc/api/favorite.php:135
+#: lib/gutenberg-templates/inc/api/images.php:113
+#: lib/gutenberg-templates/inc/api/keywords.php:107
+#: lib/gutenberg-templates/inc/api/page-description.php:117
+#: lib/gutenberg-templates/inc/api/revoke-access.php:95
+#: lib/gutenberg-templates/inc/api/settings.php:131
+#: lib/gutenberg-templates/inc/api/sites.php:93
+#: lib/gutenberg-templates/inc/classes/ast-block-templates-zipwp-api.php:138
+#: lib/gutenberg-templates/inc/classes/ast-block-templates-zipwp-api.php:197
+msgid "Nonce verification failed."
+msgstr "Falló la verificación del nonce."
+
+#: lib/gutenberg-templates/inc/api/blocks.php:70
+#: lib/gutenberg-templates/inc/api/category.php:70
+#: lib/gutenberg-templates/inc/api/description.php:87
+#: lib/gutenberg-templates/inc/api/do-it-later.php:69
+#: lib/gutenberg-templates/inc/api/favorite.php:96
+#: lib/gutenberg-templates/inc/api/images.php:93
+#: lib/gutenberg-templates/inc/api/initialize-setup.php:71
+#: lib/gutenberg-templates/inc/api/keywords.php:87
+#: lib/gutenberg-templates/inc/api/page-description.php:97
+#: lib/gutenberg-templates/inc/api/pages.php:74
+#: lib/gutenberg-templates/inc/api/revoke-access.php:74
+#: lib/gutenberg-templates/inc/api/settings.php:92
+#: lib/gutenberg-templates/inc/api/sites.php:70
+#: lib/gutenberg-templates/inc/classes/ast-block-templates-zipwp-api.php:77
+msgid "Sorry, you are not allowed to do that."
+msgstr "Lo siento, no tienes permisos para hacer eso."
+
+#: lib/class-uagb-ast-block-templates.php:65
+#: lib/gutenberg-templates/inc/importer/plugin.php:992
+#: lib/gutenberg-templates/dist/main.js:2
+msgid "Design Library"
+msgstr "Biblioteca de diseño"
+
+#: includes/blocks/slider/block.php:17
+msgid "Create a Slider."
+msgstr "Crea un carrusel."
+
+#: includes/blocks/slider-child/block.php:15
+msgid "Customize this slider as per your need."
+msgstr "Personaliza este carrusel en base a tus necesidades."
+
+#: includes/blocks/separator/block.php:17
+msgid "Add a modern separator to divide your page content with icon/text."
+msgstr "Añade un separador moderno para dividir el contenido de tu página con icono/texto."
+
+#: includes/blocks/popup-builder/block.php:17
+msgid "Create eye-catching popups that can be reused sitewide!"
+msgstr "¡Crea ventanas emergentes llamativas que se puedan reutilizar en todo el sitio web!"
+
+#: includes/blocks/loop-builder/block.php:17
+msgid "This block allows you to generate custom loop from different posts."
+msgstr "Este bloque te permite generar un loop personalizado a partir de distintas entradas."
+
+#: includes/blocks/loop-builder/block.php:16
+#: admin-core/assets/build/dashboard-app.js:1
+msgid "Loop Builder"
+msgstr "Maquetador del loop"
+
+#: includes/blocks/instagram-feed/block.php:17
+msgid "This block allows you to add Instagram Feeds."
+msgstr "Este bloque te permite añadir feeds de Instagram."
+
+#: includes/blocks/instagram-feed/block.php:16
+#: admin-core/assets/build/dashboard-app.js:1
+msgid "Instagram Feed"
+msgstr "Feed de Instagram"
+
+#: includes/blocks/icon/block.php:17
+msgid "Add stunning customizable icons to your website."
+msgstr "Añade impresionantes iconos personalizables a tu sitio web."
+
+#: includes/blocks/countdown/block.php:17
+msgid "This block allows you to add countdown timers."
+msgstr "Este bloque te permite añadir temporizadores de cuenta atrás."
+
+#: includes/blocks/countdown/block.php:16 dist/blocks-placeholder.js:14
+msgid "Countdown"
+msgstr "Cuenta atrás"
+
+#: includes/blocks/countdown/attributes.php:37
+msgid "SECONDS"
+msgstr "SEGUNDOS"
+
+#: includes/blocks/countdown/attributes.php:36
+msgid "MINUTES"
+msgstr "MINUTOS"
+
+#: includes/blocks/countdown/attributes.php:35
+msgid "HOURS"
+msgstr "HORAS"
+
+#: includes/blocks/countdown/attributes.php:34
+msgid "DAYS"
+msgstr "DÍAS"
+
+#: includes/blocks/animations-extension/block.php:14
+msgid "Add animations to Spectra blocks."
+msgstr "Añade animaciones a los bloques de Spectra."
+
+#: includes/blocks/animations-extension/block.php:13
+msgid "Animations Extension"
+msgstr "Extension de animaciones"
+
+#: classes/class-uagb-update.php:230
+msgid "Heads up!"
+msgstr "¡Atención!"
+
+#: classes/class-uagb-init-blocks.php:957
+msgid "Invalid request"
+msgstr "Petición no válida"
+
+#: classes/class-uagb-init-blocks.php:378
+#: classes/class-uagb-init-blocks.php:522
+msgid "User is not authenticated!"
+msgstr "¡El usuario no está identificado!"
+
+#: classes/class-uagb-init-blocks.php:119
+msgid "Popup Updated"
+msgstr "Ventana emergente actualizada"
+
+#: classes/class-uagb-init-blocks.php:118
+msgid "Popup Published"
+msgstr "Ventana emergente publicada"
+
+#: classes/class-uagb-init-blocks.php:117
+msgid "All Popups"
+msgstr "Todas las ventanas emergentes"
+
+#: classes/class-uagb-init-blocks.php:116
+msgid "No Popups in Trash"
+msgstr "Sin ventanas emergentes en la papelera"
+
+#: classes/class-uagb-init-blocks.php:115
+msgid "No Popups Found"
+msgstr "No se han encontrado ventanas emergentes"
+
+#: classes/class-uagb-init-blocks.php:114
+msgid "Search Popups"
+msgstr "Buscar ventanas emergentes"
+
+#: classes/class-uagb-init-blocks.php:113
+msgid "New Popup"
+msgstr "Nueva ventana emergente"
+
+#: classes/class-uagb-init-blocks.php:112
+msgid "Edit Popup"
+msgstr "Editar ventana emergente"
+
+#: classes/class-uagb-init-blocks.php:111
+msgid "Create New Popup"
+msgstr "Crear nueva ventana emergente"
+
+#: classes/class-uagb-init-blocks.php:110
+msgid "Create Popup"
+msgstr "Crear ventana emergente"
+
+#: classes/class-uagb-init-blocks.php:109
+msgid "View Popup"
+msgstr "Ver ventana emergente"
+
+#: classes/class-uagb-init-blocks.php:108
+msgctxt "singular"
+msgid "Spectra Popup"
+msgstr "Ventana emergente de Spectra"
+
+#: classes/class-uagb-init-blocks.php:107
+msgctxt "plural"
+msgid "Popup Builder"
+msgstr "Maquetador de ventanas emergentes"
+
+#: classes/class-uagb-fse-fonts-compatibility.php:651
+msgid "Successfully deleted font."
+msgstr "Fuente borrada correctamente."
+
+#: classes/class-uagb-fse-fonts-compatibility.php:625
+msgid "There was some error in deleting the font."
+msgstr "Ocurrió algún error al borrar la fuente."
+
+#: classes/class-uagb-fse-fonts-compatibility.php:169
+#: classes/class-uagb-fse-fonts-compatibility.php:181
+msgid "400"
+msgstr "400"
+
+#: classes/class-uagb-admin.php:397
+msgid "View Log"
+msgstr "Ver registro"
+
+#: classes/class-uagb-admin.php:397
+msgid "Your Spectra database is now up-to-date. Your website will continue to function as before."
+msgstr "Tu base de datos de Spectra ahora está actualizada. Tu web seguirá funcionando como antes."
+
+#: classes/class-uagb-admin.php:396
+msgid "Update Successful!"
+msgstr "¡Actualización correcta!"
+
+#: classes/class-uagb-admin.php:371
+msgid "Great! This should only take a few minutes. Thanks for hanging in there."
+msgstr "¡Genial» Esto solo debería tardar unos pocos minutos. Gracias por seguir ahí."
+
+#: classes/class-uagb-admin.php:370
+msgid "Spectra database update in progress"
+msgstr "Actualización de la base de datos de Spectra en curso"
+
+#: classes/class-uagb-admin.php:345
+msgid "Learn More About This"
+msgstr "Aprende más sobre esto"
+
+#: classes/class-uagb-admin.php:343
+msgid "Update Spectra Database"
+msgstr "Actualizar base de datos de Spectra"
+
+#: classes/class-uagb-admin.php:342
+msgid "To be on the safer side, please be sure to back up your site before updating."
+msgstr "Para mantenerte a salvo, por favor, asegúrate de hacer una copia de seguridad de tu sitio antes de actualizar."
+
+#: classes/class-uagb-admin.php:341
+msgid "We've detected that some of your pages were created with an older version of Spectra. To ensure your designs remain unaffected, we recommend updating the Spectra database now. Updating the Spectra database will not impact any other parts of your website."
+msgstr "Hemos detectado que algunas de tus páginas se crearon con una versión antigua de Spectra. Para que tus diseños no se vean afectados, te recomendamos que actualices ahora la base de datos de Spectra. La actualización de la base de datos de Spectra no afectará a ninguna otra parte de tu sitio web."
+
+#: classes/class-uagb-admin.php:340
+msgid "Spectra database update required"
+msgstr "Es necesario actualizar la base de datos de Spectra"
+
+#: classes/class-uagb-admin.php:298
+msgid "We're a small independent team passionate about creating plugins like this one. It would mean the world to us if you could spend just a minute to leave a 5-star review on WordPress' official website. Your support really helps us a lot!"
+msgstr "Somos un pequeño equipo independiente apasionado por crear plugins como éste. Significaría mucho para nosotros si dedicaras sólo un minuto a dejar una reseña de 5 estrellas en el sitio web oficial de WordPress. ¡Tu apoyo nos ayuda mucho!"
+
+#: classes/class-uagb-admin.php:297
+msgid "Wow! Spectra has helped you build over 5 pages!!"
+msgstr "¡Guau! ¡¡Spectra te ha ayudado a construir más de 5 páginas!!"
+
+#: classes/class-uagb-admin.php:121
+msgid "Log file not found."
+msgstr "Archivo de registro no encontrado."
+
+#: classes/class-uagb-admin.php:88
+msgid "Migration started successfully."
+msgstr "La migración se ha iniciado correctamente."
+
+#: classes/class-uagb-admin-helper.php:492
+msgid "Theme"
+msgstr "Tema"
+
+#: classes/class-uagb-admin-helper.php:485
+msgid "Full Site Editor's Global Styles"
+msgstr "Estilos globales del editor del sitio completo"
 
 #: blocks-config/uagb-controls/spectra-icons-v6-3.php:5234
 msgid "Travel"

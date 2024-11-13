@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Ocean Extra - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-16 10:33:41+0000\n"
+"PO-Revision-Date: 2024-11-04 18:07:28+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -44,6 +44,102 @@ msgstr "El sitio se está cargando, espera..."
 msgid "Defualt Preloader Settings"
 msgstr "Ajustes del precargador por defecto"
 
+#: includes/preloader/customizer.php:196 includes/preloader/customizer.php:684
+msgid "%1$s Need Help? %2$s"
+msgstr "%1$s ¿Necesitas ayuda? %2$s"
+
+#: includes/preloader/customizer.php:159
+msgid "Choose a template you created in OceanWP > My Library"
+msgstr "Elige una plantilla que hayas creado en OceanWP > Mi biblioteca"
+
+#: includes/preloader/customizer.php:148
+msgid "Custom preloader settings are available for the Custom Preloader type."
+msgstr "Los ajustes personalizados del precargador están disponibles para el tipo precargador personalizado."
+
+#: includes/preloader/customizer.php:140
+msgid "Custom Preloader Settings "
+msgstr "Configuración personalizada del precargador "
+
+#: includes/preloader/customizer.php:85
+msgid "Enable Site Preloader"
+msgstr "Activar el precargador del sitio"
+
+#: includes/preloader/customizer.php:80
+msgid "Site Preloader"
+msgstr "Precargador del sitio"
+
+#: includes/plugins-tab.php:173
+msgid "Plugin file does not exist."
+msgstr "El archivo del plugin no existe."
+
+#: includes/plugins-tab.php:166
+msgid "You do not have sufficient permissions to activate plugins."
+msgstr "No tienes permisos suficientes para activar plugins."
+
+#: includes/plugins-tab.php:128
+msgid "You do not have sufficient permissions to install plugins."
+msgstr "No tienes permisos suficientes para instalar plugins."
+
+#: includes/plugins-tab.php:73
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes permisos suficientes para acceder a esta página."
+
+#: includes/plugins-tab.php:63 includes/plugins-tab.php:78
+msgid "For OceanWP"
+msgstr "Para OceanWP"
+
+#: includes/panel/theme-panel.php:179 includes/themepanel/theme-panel.php:530
+msgid "SEO Panel"
+msgstr "Panel SEO"
+
+#: includes/panel/theme-panel.php:176 includes/themepanel/theme-panel.php:527
+msgid "Site Performance Panel"
+msgstr "Panel de rendimiento del sitio"
+
+#: includes/panel/theme-panel.php:173 includes/themepanel/theme-panel.php:524
+msgid "Site Page Settings Panel"
+msgstr "Panel de ajustes de la página del sitio"
+
+#: includes/panel/theme-panel.php:170 includes/themepanel/theme-panel.php:521
+msgid "Colors Panel"
+msgstr "Panel de colores"
+
+#: includes/panel/theme-panel.php:167 includes/themepanel/theme-panel.php:518
+msgid "Site Style & Settings Panel"
+msgstr "Panel de estilo y ajustes del sitio"
+
+#: includes/customizer/customizer.php:123
+msgid "Receive free support for your website via  %1$s WordPress community forum  %2$s or  %3$s OceanWP official community on Facebook.  %2$s"
+msgstr "Recibe asistencia gratuita para tu sitio web a través de %1$s foro de la comunidad de WordPress %2$s o %3$s comunidad oficial de OceanWP en Facebook.  %2$s"
+
+#: includes/customizer/customizer.php:122
+msgid "Free User Support"
+msgstr "Asistencia gratuita a usuarios"
+
+#: includes/customizer/customizer.php:112
+msgid "Elevate your experience with faster, expert and personalized email support available exclusively to %1$s OceanWP Pro Bundle %2$s and %3$s Ocean eCommerce Pro %2$s users. Upgrade today and get the best for your website."
+msgstr "Eleva tu experiencia con una ayuda por correo electrónico rápida, experta y personalizada, disponible exclusivamente para los usuarios de %1$s OceanWP Pro Bundle %2$s y %3$s Ocean eCommerce Pro %2$s. Mejora hoy y obtén lo mejor para tu sitio web."
+
+#: includes/customizer/customizer.php:111
+msgid "Dedicated Premium Support"
+msgstr "Soporte premium dedicado"
+
+#: includes/customizer/customizer.php:100
+msgid "OceanWP provides a collection of pre-designed website templates (demos) to help jumpstart your project. %1$s View all available website templates. %2$s"
+msgstr "OceanWP ofrece una colección de plantillas de sitios web prediseñados (demos) para ayudarte a poner en marcha tu proyecto. %1$s Ver todas las plantillas de sitios web disponibles. %2$s"
+
+#: includes/customizer/customizer.php:99
+msgid "Website Templates"
+msgstr "Plantillas de sitios web"
+
+#: includes/customizer/customizer.php:93
+msgid "OceanWP has detailed documentation and comprehensive user guides available to help you get results fast. %1$s View documentation. %2$s"
+msgstr "OceanWP dispone de documentación detallada y completas guías de usuario para ayudarte a obtener resultados rápidamente. %1$s Ver documentación. %2$s"
+
+#: includes/customizer/customizer.php:37
+msgid "OceanWP Info"
+msgstr "Información sobre OceanWP"
+
 #: includes/update-message.php:84
 msgid "4.0.0"
 msgstr "4.0.0"
@@ -55,6 +151,24 @@ msgstr "Versión requerida"
 #: includes/update-message.php:79
 msgid "Items"
 msgstr "Elementos"
+
+#. translators: %1$s Link open tag, %2$s: Link close tag.
+#: includes/update-message.php:67
+msgid "Revamped Customizer for enhanced experience! This update delivers a completely redesigned Customizer with a focus on improved user interface (UI), user experience (UX), and performance. Enjoy a faster and more intuitive way to personalize your website with a wider range of options at your fingertips. Learn %1$s how to properly update your websites and transition to OceanWP 4 %4$s, view %2$s OceanWP 4 New Customizer details %4$s or check out the %3$s OceanWP 4 Customizer documentation %4$s."
+msgstr "¡Personalizador renovado para una experiencia mejorada! Esta actualización ofrece un personalizador completamente rediseñado que se centra en mejorar la interfaz de usuario (IU), la experiencia del usuario (UX) y el rendimiento. Disfruta de una forma más rápida e intuitiva de personalizar tu sitio web con una gama más amplia de opciones a tu alcance. Para saber %1$s cómo actualizar correctamente tus sitios web y pasar a OceanWP 4 %4$s, consulta %2$s Detalles del nuevo personalizador de OceanWP 4 %4$s o consulta la %3$s Documentación del personalizador de OceanWP 4 %4$s."
+
+#: includes/update-message.php:61
+msgid "What's new?"
+msgstr "¿Qué hay de nuevo?"
+
+#. translators: %1$s Link open tag, %2$s: Link close tag.
+#: includes/update-message.php:45
+msgid "The latest update introduces significant improvements and changes to various plugin features.  For a smooth update process, it's crucial to %1$s backup your website beforehand  %2$s and test the update in a staging or test environment if available."
+msgstr "La última actualización introduce mejoras y cambios significativos en varias funciones del plugin.  Para un proceso de actualización sin problemas, es crucial %1$s hacer una copia de seguridad de tu sitio web de antemano %2$s y probar la actualización en un entorno de ensayo o prueba, si está disponible."
+
+#: includes/update-message.php:39
+msgid "Backup recommended before plugin update."
+msgstr "Se recomienda hacer una copia de seguridad antes de actualizar el plugin."
 
 #: includes/post-settings/functions.php:218
 msgid "others"
@@ -155,11 +269,11 @@ msgstr "Página de inicio ( is_home() )"
 msgid "All Pages"
 msgstr "Todas las páginas"
 
-#: ocean-extra.php:850
+#: ocean-extra.php:852
 msgid "Update and get the new Theme Panel"
 msgstr "Actualiza y consigue el nuevo panel del tema"
 
-#: ocean-extra.php:849
+#: ocean-extra.php:851
 msgid "We made changes to our Theme Panel. To complete the installation and enjoy both old and new features, please make sure the OceanWP theme and all Ocean plugins are up to date."
 msgstr "Hemos hecho cambios en nuestro panel del tema. Para completar la instalación y disfrutar tanto de las características antiguas y las nuevas, por favor, asegúrate de que tanto el tema OceanWP como los plugins Ocean estén actualizados."
 
@@ -563,7 +677,7 @@ msgstr "Exporta los ajustes del personalizador del tema actual e impórtalos en 
 msgid "Disable Customizer OceanWP Control panels for faster Customizer load or faster management by displaying fewer options."
 msgstr "Desactiva los paneles de control del personalizador OceanWP para una carga más rápida del personalizador o una gestión más rápida mostrando menos opciones."
 
-#: includes/themepanel/theme-panel.php:808
+#: includes/themepanel/theme-panel.php:818
 msgid "View paid features"
 msgstr "Ver características de pago"
 
@@ -3605,15 +3719,15 @@ msgstr "Compra %left_to_free% más y obtén los portes gratis"
 msgid "Theme"
 msgstr "Tema"
 
-#: includes/panel/theme-panel.php:244
+#: includes/panel/theme-panel.php:254
 msgid "Choose the columns number, paddings and colors for the footer widgets."
 msgstr "Elige el número de columnas, relleno y colores para los widgets de pie de página."
 
-#: includes/panel/theme-panel.php:243
+#: includes/panel/theme-panel.php:253
 msgid "Footer widgets options"
 msgstr "Opciones de los widgets del pie de página"
 
-#: includes/panel/theme-panel.php:219
+#: includes/panel/theme-panel.php:229
 msgid "Add your own logo and retina logo used for retina screens."
 msgstr "Añade tu propio logotipo y la versión para pantallas retina."
 
@@ -7697,55 +7811,55 @@ msgstr "Blog"
 msgid "Custom Header"
 msgstr "Cabecera personalizada"
 
-#: includes/panel/theme-panel.php:248
+#: includes/panel/theme-panel.php:258
 msgid "Add your copyright, paddings and colors for the footer bottom."
 msgstr "Añade la información de copyright, espacios y colores para el pie de pagina."
 
-#: includes/panel/theme-panel.php:247
+#: includes/panel/theme-panel.php:257
 msgid "Footer bottom options"
 msgstr "Opciones de la parte inferior del pie"
 
-#: includes/panel/theme-panel.php:240
+#: includes/panel/theme-panel.php:250
 msgid "Choose the style, the height and the colors for your site header."
 msgstr "Elegir el estilo, la altura y los colores para el encabezado del sitio."
 
-#: includes/panel/theme-panel.php:239
+#: includes/panel/theme-panel.php:249
 msgid "Header options"
 msgstr "Opciones de la cabecera"
 
-#: includes/panel/theme-panel.php:236
+#: includes/panel/theme-panel.php:246
 msgid "Enable/Disable the top bar, add your own paddings and colors."
 msgstr "Activar/desactivar la barra superior, añade el relleno y colores."
 
-#: includes/panel/theme-panel.php:235
+#: includes/panel/theme-panel.php:245
 msgid "Top bar options"
 msgstr "Opciones de la barra superior"
 
-#: includes/panel/theme-panel.php:231
+#: includes/panel/theme-panel.php:241
 msgid "Choose your own typography for any parts of your website."
 msgstr "Elige la tipografía para las diferentes áreas del sitio."
 
-#: includes/panel/theme-panel.php:230
+#: includes/panel/theme-panel.php:240
 msgid "Choose your typography"
 msgstr "Elige tu tipografía"
 
-#: includes/panel/theme-panel.php:227
+#: includes/panel/theme-panel.php:237
 msgid "Replace the default primary and hover color by your own colors."
 msgstr "Reemplaza el color principal y el color al pasar el cursor por defecto con tus propios colores."
 
-#: includes/panel/theme-panel.php:226
+#: includes/panel/theme-panel.php:236
 msgid "Choose your primary color"
 msgstr "Elige el color primario"
 
-#: includes/panel/theme-panel.php:223
+#: includes/panel/theme-panel.php:233
 msgid "The favicon is used as a browser and app icon for your website."
 msgstr "El icono de sitio se utiliza en el navegador y en la app del sitio."
 
-#: includes/panel/theme-panel.php:222
+#: includes/panel/theme-panel.php:232
 msgid "Add your favicon"
 msgstr "Añade tu favicono"
 
-#: includes/panel/theme-panel.php:218
+#: includes/panel/theme-panel.php:228
 msgid "Upload your logo"
 msgstr "Sube tu logotipo"
 
@@ -8769,7 +8883,7 @@ msgstr "Error"
 msgid "Select a hex color code, ex: #333"
 msgstr "Selecciona un código de color hexadecimal. Por ejemplo: #333"
 
-#: includes/panel/theme-panel.php:193 includes/themepanel/theme-panel.php:544
+#: includes/panel/theme-panel.php:203 includes/themepanel/theme-panel.php:554
 msgid "Sidebar Panel"
 msgstr "Panel de la barra lateral"
 
@@ -8867,7 +8981,7 @@ msgstr "Establecer como imagen"
 msgid "Add image"
 msgstr "Añadir imagen"
 
-#: includes/panel/theme-panel.php:202 includes/themepanel/theme-panel.php:553
+#: includes/panel/theme-panel.php:212 includes/themepanel/theme-panel.php:563
 msgid "Custom CSS/JS Panel"
 msgstr "CSS/JS Personalizado"
 
@@ -8932,8 +9046,8 @@ msgstr "https://oceanwp.org/extension/ocean-extra/"
 msgid "Ocean Extra"
 msgstr "Ocean Extra"
 
-#: includes/adobe-font.php:87 includes/adobe-font.php:94 ocean-extra.php:242
-#: ocean-extra.php:251
+#: includes/adobe-font.php:87 includes/adobe-font.php:94 ocean-extra.php:244
+#: ocean-extra.php:253
 msgid "Cheatin&#8217; huh?"
 msgstr "¿Haciendo trampas?"
 
@@ -8945,31 +9059,31 @@ msgstr "Personalizar"
 msgid "General"
 msgstr "General"
 
-#: includes/panel/theme-panel.php:199 includes/themepanel/theme-panel.php:550
+#: includes/panel/theme-panel.php:209 includes/themepanel/theme-panel.php:560
 msgid "Footer Bottom Panel"
 msgstr "Panel del pie de página"
 
-#: includes/panel/theme-panel.php:196 includes/themepanel/theme-panel.php:547
+#: includes/panel/theme-panel.php:206 includes/themepanel/theme-panel.php:557
 msgid "Footer Widgets Panel"
 msgstr "Panel de widgets de pie de página"
 
-#: includes/panel/theme-panel.php:190 includes/themepanel/theme-panel.php:541
+#: includes/panel/theme-panel.php:200 includes/themepanel/theme-panel.php:551
 msgid "Blog Panel"
 msgstr "Panel de blog"
 
-#: includes/panel/theme-panel.php:187 includes/themepanel/theme-panel.php:538
+#: includes/panel/theme-panel.php:197 includes/themepanel/theme-panel.php:548
 msgid "Header Panel"
 msgstr "Panel de cabecera"
 
-#: includes/panel/theme-panel.php:184 includes/themepanel/theme-panel.php:535
+#: includes/panel/theme-panel.php:194 includes/themepanel/theme-panel.php:545
 msgid "Top Bar Panel"
 msgstr "Panel de la barra superior"
 
-#: includes/panel/theme-panel.php:181 includes/themepanel/theme-panel.php:532
+#: includes/panel/theme-panel.php:191 includes/themepanel/theme-panel.php:542
 msgid "Typography Panel"
 msgstr "Panel de tipografía"
 
-#: includes/panel/theme-panel.php:175 includes/themepanel/theme-panel.php:526
+#: includes/panel/theme-panel.php:185 includes/themepanel/theme-panel.php:536
 msgid "General Panel"
 msgstr "Panel general"
 
