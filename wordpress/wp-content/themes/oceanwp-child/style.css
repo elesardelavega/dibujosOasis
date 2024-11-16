@@ -122,3 +122,11 @@ a.menu-link>span:after {
     padding-top: 10px !important;
     padding: 52px;
 }
+
+.faqs-list-contacts {
+    align-self: baseline;
+}
+
+.faqs-list-contacts .uagb-ifb-content {
+    justify-items: center;
+}

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="plugins and new form">
+    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="fix footer padding">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/formidable/css/formidableforms.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/formidable/css/formidableforms.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +93,7 @@
       <workItem from="1731514257056" duration="922000" />
       <workItem from="1731515471467" duration="407000" />
       <workItem from="1731611750769" duration="6000" />
-      <workItem from="1731671119885" duration="4649000" />
+      <workItem from="1731671119885" duration="7509000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -160,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731611386054</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix footer padding">
+      <option name="closed" value="true" />
+      <created>1731770188742</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731770188742</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +199,7 @@
     <MESSAGE value="updates" />
     <MESSAGE value="update themes and wordpress" />
     <MESSAGE value="plugins and new form" />
-    <option name="LAST_COMMIT_MESSAGE" value="plugins and new form" />
+    <MESSAGE value="fix footer padding" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix footer padding" />
   </component>
 </project>
