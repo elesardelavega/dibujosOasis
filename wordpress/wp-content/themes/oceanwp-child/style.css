@@ -33,6 +33,7 @@ div#site-navigation-wrap {
 
 .footer-box.span_1_of_3.col.col-1 {
     width: 10%;
+    padding-left: 0 !important;
 }
 
 .footer-box.span_1_of_3.col.col-2 {
@@ -58,6 +59,7 @@ div#site-navigation-wrap {
 
 .footer-box.span_1_of_3.col.col-3 {
     width: 30%;
+    padding-right: 0 !important;
 }
 
 .footer-box.span_1_of_3.col.col-3 ul.oceanwp-social-icons {
@@ -110,4 +112,13 @@ a.menu-link>span:after {
 .frm_style_estilo-de-formidable.with_frm_style .frm_submit button.frm_button_submit:hover {
     box-shadow: 0px 18px 40px -10px rgba(0, 0, 0, 0.66) !important;
     border: 1px solid #333;
+}
+
+.post-grid-gallery .uagb-post__text.uagb-post-grid-byline {
+    display: none;
+}
+
+.post-carousel-gallery.uagb-slick-carousel {
+    padding-top: 10px !important;
+    padding: 52px;
 }
