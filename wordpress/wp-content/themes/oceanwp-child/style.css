@@ -105,13 +105,18 @@ a.menu-link>span:after {
 .frm_style_estilo-de-formidable.with_frm_style .frm_submit button.frm_button_submit {
     text-transform: capitalize;
     font-size: 16px !important;
-    box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 0.66) !important;
-    border: 1px solid transparent;
+    border: 1px solid #bbae7f;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(to right, #bbae7f, #000000a1);
+    color: white;
+    opacity: 0.8;
 }
 
 .frm_style_estilo-de-formidable.with_frm_style .frm_submit button.frm_button_submit:hover {
-    box-shadow: 0px 18px 40px -10px rgba(0, 0, 0, 0.66) !important;
-    border: 1px solid #333;
+    opacity: 1;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2);
 }
 
 .post-grid-gallery .uagb-post__text.uagb-post-grid-byline {
