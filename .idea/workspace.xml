@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="fix footer padding">
+    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="styles button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/style.css" afterDir="false" />
     </list>
@@ -167,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731770188742</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="styles button">
+      <option name="closed" value="true" />
+      <created>1732122432883</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732122432883</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +208,7 @@
     <MESSAGE value="update themes and wordpress" />
     <MESSAGE value="plugins and new form" />
     <MESSAGE value="fix footer padding" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix footer padding" />
+    <MESSAGE value="styles button" />
+    <option name="LAST_COMMIT_MESSAGE" value="styles button" />
   </component>
 </project>
