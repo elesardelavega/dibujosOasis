@@ -135,3 +135,20 @@ a.menu-link>span:after {
 .faqs-list-contacts .uagb-ifb-content {
     justify-items: center;
 }
+
+.icons-contact {
+    transition: all 0.3s ease !important;
+}
+
+.icons-contact:hover {
+    transform: translateY(-3px) !important;
+}
+
+.hover-contact p.uagb-ifb-desc {
+    transition: all 0.3s ease !important;
+}
+
+.hover-contact p.uagb-ifb-desc:hover {
+    transform: translateY(0px) !important;
+    color: #bbae7f !important;
+}
