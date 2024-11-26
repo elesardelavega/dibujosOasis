@@ -152,3 +152,8 @@ a.menu-link>span:after {
     transform: translateY(0px) !important;
     color: #bbae7f !important;
 }
+
+#site-navigation-wrap .dropdown-menu >li >a {
+    border: none !important;
+    outline: none !important;
+}
