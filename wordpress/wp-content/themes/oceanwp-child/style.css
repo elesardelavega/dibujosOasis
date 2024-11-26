@@ -8,6 +8,14 @@ Template: oceanwp
 Version: 1.0.0
 */
 
+#main {
+    padding-top: 65px;
+}
+
+#site-header {
+    position: fixed !important;
+}
+
 .wp-block-group.fila-banner-home {
     gap: 50px;
 }
@@ -31,8 +39,13 @@ div#site-navigation-wrap {
     padding: 0;
 }
 
+#footer-widgets {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 .footer-box.span_1_of_3.col.col-1 {
-    width: 10%;
+    width: 13%;
     padding-left: 0 !important;
 }
 
@@ -58,7 +71,7 @@ div#site-navigation-wrap {
 }
 
 .footer-box.span_1_of_3.col.col-3 {
-    width: 30%;
+    width: 25%;
     padding-right: 0 !important;
 }
 
@@ -153,7 +166,7 @@ a.menu-link>span:after {
     color: #bbae7f !important;
 }
 
-#site-navigation-wrap .dropdown-menu >li >a {
+#site-navigation-wrap .dropdown-menu >li >a, #site-logo #site-logo-inner a {
     border: none !important;
     outline: none !important;
 }
