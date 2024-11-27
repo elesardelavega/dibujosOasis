@@ -186,3 +186,11 @@ a.menu-link>span:after {
 span.wishlist_products_counter_number {
     display: none;
 }
+
+.toggle-cart-widget {
+    padding-top: 2px;
+}
+
+li.search-toggle-li {
+    padding-top: 4px;
+}
