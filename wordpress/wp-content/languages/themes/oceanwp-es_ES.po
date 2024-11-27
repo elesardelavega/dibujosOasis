@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - OceanWP package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-12 20:22:54+0000\n"
+"PO-Revision-Date: 2024-11-26 21:53:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -126,6 +126,10 @@ msgstr "Color del título de la cabecera"
 msgid "Product Images"
 msgstr "Imágenes de producto"
 
+#: inc/customizer/options/woocommerce.php:7949
+msgid "Input: Background"
+msgstr "Campo: Fondo"
+
 #: inc/customizer/options/woocommerce.php:7622
 msgid "Related Items"
 msgstr "Artículos relacionados"
@@ -141,6 +145,10 @@ msgstr "Opciones adicionales para productos individuales"
 #: inc/customizer/options/woocommerce.php:7070
 msgid "Product Notice"
 msgstr "Aviso sobre el producto"
+
+#: inc/customizer/options/woocommerce.php:6697
+msgid "Product Add To Cart"
+msgstr "Producto añadir al carrito"
 
 #: inc/customizer/options/woocommerce.php:6581
 msgid "Add to Cart Style, Typography and Color"
@@ -262,6 +270,10 @@ msgstr "Estilo de la imagen del producto"
 msgid "Product Display Options"
 msgstr "Opciones de visualización de productos"
 
+#: inc/customizer/options/woocommerce.php:2135
+msgid "Product Display Style"
+msgstr "Estilo de exposición del producto"
+
 #: inc/customizer/options/woocommerce.php:2086
 msgid "Product Columns"
 msgstr "Columnas de producto"
@@ -278,6 +290,14 @@ msgstr "Lista"
 #: inc/customizer/options/woocommerce.php:2015
 msgid "Product Options"
 msgstr "Opciones de productos"
+
+#: inc/customizer/options/woocommerce.php:1998
+msgid "Responsive Page Content Order"
+msgstr "Orden del contenido de la página adaptable"
+
+#: inc/customizer/options/woocommerce.php:1863
+msgid "Archives Page Layout"
+msgstr "Diseño de la página de archivos"
 
 #: inc/customizer/options/woocommerce.php:1853
 msgid "Display Options"
@@ -298,6 +318,10 @@ msgstr "Borde del botón del carrito"
 #: inc/customizer/options/woocommerce.php:614
 msgid "Select Wishlist Plugin"
 msgstr "Selecciona el plugin de Lista de deseos"
+
+#: inc/customizer/options/woocommerce.php:605
+msgid "You need to activate the %1$sTI WooCommerce Wishlist%2$s or %3$sYITH WooCommerce Wishlist%2$s plugin based on your selection to add a wishlist button and icon"
+msgstr "Tienes que activar el plugin %1$sTI WooCommerce Wishlist%2$s o %3$sYITH WooCommerce Wishlist%2$s en función de tu selección para añadir un botón y un icono de lista de deseos"
 
 #: inc/customizer/options/woocommerce.php:558
 msgid "Display Custom WooCommerce Sidebar"
@@ -385,6 +409,10 @@ msgstr "Contenido de la barra superior"
 #: inc/customizer/options/topbar.php:622
 msgid "Select a template you created in OceanWP > My Library to replace default Top Bar social icons."
 msgstr "Selecciona una plantilla que hayas creado en OceanWP > Mi biblioteca para sustituir los iconos sociales por defecto de la barra superior."
+
+#: inc/customizer/options/topbar.php:610
+msgid "Custom Social"
+msgstr "Social personalizado"
 
 #: inc/customizer/options/topbar.php:344
 msgid "Social Menu Options"
@@ -493,6 +521,16 @@ msgstr "Exterior"
 msgid "Inset"
 msgstr "Interior"
 
+#: inc/customizer/options/styles-and-settings.php:965
+#: inc/customizer/options/styles-and-settings.php:1602
+msgid "Ridge"
+msgstr "Cresta"
+
+#: inc/customizer/options/styles-and-settings.php:964
+#: inc/customizer/options/styles-and-settings.php:1601
+msgid "Groove"
+msgstr "Ranura"
+
 #: inc/customizer/options/styles-and-settings.php:951
 #: inc/customizer/options/styles-and-settings.php:1587
 msgid "Border Type"
@@ -529,6 +567,10 @@ msgstr "Iconos del sitio"
 msgid "Outside Background Color"
 msgstr "Color del fondo exterior"
 
+#: inc/customizer/options/styles-and-settings.php:502
+msgid "Additional background options are currently available for the Boxed and Separate site layout styles."
+msgstr "Actualmente hay disponibles opciones de fondo adicionales para los estilos de diseño de sitio en caja y separado."
+
 #: inc/customizer/options/styles-and-settings.php:494
 msgid "Site Background Options"
 msgstr "Opciones del fondo del sitio"
@@ -538,6 +580,10 @@ msgstr "Opciones del fondo del sitio"
 msgid "Add a custom content padding."
 msgstr "Añade un relleno de contenido personalizado."
 
+#: inc/customizer/options/styles-and-settings.php:203
+msgid "Additional content settings are currently available only for the Separate site layout style. "
+msgstr "Actualmente, los ajustes de contenido adicionales sólo están disponibles para el estilo de diseño de sitio Separar."
+
 #: inc/customizer/options/styles-and-settings.php:195
 msgid "Additional Content Settings"
 msgstr "Ajustes adicionales de contenido"
@@ -545,6 +591,33 @@ msgstr "Ajustes adicionales de contenido"
 #: inc/customizer/options/styles-and-settings.php:64
 msgid "Main Container Width"
 msgstr "Anchura del contenedor principal"
+
+#: inc/customizer/options/styles-and-settings.php:24
+#: inc/customizer/options/styles-and-settings.php:32
+msgid "Site Layout"
+msgstr "Disposición del sitio"
+
+#: inc/customizer/options/sidebar.php:782
+msgid "SB Heading Border"
+msgstr "Rumbo SB Frontera"
+
+#: inc/customizer/options/sidebar.php:709
+msgid "SB Widget Background"
+msgstr "SB Widget Fondo"
+
+#: inc/customizer/options/sidebar.php:542
+#: inc/customizer/options/sidebar.php:758
+msgid "SB Widget Text"
+msgstr "Texto del widget SB"
+
+#: inc/customizer/options/sidebar.php:377
+#: inc/customizer/options/sidebar.php:733
+msgid "SB Widget Heading"
+msgstr "Encabezado del widget SB"
+
+#: inc/customizer/options/sidebar.php:336
+msgid "Heading Margin Bottom (px)"
+msgstr "Margen inferior del encabezado (px)"
 
 #: inc/customizer/options/sidebar.php:153
 msgid "Widget Options"
@@ -590,6 +663,10 @@ msgstr "Este archivo contiene todas las reglas CSS que definen la apariencia de 
 msgid "This file contains all the CSS rules that define the appearance of Font Awesome icons."
 msgstr "Este archivo contiene todas las reglas CSS que definen la apariencia de los iconos de Font Awesome."
 
+#: inc/customizer/options/performance.php:50
+msgid "This file contains all the CSS rules that define the appearance and behavior of WP emoji."
+msgstr "Este archivo contiene todas las reglas CSS que definen la apariencia y el comportamiento de los emoji WP."
+
 #: inc/customizer/options/page-settings.php:2480
 msgid "You can replace the default 404 error page with a custom page template. Select a template created in OceanWP > My Library."
 msgstr "Puedes sustituir la página de error 404 por defecto con una plantilla de página personalizada. Selecciona una plantilla creada en «OceanWP > Mi biblioteca»."
@@ -618,9 +695,21 @@ msgstr "Selecciona un logotipo para la página de resultados de búsqueda."
 msgid "Number of Search Results to Display per Page"
 msgstr "Número de resultados de búsqueda a mostrar por página"
 
+#: inc/customizer/options/page-settings.php:2295
+msgid " Select Source for SERP"
+msgstr " Seleccionar fuente para SERP"
+
 #: inc/customizer/options/page-settings.php:2144
 msgid "Enable Custom Sidebar"
 msgstr "Activar la barra lateral personalizada"
+
+#: inc/customizer/options/page-settings.php:2135
+msgid "Additional customization options are currently available for any of the Sidebar layouts."
+msgstr "Actualmente hay disponibles opciones de personalización adicionales para cualquiera de los diseños de la barra lateral."
+
+#: inc/customizer/options/page-settings.php:2127
+msgid "Sidebar Layout Settings"
+msgstr "Ajustes del diseño de la barra lateral"
 
 #: inc/customizer/options/page-settings.php:2069
 msgid "Special Pages"
@@ -654,9 +743,17 @@ msgstr "Ajustes de la taxonomía de las migas de pan"
 msgid "Display Item Title"
 msgstr "Mostrar el título del artículo"
 
+#: inc/customizer/options/page-settings.php:1816
+msgid "Breadcrumbs Trail Settings"
+msgstr "Ajustes del rastro de migas de pan"
+
 #: inc/customizer/options/page-settings.php:1783
 msgid "Homepage Custom Text"
 msgstr "Texto personalizado de la página de inicio"
+
+#: inc/customizer/options/page-settings.php:1759
+msgid "Display Home as Icon / Text"
+msgstr "Mostrar inicio como icono / texto"
 
 #: inc/customizer/options/page-settings.php:1751
 msgid "Breadcrumbs Homepage Settings"
@@ -708,6 +805,10 @@ msgstr "Tipografía del título"
 msgid "Initial"
 msgstr "Inicial"
 
+#: inc/customizer/options/page-settings.php:555
+msgid "Additional page title style settings are currently available for the Background Image page title style."
+msgstr "Actualmente hay disponibles ajustes adicionales de estilo de título de página para el estilo de título de página Imagen de fondo."
+
 #: inc/customizer/options/page-settings.php:547
 msgid "Additional Title Settings"
 msgstr "Ajustes adicionales del título"
@@ -721,9 +822,25 @@ msgstr "Ajustes del contenido"
 msgid "Enable Page Title"
 msgstr "Activar el título de la página"
 
+#: inc/customizer/options/page-settings.php:264
+msgid "Responsive Setting: Sidebar Order Layout"
+msgstr "Ajuste adaptable: Disposición de orden de la barra lateral"
+
+#: inc/customizer/options/page-settings.php:255
+msgid "Additional responsive settings are currently available for any of the Single Sidebar page layout styles."
+msgstr "Actualmente hay disponibles ajustes adaptables adicionales para cualquiera de los estilos de diseño de página de barra lateral única."
+
 #: inc/customizer/options/page-settings.php:247
 msgid "Responsive Page Settings"
 msgstr "Ajustes de adaptabilidad"
+
+#: inc/customizer/options/page-settings.php:136
+msgid "Additional page layout settings are currently available for the Both Sidebars page layout style."
+msgstr "Actualmente hay disponibles ajustes de diseño de página adicionales para el estilo de diseño de página Ambas barras laterales."
+
+#: inc/customizer/options/page-settings.php:128
+msgid "Additional Layout Settings"
+msgstr "Ajustes adicionales de diseño"
 
 #: inc/customizer/options/page-settings.php:15
 msgid "Page Layout"
@@ -744,6 +861,10 @@ msgstr "Imagen destacada de la membresía"
 #: inc/customizer/options/learndash.php:157
 msgid "Unitoceanwp"
 msgstr "Unitoceanwp"
+
+#: inc/customizer/options/header.php:6310
+msgid "Search Form Border: Hover"
+msgstr "Borde del formulario de búsqueda: Hover"
 
 #: inc/customizer/options/header.php:6182
 msgid "Search Form Text"
@@ -774,6 +895,14 @@ msgstr "Introduce una clase de icono completa para sustituir al icono de hamburg
 msgid "Mobile Open Button"
 msgstr "Botón «Abrir» para móviles"
 
+#: inc/customizer/options/header.php:5595
+msgid "Choose what the user should click to reveal the submenu options. If you want the main menu item to be clickable too, choose the Icon option."
+msgstr "Elige lo que el usuario debe pulsar para revelar las opciones del submenú. Si quieres que también se pueda hacer clic en el elemento del menú principal, elige la opción Icono."
+
+#: inc/customizer/options/header.php:5573
+msgid "Display Search Form Inside Menu"
+msgstr "Mostrar formulario de búsqueda dentro del menú"
+
 #: inc/customizer/options/header.php:5495
 msgid "Mobile Menu Opening Direction"
 msgstr "Dirección de apertura del menú para móviles"
@@ -790,9 +919,21 @@ msgstr "Altura del logo para móviles (px)"
 msgid "Mobile Logo (optional)"
 msgstr "Logotipo para móviles (opcional)"
 
+#: inc/customizer/options/header.php:5390
+msgid "Mobile Header Items Layout"
+msgstr "Disposición de los elementos de cabecera para móviles"
+
 #: inc/customizer/options/header.php:5339
 msgid "Mobile Menu Settings"
 msgstr "Ajustes del menú para móviles"
+
+#: inc/customizer/options/header.php:5222
+msgid "Set the screen width at which your website will switch to a mobile-friendly layout, displaying the mobile menu."
+msgstr "Establece el ancho de pantalla en el que tu sitio web cambiará a un diseño adaptado a móviles, mostrando el menú para móviles."
+
+#: inc/customizer/options/header.php:5155
+msgid "Select a template you created in OceanWP > My Library to replace default Header social icons."
+msgstr "Selecciona una plantilla que hayas creado en OceanWP > Mi biblioteca para sustituir los iconos sociales predeterminados del encabezado."
 
 #: inc/customizer/options/header.php:5147
 msgid "Custom Template"
@@ -856,6 +997,10 @@ msgstr "Destino de los enlaces"
 #: inc/customizer/options/header.php:4652
 msgid "Default Social Menu"
 msgstr "Menú social por defecto"
+
+#: inc/customizer/options/header.php:4579
+msgid "Select a custom template you created in OceanWP > My Library. This template will replace the default menu navigation only. For a complete custom header, use the Custom Header type option in Customize > Header > General."
+msgstr "Selecciona una plantilla personalizada que hayas creado en OceanWP > Mi Biblioteca. Esta plantilla sólo sustituirá al menú de navegación predeterminado. Para obtener un encabezado personalizado completo, utiliza la opción Tipo de encabezado personalizado en Personalizar > Encabezado > General."
 
 #: inc/customizer/options/header.php:4561
 #: inc/customizer/options/header.php:4571
@@ -964,6 +1109,14 @@ msgstr "Espaciado izquierdo y derecho de los elementos del menú"
 msgid "Menus"
 msgstr "Menús"
 
+#: inc/customizer/options/header.php:3046
+msgid "Textual Logo Color"
+msgstr "Color del logotipo textual"
+
+#: inc/customizer/options/header.php:2873
+msgid "Textual Logo"
+msgstr "Logotipo textual"
+
 #: inc/customizer/options/header.php:2809
 msgid "Max Height"
 msgstr "Altura máxima"
@@ -1037,6 +1190,14 @@ msgstr "Foco"
 msgid "Search Bottom Border"
 msgstr "Borde inferior de la búsqueda"
 
+#: inc/customizer/options/header.php:1824
+msgid "Search Animated Dots "
+msgstr "Buscar puntos animados"
+
+#: inc/customizer/options/header.php:1797
+msgid "Search Input"
+msgstr "Buscar entrada"
+
 #: inc/customizer/options/header.php:1682
 msgid "Hamburger Close Icon"
 msgstr "Icono de cierre de la hamburguesa"
@@ -1081,6 +1242,10 @@ msgstr "Colores"
 msgid "Select a template made in OceanWP > My Library to replace the bottom part of the Vertical Header."
 msgstr "Selecciona una plantilla hecha en «OceanWP > Mi Biblioteca» para reemplazar la parte inferior de la cabecera vertical."
 
+#: inc/customizer/options/header.php:1388
+msgid "Select Vertical Top Template"
+msgstr "Selecciona la plantilla superior vertical"
+
 #: inc/customizer/options/header.php:1380
 msgid "Custom Vertical Header"
 msgstr "Cabecera vertical personalizada"
@@ -1100,6 +1265,10 @@ msgstr "Descripción: Elige donde el usuario debe hacer clic para revelar las op
 #: inc/customizer/options/header.php:1215
 msgid "Spacing Between Menu Items (px)"
 msgstr "Espaciado entre elementos del menú (px)"
+
+#: inc/customizer/options/header.php:1063
+msgid "Open Header Inner Padding (px)"
+msgstr "Relleno interior de la cabecera abierta (px)"
 
 #: inc/customizer/options/header.php:618 inc/customizer/options/header.php:619
 msgid "Closer"

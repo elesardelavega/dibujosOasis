@@ -170,3 +170,7 @@ a.menu-link>span:after {
     border: none !important;
     outline: none !important;
 }
+
+.spectra-image-gallery__layout--carousel ul.slick-dots {
+    top: -30px !important;
+}
