@@ -20,3 +20,14 @@ function custom_woocommerce_catalog_orderby($sortby) {
 
 	return $sortby;
 }
+
+function agregar_functions_js() {
+	wp_enqueue_script(
+		'mi-functions-js',
+		'/wp-content/themes/oceanwp-child/js/functions.js',
+		array(),
+		'1.0.0',
+		false
+	);
+}
+add_action('wp_enqueue_scripts', 'agregar_functions_js');
