@@ -194,3 +194,64 @@ span.wishlist_products_counter_number {
 li.search-toggle-li {
     padding-top: 4px;
 }
+
+.wp-block-woocommerce-filter-wrapper h3.wp-block-heading {
+    font-size: 17px !important;
+    line-height: 1.4 !important;
+    font-family: Rubik;
+    font-weight: 500;
+    color: #000000;
+}
+
+.filter-tax h4.filter-title {
+    font-size: 17px !important;
+    line-height: 1.4 !important;
+    font-family: Rubik;
+    font-weight: 500;
+    color: #000000;
+}
+
+.yith-wcan-filters .yith-wcan-filter .yith-wcan-dropdown.open {
+    border-color: #bbae7f;
+    box-shadow: 0 0 7px 0 #bbae7f;
+}
+
+.yith-wcan-filters .yith-wcan-filter .yith-wcan-dropdown .dropdown-wrapper {
+    border-color: #bbae7f;
+    box-shadow: 0 0 7px 0 #bbae7f;
+}
+
+ul.matching-items.filter-items {
+    --yith-wcan-filters_colors_accent: #bbae7f !important;
+}
+
+.woocommerce ul.products li.product li.category {
+    padding-top: 10px;
+    margin-bottom: 10px !important;
+}
+.woocommerce ul.products li.product li.title {
+    padding: 0 !important;
+    margin-bottom: 10px !important;
+    max-height: 24px;
+}
+
+.woocommerce ul.products li.product li.price-wrap {
+    padding: 0 !important;
+    margin-bottom: 10px !important;
+}
+
+.woocommerce ul.products li.product .woo-entry-inner li:last-child {
+    margin: 0;
+    padding: 0;
+}
+
+.yith-wcan-filters .yith-wcan-filter .filter-items .filter-item > label > a:hover {
+    color: #bbae7f !important;
+}
+
+.woocommerce ul.products li.product .woo-entry-inner li.image-wrap img.woo-entry-image-main {
+    max-width: 215px;
+    max-height: 294px;
+    width: 100%;
+    height: 294px;
+}

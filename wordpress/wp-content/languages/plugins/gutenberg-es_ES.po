@@ -1,15 +1,15 @@
-# Translation of Plugins - Gutenberg - Development (trunk) in Spanish (Spain)
-# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+# Translation of Plugins - Gutenberg - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-22 11:06:52+0000\n"
+"PO-Revision-Date: 2024-11-28 07:28:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/4.0.1\n"
 "Language: es\n"
-"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
 
 #: lib/experiments-page.php:173
 msgid "Enable multi-user commenting on blocks"
@@ -73,6 +73,38 @@ msgstr "Muestra una lista de todos los términos de una taxonomía determinada."
 msgctxt "block title"
 msgid "Terms List"
 msgstr "Lista de términos"
+
+#: lib/experiments-page.php:185
+msgid "Enable client-side media processing."
+msgstr "Activa el procesamiento multimedia del lado del cliente."
+
+#: lib/experiments-page.php:180
+msgid "Client-side media processing"
+msgstr "Procesamiento de medios del lado del cliente"
+
+#: lib/experimental/media/load.php:131
+msgid "Attachment file size"
+msgstr "Tamaño del archivo adjunto"
+
+#: lib/experimental/media/load.php:118
+msgid "Original attachment file name"
+msgstr "Nombre del archivo adjunto original"
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:259
+msgid "Invalid post ID, only images and PDFs can be sideloaded."
+msgstr "ID de entrada no válida, sólo se pueden cargar imágenes y PDFs."
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:74
+msgid "Whether to convert image formats."
+msgstr "Si se convierten formatos de imagen."
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:69
+msgid "Whether to generate image sub sizes."
+msgstr "Si se generan subtamaños de imagen."
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:37
+msgid "Unique identifier for the attachment."
+msgstr "Identificador único para el adjunto."
 
 #. translators: %s: Taxonomy name.
 #: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:681
@@ -180,38 +212,6 @@ msgstr "Tienes que definir un parámetro de inclusión para ordenar por inclusi�
 msgid "You need to define a search term to order by relevance."
 msgstr "Tienes que definir un término de búsqueda para ordenar por relevancia."
 
-#: lib/experiments-page.php:185
-msgid "Enable client-side media processing."
-msgstr "Activa el procesamiento multimedia del lado del cliente."
-
-#: lib/experiments-page.php:180
-msgid "Client-side media processing"
-msgstr "Procesamiento de medios del lado del cliente"
-
-#: lib/experimental/media/load.php:131
-msgid "Attachment file size"
-msgstr "Tamaño del archivo adjunto"
-
-#: lib/experimental/media/load.php:118
-msgid "Original attachment file name"
-msgstr "Nombre del archivo adjunto original"
-
-#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:259
-msgid "Invalid post ID, only images and PDFs can be sideloaded."
-msgstr "ID de entrada no válida, sólo se pueden cargar imágenes y PDFs."
-
-#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:74
-msgid "Whether to convert image formats."
-msgstr "Si se convierten formatos de imagen."
-
-#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:69
-msgid "Whether to generate image sub sizes."
-msgstr "Si se generan subtamaños de imagen."
-
-#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:37
-msgid "Unique identifier for the attachment."
-msgstr "Identificador único para el adjunto."
-
 #: lib/compat/wordpress-6.7/rest-api.php:118
 msgid "Plugin that registered the template."
 msgstr "Plugin que ha registrado la plantilla."
@@ -246,14 +246,6 @@ msgctxt "block description"
 msgid "An individual item within a list."
 msgstr "Un elemento individual dentro de una lista."
 
-#: lib/experiments-page.php:89
-msgid "Enable experimental blocks.<p class=\"description\">(Warning: these blocks may have significant changes during development that cause validation errors and display issues.)</p>"
-msgstr "Activa los bloques experimentales.<p class=\"description\">(Advertencia: estos bloques pueden sufrir cambios significativos durante el desarrollo que provoquen errores de validación y problemas de visualización)</p>."
-
-#: lib/experiments-page.php:84
-msgid "Experimental blocks"
-msgstr "Bloques experimentales"
-
 #: lib/experiments-page.php:161
 msgid "Allow access to a quick edit panel in the pages data views."
 msgstr "Permite el acceso a un panel de edición rápida en las vistas de datos de las páginas."
@@ -261,6 +253,14 @@ msgstr "Permite el acceso a un panel de edición rápida en las vistas de datos 
 #: lib/experiments-page.php:156
 msgid "Quick Edit in DataViews"
 msgstr "Edición rápida en vistas de datos"
+
+#: lib/experiments-page.php:89
+msgid "Enable experimental blocks.<p class=\"description\">(Warning: these blocks may have significant changes during development that cause validation errors and display issues.)</p>"
+msgstr "Activa los bloques experimentales.<p class=\"description\">(Advertencia: estos bloques pueden sufrir cambios significativos durante el desarrollo que provoquen errores de validación y problemas de visualización)</p>."
+
+#: lib/experiments-page.php:84
+msgid "Experimental blocks"
+msgstr "Bloques experimentales"
 
 #. translators: 1: version string, 2: version string.
 #: lib/compat/wordpress-6.6/class-gutenberg-token-map-6-6.php:411
@@ -307,6 +307,16 @@ msgstr "La uri del directorio de hojas de estilo del tema."
 msgid "Block name must be a string or array."
 msgstr "El nombre del bloque debe ser una cadena o un array."
 
+#: build/widgets/blocks/widget-group/block.json
+msgctxt "block title"
+msgid "Widget Group"
+msgstr "Grupo de widgets"
+
+#: build/edit-widgets/blocks/widget-area/block.json
+msgctxt "block title"
+msgid "Widget Area"
+msgstr "Área de widgets"
+
 #: lib/experiments-page.php:137
 msgid "Enable full page client-side navigation using the Interactivity API"
 msgstr "Activar la navegación de página completa del lado del cliente utilizando la API de Interactividad"
@@ -314,6 +324,14 @@ msgstr "Activar la navegación de página completa del lado del cliente utilizan
 #: lib/experiments-page.php:132
 msgid "Enable full page client-side navigation"
 msgstr "Activar la navegación de página completa del lado del cliente"
+
+#: lib/experiments-page.php:65
+msgid "Test the custom dataviews in the pages page."
+msgstr "Prueba las vistas de datos personalizadas en la página de páginas."
+
+#: lib/experiments-page.php:60
+msgid "Custom dataviews"
+msgstr "Vistas de datos personalizadas"
 
 #: lib/compat/wordpress-6.6/rest-api.php:68
 msgid "An array of the class names for the post container element."
@@ -330,24 +348,6 @@ msgstr "Plantilla actualizada."
 #: lib/block-supports/elements.php:123
 msgid "Use as a `pre_render_block` filter is deprecated. Use with `render_block_data` instead."
 msgstr "El uso como filtro `pre_render_block` está obsoleto. Utilízalo con `render_block_data` en su lugar."
-
-#: build/widgets/blocks/widget-group/block.json
-msgctxt "block title"
-msgid "Widget Group"
-msgstr "Grupo de widgets"
-
-#: build/edit-widgets/blocks/widget-area/block.json
-msgctxt "block title"
-msgid "Widget Area"
-msgstr "Área de widgets"
-
-#: lib/experiments-page.php:65
-msgid "Test the custom dataviews in the pages page."
-msgstr "Prueba las vistas de datos personalizadas en la página de páginas."
-
-#: lib/experiments-page.php:60
-msgid "Custom dataviews"
-msgstr "Vistas de datos personalizadas"
 
 #. translators: 1: A URL to a post, 2: Hidden accessibility text: Post title
 #: build/block-library/blocks/latest-posts.php:161
@@ -385,23 +385,6 @@ msgstr "[representación de bloque detenida para el patrón «%s»]"
 #: lib/compat/wordpress-6.7/class-gutenberg-rest-templates-controller-6-7.php:198
 msgid "Unknown author"
 msgstr "Autor desconocido"
-
-#: lib/experimental/data-views.php:47
-msgid "Dataview type"
-msgstr "Tipo de vista de datos"
-
-#: lib/experimental/data-views.php:46
-msgid "Dataview types"
-msgstr "Tipos de vista de datos"
-
-#: lib/experimental/data-views.php:20
-msgid "Post which stores the different data views configurations"
-msgstr "Publicación que almacena las diferentes configuraciones de vistas de datos"
-
-#: lib/experimental/data-views.php:19
-msgctxt "post type general name"
-msgid "Dataviews"
-msgstr "Vistas de datos"
 
 #: build/block-library/blocks/form/block.json
 msgctxt "block description"
@@ -480,6 +463,23 @@ msgstr "Prueba nuevos bloques para permitir la creación de formularios (Adverte
 #: lib/experiments-page.php:96
 msgid "Form and input blocks"
 msgstr "Bloques de formulario y campos"
+
+#: lib/experimental/data-views.php:47
+msgid "Dataview type"
+msgstr "Tipo de vista de datos"
+
+#: lib/experimental/data-views.php:46
+msgid "Dataview types"
+msgstr "Tipos de vista de datos"
+
+#: lib/experimental/data-views.php:20
+msgid "Post which stores the different data views configurations"
+msgstr "Publicación que almacena las diferentes configuraciones de vistas de datos"
+
+#: lib/experimental/data-views.php:19
+msgctxt "post type general name"
+msgid "Dataviews"
+msgstr "Vistas de datos"
 
 #: build/block-library/blocks/form.php:113
 msgid "Form submission"
@@ -2495,6 +2495,14 @@ msgstr "Ajustes de experimentos"
 msgid "Experimental settings"
 msgstr "Ajustes experimentales"
 
+#: build/block-library/blocks/rss.php:29
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Ha ocurrido un error que, probablemente, implique que se ha caído el feed. Prueba de nuevo más tarde."
+
+#: build/block-library/blocks/rss.php:25
+msgid "RSS Error:"
+msgstr "Error de RSS:"
+
 #: build/block-library/blocks/search.php:27
 #: build/block-library/blocks/search.php:28
 #: build/block-library/blocks/search.php:52 build/block-editor/index.js:50326
@@ -2511,14 +2519,6 @@ msgstr "Ajustes experimentales"
 #: build/edit-site/index.js:37483 build/edit-site/index.js:39999
 msgid "Search"
 msgstr "Buscar"
-
-#: build/block-library/blocks/rss.php:29
-msgid "An error has occurred, which probably means the feed is down. Try again later."
-msgstr "Ha ocurrido un error que, probablemente, implique que se ha caído el feed. Prueba de nuevo más tarde."
-
-#: build/block-library/blocks/rss.php:25
-msgid "RSS Error:"
-msgstr "Error de RSS:"
 
 #. translators: If your word count is based on single characters (e.g. East
 #. Asian characters), enter 'characters_excluding_spaces' or
@@ -2860,19 +2860,6 @@ msgstr "Editar"
 msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/getting-started-with-code-contribution.md\">contributing</a> file for more information."
 msgstr "El modo de desarrollo de Gutenberg necesita la creación de los archivos. Ejecuta <code>npm install</code> para instalar las dependencias, <code>npm run build</code> para crear los archivos o <code>npm run dev</code> para crear los archivos y ver los cambios. Para más información, lee el archivo sobre cómo <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/getting-started-with-code-contribution.md\">colaborar</a>."
 
-#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:51
-msgid "Template names must not contain uppercase characters."
-msgstr "Los nombres de las plantillas no deben contener caracteres en mayúscula."
-
-#: lib/init.php:43 lib/init.php:44
-msgid "Documentation"
-msgstr "Documentación"
-
-#. translators: %s: Minimum required version
-#: gutenberg.php:32
-msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
-msgstr "Gutenberg requiere WordPress %s o posterior para funcionar adecuadamente. Por favor, actualiza WordPress antes de activar Gutenberg."
-
 #. Author of the plugin
 #: gutenberg.php
 msgid "Gutenberg Team"
@@ -2887,10 +2874,6 @@ msgstr "https://github.com/WordPress/gutenberg"
 #: gutenberg.php lib/init.php:17 lib/init.php:18
 msgid "Gutenberg"
 msgstr "Gutenberg"
-
-#: lib/init.php:27 lib/init.php:28
-msgid "Demo"
-msgstr "Demo"
 
 #. translators: %s: human-readable time difference.
 #: build/block-library/blocks/comment-date.php:33
@@ -2907,3 +2890,20 @@ msgstr "%s desde ahora"
 #: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:54
 msgid "Template names must contain a namespace prefix. Example: my-plugin//my-custom-template"
 msgstr "Los nombres de las plantillas deben contener un prefijo de espacio de nombre. Ejemplo: my-plugin//my-custom-template"
+
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:51
+msgid "Template names must not contain uppercase characters."
+msgstr "Los nombres de las plantillas no deben contener caracteres en mayúscula."
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:32
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Gutenberg requiere WordPress %s o posterior para funcionar adecuadamente. Por favor, actualiza WordPress antes de activar Gutenberg."
+
+#: lib/init.php:43 lib/init.php:44
+msgid "Documentation"
+msgstr "Documentación"
+
+#: lib/init.php:27 lib/init.php:28
+msgid "Demo"
+msgstr "Demo"

@@ -5,3 +5,18 @@ function oceanwp_child_enqueue_styles() {
 	wp_enqueue_style('child-style', get_stylesheet_uri(), array('parent-style'));
 }
 add_action('wp_enqueue_scripts', 'oceanwp_child_enqueue_styles');
+
+add_filter('woocommerce_catalog_orderby', 'custom_woocommerce_catalog_orderby');
+
+function custom_woocommerce_catalog_orderby($sortby) {
+	$sortby = array(
+		'popularity' => __('Ordenar por popularidad', 'woocommerce'),
+		'date'       => __('Ordenar por los más recientes', 'woocommerce'),
+		'date-desc'  => __('Ordenar por los más antiguos', 'woocommerce'),
+		'price'      => __('Ordenar por precio: bajo a alto', 'woocommerce'),
+		'price-desc' => __('Ordenar por precio: alto a bajo', 'woocommerce'),
+		'title_asc' => __('Ordenar alfabéticamente: A-Z', 'woocommerce'),
+	);
+
+	return $sortby;
+}

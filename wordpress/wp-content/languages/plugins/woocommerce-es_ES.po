@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-20 07:22:54+0000\n"
+"PO-Revision-Date: 2024-11-28 07:18:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -395,10 +395,6 @@ msgstr "Filtrar por marca"
 msgid "Brands be added and managed from this screen. You can optionally upload a brand image to display in brand widgets and on brand archives"
 msgstr "Las marcas se añaden y gestionan desde esta pantalla. Si quieres, puedes subir una imagen de marca para mostrarla en los widgets y en los archivos de marca"
 
-#: includes/admin/class-wc-admin-brands.php:219
-msgid "Choose to show the brand description on the archive page. Turn this off if you intend to use the description widget instead. Please note: this is only for themes that do not show the description."
-msgstr "Elige mostrar la descripción de la marca en la página del archivo. Error al crear el índice de FTS en la tabla de dirección del pedido. Nota: Esto es solo para temas que no muestran la descripción."
-
 #: includes/admin/class-wc-admin-brands.php:212
 msgid "Brands Archives"
 msgstr "Archivos de marcas"
@@ -410,6 +406,10 @@ msgstr "Para que el cupón sea válido, el producto no debe estar asociado a est
 #: includes/admin/class-wc-admin-brands.php:158
 msgid "No brands"
 msgstr "Ninguna marca"
+
+#: includes/admin/class-wc-admin-brands.php:219
+msgid "Choose to show the brand description on the archive page. Turn this off if you intend to use the description widget instead. Please note: this is only for themes that do not show the description."
+msgstr "Elige mostrar la descripción de la marca en la página del archivo. Desactívalo si deseas utilizar el widget de descripción. Nota: Esto es solo para temas que no muestran la descripción."
 
 #: includes/admin/class-wc-admin-brands.php:157
 msgid "Exclude brands"
