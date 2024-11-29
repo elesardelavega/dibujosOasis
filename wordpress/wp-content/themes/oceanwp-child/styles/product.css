@@ -128,4 +128,10 @@ a.tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt.tinvwl-position-after{
 
 a.tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt.tinvwl-position-after:before {
     font-size: 30px !important;
+    margin-left: -18px;
+}
+
+.single a.tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt.tinvwl-position-after:before {
+    font-size: 30px !important;
+    margin-left: -10px !important
 }

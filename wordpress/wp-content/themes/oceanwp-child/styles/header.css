@@ -49,3 +49,7 @@ span.wishlist_products_counter_number {
     border: none !important;
     outline: none !important;
 }
+
+#site-navigation-wrap .dropdown-menu >.current-menu-item >a, #site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a, #site-navigation-wrap .dropdown-menu >.current-menu-item >a:hover, #site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a:hover {
+    color: #bbad7e !important;
+}
