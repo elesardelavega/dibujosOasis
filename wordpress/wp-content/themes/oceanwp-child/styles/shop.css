@@ -59,3 +59,18 @@ ul.matching-items.filter-items {
     font-weight: 500;
     color: #000000;
 }
+
+article.single-page-article.clr {
+    padding-top: 30px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+div#content-wrap {
+    padding-top: 30px;
+}
+
+.wp-block-woocommerce-cart.alignwide {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
