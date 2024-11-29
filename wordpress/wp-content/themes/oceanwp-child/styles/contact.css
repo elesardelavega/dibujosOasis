@@ -22,3 +22,11 @@
     transform: translateY(0px) !important;
     color: #bbae7f !important;
 }
+
+.wp-block-uagb-container.container-blocks-maps {
+    max-height: 440px;
+}
+
+.wp-block-uagb-google-map.uagb-google-map__wrap.block-map embed {
+    max-height: 420px;
+}

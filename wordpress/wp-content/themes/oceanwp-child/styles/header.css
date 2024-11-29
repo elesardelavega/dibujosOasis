@@ -44,3 +44,8 @@ span.wishlist_products_counter_number {
 .toggle-cart-widget {
     padding-top: 2px;
 }
+
+#site-navigation-wrap .dropdown-menu >li >a, #site-logo #site-logo-inner a {
+    border: none !important;
+    outline: none !important;
+}

@@ -86,3 +86,46 @@ button.single_add_to_cart_button.button.alt {
 .single .entry-content {
     margin-top: 20px;
 }
+
+/* Cambiar el color del precio en productos marcados como "outofstock" */
+.woocommerce ul.products li.product.outofstock .woocommerce-Price-amount.amount {
+    color: #fe5252 !important;
+}
+
+.tinv-wishlist.tinvwl-after-add-to-cart .tinvwl_add_to_wishlist_button.no-txt:hover {
+    color: #57bf6d;
+}
+
+.woocommerce div.product {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.woocommerce div.product div.summary p.in-stock {
+    margin-bottom: 20px;
+    color: #57bf6d;
+    margin-top: 10px !important;
+}
+
+.woocommerce div.product p.stock {
+    margin-top: 10px !important;
+}
+
+.woocommerce div.product form.cart div.quantity {
+    display: none;
+}
+
+form.cart.customize-unpreviewable, form.cart {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 20px;
+}
+
+a.tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt.tinvwl-position-after{
+    margin-top: 9px !important;
+}
+
+a.tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt.tinvwl-position-after:before {
+    font-size: 30px !important;
+}

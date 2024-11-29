@@ -1,0 +1,13 @@
+
+.post-grid-gallery .uagb-post__text.uagb-post-grid-byline {
+    display: none;
+}
+
+.post-carousel-gallery.uagb-slick-carousel {
+    padding-top: 10px !important;
+    padding: 52px;
+}
+
+.spectra-image-gallery__layout--carousel ul.slick-dots {
+    top: -30px !important;
+}
