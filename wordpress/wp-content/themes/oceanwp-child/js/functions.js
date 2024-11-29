@@ -14,4 +14,20 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     }
+
+    // Verifica si el contenedor .woocommerce div.product existe
+    const productContainer = document.querySelector('.woocommerce div.product');
+
+    const titleDescription = document.querySelector('.summary.entry-summary');
+
+    if (productContainer) {
+        // Encuentra el bloque de pestañas de descripción e información adicional
+        const tabsWrapper = document.querySelector('.woocommerce-tabs.wc-tabs-wrapper');
+
+        if (tabsWrapper) {
+            // Mueve el bloque de pestañas dentro del contenedor del producto
+            titleDescription.appendChild(tabsWrapper);
+        }
+    }
+
 });

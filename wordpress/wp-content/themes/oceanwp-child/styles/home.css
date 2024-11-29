@@ -1,0 +1,33 @@
+.wp-block-group.fila-banner-home {
+    gap: 50px;
+}
+
+.wp-block-uagb-image.line-banner {
+    margin-top: -25px;
+}
+
+.head-banner-home h2.uagb-heading-text {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.frm_form_fields label.frm_primary_label {
+    font-weight: 500 !important;
+}
+
+.frm_style_estilo-de-formidable.with_frm_style .frm_submit button.frm_button_submit, .button-product a {
+    text-transform: capitalize;
+    font-size: 16px !important;
+    border: 1px solid #bbae7f !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    background: linear-gradient(to right, #bbae7f, #000000a1);
+    color: white;
+    opacity: 0.8;
+}
+
+.frm_style_estilo-de-formidable.with_frm_style .frm_submit button.frm_button_submit:hover, .button-product a:hover {
+    opacity: 1;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
+}

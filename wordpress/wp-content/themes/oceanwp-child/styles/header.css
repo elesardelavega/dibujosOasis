@@ -1,0 +1,46 @@
+#site-header {
+    position: fixed !important;
+}
+
+div#site-navigation-wrap {
+    height: 75px;
+    align-content: center;
+    right: 0;
+}
+
+a.menu-link>span:after {
+    display: none !important;
+}
+
+.effect-one #site-navigation-wrap .dropdown-menu>li>a.menu-link>span:hover {
+    color: #bbad7e !important;
+}
+
+#site-navigation-wrap .dropdown-menu >li >a:hover, .oceanwp-mobile-menu-icon a:hover, #searchform-header-replace-close:hover {
+    color: #bbad7e !important;
+}
+
+i.icon-magnifier:hover {
+    color: #bbad7e !important;
+}
+
+li.search-toggle-li {
+    padding-top: 1px;
+}
+
+#site-navigation-wrap .dropdown-menu >li >a, .oceanwp-mobile-menu-icon a, #searchform-header-replace-close {
+    color: #000000 !important;
+    position: relative;
+    font-family: Poppins !important;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400 !important;
+}
+
+span.wishlist_products_counter_number {
+    display: none;
+}
+
+.toggle-cart-widget {
+    padding-top: 2px;
+}

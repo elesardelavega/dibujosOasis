@@ -1,0 +1,66 @@
+#footer-widgets .footer-box {
+    padding: 0;
+}
+
+#footer-widgets {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.footer-box.span_1_of_3.col.col-1 {
+    width: 13%;
+    padding-left: 0 !important;
+}
+
+.footer-box.span_1_of_3.col.col-2 {
+    width: 60%;
+}
+
+.footer-box.span_1_of_3.col.col-2 ul#menu-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-box.span_1_of_3.col.col-2 ul#menu-footer li.menu-item {
+    border: none !important;
+}
+
+.footer-box.span_1_of_3.col.col-2 ul#menu-footer .menu-item a {
+    color: #000000;
+    font-size: 16px;
+}
+
+.footer-box.span_1_of_3.col.col-3 {
+    width: 25%;
+    padding-right: 0 !important;
+}
+
+.footer-box.span_1_of_3.col.col-3 ul.oceanwp-social-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.footer-box.span_1_of_3.col.col-3 ul li a {
+    border: none;
+}
+
+.footer-box.span_1_of_3.col.col-2, .footer-box.span_1_of_3.col.col-3 {
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-box #menu-footer.menu a {
+    font-family: Poppins;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+#footer-widgets .footer-box a:hover, #footer-widgets a:hover {
+    color: #bbad7e !important;
+}

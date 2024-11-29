@@ -1,0 +1,88 @@
+.woocommerce div.product div.summary, .woocommerce.content-full-width div.product div.summary .product_meta {
+    border-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.woocommerce .related.products {
+    margin-top: 30px !important;
+}
+
+.woocommerce div.product div.summary, .woocommerce.content-full-width div.product div.summary {
+    padding-top: 30px;
+}
+
+button.single_add_to_cart_button.button.alt:hover {
+    opacity: 1;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
+}
+
+button.single_add_to_cart_button.button.alt {
+    background: linear-gradient(135deg, rgb(187, 174, 127) 0%, rgb(0, 0, 0) 100%);
+    font-family: "Rubik";
+    font-weight: 600;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ffffff;
+    box-shadow: 0px 0px 0 #00000026;
+    opacity: 0.8;
+}
+
+.woocommerce div.product .woocommerce-tabs div#tab-description h2 {
+    display: none;
+}
+
+.woocommerce div.product .woocommerce-tabs div#tab-description p {
+    font-size: 18px;
+    justify-self: center;
+}
+
+.woocommerce div.product .woocommerce-tabs div#tab-additional_information h2 {
+    display: none;
+}
+
+.woocommerce table.shop_attributes, .woocommerce table.shop_attributes th, .woocommerce table.shop_attributes td {
+    border: none !important;
+    text-align: center !important;
+    font-size: 18px !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    color: #000000 !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+    color: #bbae7f !important;
+}
+
+.woocommerce div.product .woocommerce-tabs {
+    padding-top: 0 !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs.wc-tabs {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.woocommerce div.product form.cart+.product_meta {
+    border-bottom: 0;
+}
+
+.product_meta span.sku_wrapper, span.posted_in, span.tagged_as {
+    font-size: 17px;
+}
+
+.product_meta span.posted_in {
+    margin-top: 10px;
+}
+
+.product_meta span.tagged_as {
+    margin-top: 10px;
+}
+
+.single .entry-content {
+    margin-top: 20px;
+}
