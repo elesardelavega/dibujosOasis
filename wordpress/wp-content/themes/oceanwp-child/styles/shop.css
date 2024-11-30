@@ -74,3 +74,113 @@ div#content-wrap {
     margin-left: 20px !important;
     margin-right: 20px !important;
 }
+
+.wc-block-components-product-badge.wc-block-components-product-low-stock-badge {
+    border: none;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding-left: 0;
+}
+
+.editor-styles-wrapper table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name, table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name {
+    margin-bottom: 0 !important;
+}
+
+.wc-block-components-quantity-selector {
+    display: none !important;
+}
+
+.wc-block-components-quantity-selector input.wc-block-components-quantity-selector__input {
+    padding: 0 !important;
+}
+
+button.wc-block-cart-item__remove-link {
+    text-decoration: none !important;
+    font-size: 14px !important;
+}
+
+button.wc-block-cart-item__remove-link:hover {
+    color: #bbae7f !important;
+}
+
+.wc-block-components-product-metadata {
+    margin-bottom: 5px !important;
+}
+
+.wp-block-woocommerce-cart-cross-sells-block h2.wp-block-heading.has-large-font-size {
+    font-size: 24px !important;
+}
+
+button.wp-block-button__link.wp-element-button.add_to_cart_button.wc-block-components-product-button__button {
+    font-family: Poppins;
+    color: #000000;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-style: none;
+    padding: 5px 12px;
+    float: none;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0;
+    text-transform: none;
+}
+
+button.wp-block-button__link.wp-element-button.add_to_cart_button.wc-block-components-product-button__button:hover {
+    color: #bbae7f !important;
+}
+
+.wp-block-woocommerce-cart .wp-block-woocommerce-cart-cross-sells-block .cross-sells-product div .wc-block-components-product-image, .wp-block-woocommerce-cart .wp-block-woocommerce-cart-cross-sells-block .cross-sells-product div .wp-block-cart-cross-sells-product__product-title {
+    margin-bottom: 5px !important;
+}
+
+.wc-block-components-product-metadata__description p {
+    font-size: 14px !important;
+}
+
+.wc-block-components-panel__button {
+    font-size: 16px;
+}
+
+.wp-block-woocommerce-cart-order-summary-subtotal-block.wc-block-components-totals-wrapper {
+    font-size: 16px;
+}
+
+.wc-block-components-totals-item.wc-block-components-totals-footer-item {
+    font-size: 18px;
+}
+
+.wc-block-components-text-input.wc-block-components-totals-coupon__input label {
+    font-size: 14px;
+}
+
+input#wc-block-components-totals-coupon__input-0 {
+    font-size: 16px;
+}
+
+button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained {
+    padding: 0px;
+    background: linear-gradient(135deg, rgb(187, 174, 127) 0%, rgb(0, 0, 0) 100%);
+    font-family: "Rubik";
+    font-weight: 600;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ffffff;
+    box-shadow: 0px 0px 0 #00000026;
+    opacity: 0.8;
+}
+
+button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained:hover {
+    opacity: 1;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
+}
+
+button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained span.wc-block-components-button__text {
+    font-size: 14px;
+    text-transform: capitalize;
+}
