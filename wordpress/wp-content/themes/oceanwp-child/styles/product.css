@@ -11,7 +11,7 @@
     padding-top: 30px;
 }
 
-button.single_add_to_cart_button.button.alt:hover {
+button.single_add_to_cart_button.button.alt:hover, a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart:hover {
     opacity: 1;
     transform: translateY(-3px) !important;
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
@@ -50,11 +50,11 @@ button.single_add_to_cart_button.button.alt {
     font-size: 18px !important;
 }
 
-.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+.woocommerce div.product .woocommerce-tabs ul.tabs li a, .wc-block-grid__product .wc-block-grid__product-title {
     color: #000000 !important;
 }
 
-.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a, .wc-block-grid__product .wc-block-grid__product-title:hover {
     color: #bbae7f !important;
 }
 
@@ -111,7 +111,7 @@ button.single_add_to_cart_button.button.alt {
     margin-top: 10px !important;
 }
 
-.woocommerce div.product form.cart div.quantity {
+.woocommerce div.product form.cart div.quantity, .tinv-wraper.woocommerce.tinv-wishlist.tinvwl-after-add-to-cart.tinvwl-loop-button-wrapper.tinvwl-woocommerce_blocks_product_grid_item_html {
     display: none;
 }
 
@@ -128,10 +128,31 @@ a.tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt.tinvwl-position-after{
 
 a.tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt.tinvwl-position-after:before {
     font-size: 30px !important;
-    margin-left: -18px;
+    margin-left: -15px;
 }
 
 .single a.tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt.tinvwl-position-after:before {
     font-size: 30px !important;
-    margin-left: -10px !important
+    margin-left: -20px !important
+}
+
+a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
+    background: linear-gradient(135deg, rgb(187, 174, 127) 0%, rgb(0, 0, 0) 100%);
+    font-family: "Rubik";
+    font-weight: 600;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ffffff;
+    box-shadow: 0px 0px 0 #00000026;
+    opacity: 0.8;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-size: 13px;
+    width: 60%;
+}
+
+.wc-block-components-product-metadata {
+    display: none;
 }
