@@ -17,7 +17,7 @@ button.single_add_to_cart_button.button.alt:hover, a.wp-block-button__link.add_t
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
 }
 
-button.single_add_to_cart_button.button.alt {
+button.single_add_to_cart_button.button.alt, button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained {
     background: linear-gradient(135deg, rgb(187, 174, 127) 0%, rgb(0, 0, 0) 100%);
     font-family: "Rubik";
     font-weight: 600;
