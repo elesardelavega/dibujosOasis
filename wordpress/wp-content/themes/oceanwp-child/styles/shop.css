@@ -162,7 +162,7 @@ button.wc-block-components-button.wp-element-button.wc-block-components-totals-c
     text-transform: capitalize;
 }
 
-p.return-to-shop a.button.wc-backward, td.product-action button.button.alt, span.tinvwl-input-group-btn button.button, .tinvwl-to-right.look_in button.button, .tinv-wishlist .tinvwl-buttons-group button {
+p.return-to-shop a.button.wc-backward, td.product-action button.button.alt, span.tinvwl-input-group-btn button.button, .tinvwl-to-right.look_in button.button, .tinv-wishlist .tinvwl-buttons-group button, td.product-action a.button.product_type_simple {
     background: linear-gradient(135deg, rgb(187, 174, 127) 0%, rgb(0, 0, 0) 100%);
     font-family: "Rubik";
     font-weight: 600;
@@ -178,7 +178,7 @@ p.return-to-shop a.button.wc-backward, td.product-action button.button.alt, span
     font-size: 13px;
 }
 
-p.return-to-shop a.button.wc-backward:hover, td.product-action button.button.alt:hover, span.tinvwl-input-group-btn button.button:hover, .tinvwl-to-right.look_in button.button:hover, .tinv-wishlist .tinvwl-buttons-group button:hover {
+p.return-to-shop a.button.wc-backward:hover, td.product-action button.button.alt:hover, span.tinvwl-input-group-btn button.button:hover, .tinvwl-to-right.look_in button.button:hover, .tinv-wishlist .tinvwl-buttons-group button:hover, td.product-action a.button.product_type_simple:hover {
     opacity: 1;
     transform: translateY(-3px) !important;
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
