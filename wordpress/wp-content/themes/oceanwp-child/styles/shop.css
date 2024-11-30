@@ -183,3 +183,7 @@ p.return-to-shop a.button.wc-backward:hover, td.product-action button.button.alt
     transform: translateY(-3px) !important;
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
 }
+
+a.tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt.tinvwl-position-after.tinvwl-loop.inited-add-wishlist.tinvwl-product-in-list, a.tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt.tinvwl-position-after.tinvwl-loop.inited-add-wishlist.tinvwl-product-in-list:hover, a.tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt.tinvwl-position-after.tinvwl-loop, a.tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt.tinvwl-position-after.tinvwl-loop:hover {
+    outline: none !important;
+}
