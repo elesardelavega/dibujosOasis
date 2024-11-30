@@ -159,21 +159,6 @@ input#wc-block-components-totals-coupon__input-0 {
     font-size: 16px;
 }
 
-button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained {
-    padding: 0px;
-    background: linear-gradient(135deg, rgb(187, 174, 127) 0%, rgb(0, 0, 0) 100%);
-    font-family: "Rubik";
-    font-weight: 600;
-    font-size: 16px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    color: #ffffff;
-    box-shadow: 0px 0px 0 #00000026;
-    opacity: 0.8;
-}
-
 button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained:hover {
     opacity: 1;
     transform: translateY(-3px) !important;
