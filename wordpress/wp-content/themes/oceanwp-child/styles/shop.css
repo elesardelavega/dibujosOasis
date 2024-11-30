@@ -45,11 +45,13 @@ ul.matching-items.filter-items {
     color: #bbae7f !important;
 }
 
-.woocommerce ul.products li.product .woo-entry-inner li.image-wrap img.woo-entry-image-main {
+.woocommerce ul.products li.product .woo-entry-inner li.image-wrap {
     max-width: 215px;
     max-height: 294px;
     width: 100%;
     height: 294px;
+    display: flex;
+    align-items: center;
 }
 
 .filter-tax h4.filter-title {
