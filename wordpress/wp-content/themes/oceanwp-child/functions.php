@@ -31,4 +31,3 @@ function agregar_functions_js() {
 	);
 }
 add_action('wp_enqueue_scripts', 'agregar_functions_js');
-

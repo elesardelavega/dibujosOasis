@@ -122,3 +122,7 @@ table.tinvwl-table-manage-list td.product-name a:hover {
 p.cart-empty.woocommerce-info {
     border-color: #bbae7f;
 }
+
+.wp-block-uagb-icon-list-child.icons-contact a, .wp-block-uagb-icon-list-child.icons-contact a:hover, ul.oceanwp-social-icons.no-transition.style-dark a, ul.oceanwp-social-icons.no-transition.style-dark a:hover, a.uagb-buttons-repeater.wp-block-button__link, a.uagb-buttons-repeater.wp-block-button__link:hover {
+    outline: none !important;
+}
