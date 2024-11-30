@@ -82,3 +82,43 @@ a.button.checkout.wc-forward {
     color: #ffffff !important;
     font-size: 14px !important;
 }
+
+table.tinvwl-table-manage-list th {
+    font-size: 15px;
+    text-transform: capitalize !important;
+}
+
+table.tinvwl-table-manage-list th.product-price {
+    padding: 10px !important;
+}
+
+table.tinvwl-table-manage-list td.product-name a, table.tinvwl-table-manage-list td time.entry-date, .tinv-wishlist .product-stock span {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none !important;
+    color: #000000;
+}
+
+table.tinvwl-table-manage-list td.product-name a:hover {
+    color: #bbae7f;
+}
+
+.tinv-wishlist .product-action {
+    width: 200px !important;
+}
+
+.social-buttons span {
+    font-size: 16px;
+}
+
+.social-buttons i.ftinvwl {
+    color: #000000;
+}
+
+.social-buttons i.ftinvwl:hover, p.cart-empty.woocommerce-info:before {
+    color: #bbae7f;
+}
+
+p.cart-empty.woocommerce-info {
+    border-color: #bbae7f;
+}

@@ -139,11 +139,7 @@ button.wp-block-button__link.wp-element-button.add_to_cart_button.wc-block-compo
     font-size: 14px !important;
 }
 
-.wc-block-components-panel__button {
-    font-size: 16px;
-}
-
-.wp-block-woocommerce-cart-order-summary-subtotal-block.wc-block-components-totals-wrapper {
+.wc-block-components-panel__button, .wp-block-woocommerce-cart-order-summary-subtotal-block.wc-block-components-totals-wrapper, input#wc-block-components-totals-coupon__input-0 {
     font-size: 16px;
 }
 
@@ -155,10 +151,6 @@ button.wp-block-button__link.wp-element-button.add_to_cart_button.wc-block-compo
     font-size: 14px;
 }
 
-input#wc-block-components-totals-coupon__input-0 {
-    font-size: 16px;
-}
-
 button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained:hover {
     opacity: 1;
     transform: translateY(-3px) !important;
@@ -168,4 +160,26 @@ button.wc-block-components-button.wp-element-button.wc-block-components-totals-c
 button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained span.wc-block-components-button__text {
     font-size: 14px;
     text-transform: capitalize;
+}
+
+p.return-to-shop a.button.wc-backward, td.product-action button.button.alt, span.tinvwl-input-group-btn button.button, .tinvwl-to-right.look_in button.button, .tinv-wishlist .tinvwl-buttons-group button {
+    background: linear-gradient(135deg, rgb(187, 174, 127) 0%, rgb(0, 0, 0) 100%);
+    font-family: "Rubik";
+    font-weight: 600;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ffffff;
+    box-shadow: 0px 0px 0 #00000026;
+    opacity: 0.8;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+p.return-to-shop a.button.wc-backward:hover, td.product-action button.button.alt:hover, span.tinvwl-input-group-btn button.button:hover, .tinvwl-to-right.look_in button.button:hover, .tinv-wishlist .tinvwl-buttons-group button:hover {
+    opacity: 1;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
 }
