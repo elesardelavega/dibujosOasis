@@ -75,3 +75,8 @@ function hide_generic_product_from_shop($query) {
 	}
 }
 
+add_action('woocommerce_product_meta_end', 'add_custom_span_to_product_meta');
+
+function add_custom_span_to_product_meta() {
+	echo '<span class="custom-meta">Todos los pedidos incluyen un regalo.</span>';
+}

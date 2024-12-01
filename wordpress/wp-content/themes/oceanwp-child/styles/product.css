@@ -75,12 +75,14 @@ button.single_add_to_cart_button.button.alt, button.wc-block-components-button.w
     font-size: 17px;
 }
 
-.product_meta span.posted_in {
+.product_meta span {
     margin-top: 10px;
 }
 
-.product_meta span.tagged_as {
-    margin-top: 10px;
+.product_meta span.custom-meta {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
 }
 
 .single .entry-content {

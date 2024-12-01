@@ -126,3 +126,7 @@ p.cart-empty.woocommerce-info {
 .wp-block-uagb-icon-list-child.icons-contact a, .wp-block-uagb-icon-list-child.icons-contact a:hover, ul.oceanwp-social-icons.no-transition.style-dark a, ul.oceanwp-social-icons.no-transition.style-dark a:hover, a.uagb-buttons-repeater.wp-block-button__link, a.uagb-buttons-repeater.wp-block-button__link:hover {
     outline: none !important;
 }
+
+.woocommerce ul.product_list_widget .owp-grid-wrap {
+    margin: 10px !important;
+}
