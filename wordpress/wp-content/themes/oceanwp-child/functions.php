@@ -92,3 +92,7 @@ function enqueue_swiper_slider() {
 	wp_enqueue_script('custom-swiper-init', get_stylesheet_directory_uri() . '/js/custom-swiper.js', array('swiper-js'), null, true);
 }
 add_action('wp_enqueue_scripts', 'enqueue_swiper_slider');
+
+add_action( 'wp_enqueue_scripts', function() {
+	remove_theme_support( 'wc-product-gallery-zoom' );
+}, 99 );

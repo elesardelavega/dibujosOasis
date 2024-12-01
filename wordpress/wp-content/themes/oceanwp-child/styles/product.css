@@ -254,3 +254,13 @@ a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
 .swiper-slide img:hover {
     transform: scale(1.05); /* Aumentar ligeramente al hacer hover */
 }
+
+/* Eliminar zoom en la galería de imágenes del producto */
+.woocommerce-product-gallery__image img {
+    transform: none !important;
+    transition: none !important;
+}
+
+.woocommerce-product-gallery__image:hover img {
+    transform: none !important;
+}
