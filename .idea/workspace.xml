@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="add functions js">
-      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/js/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="update plugins, wordpress and languages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/home" />
+        <entry key="$PROJECT_DIR$" value="feature/updates" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,23 +56,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/macbook/Documents/proyectos/dibujosOasis",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbook/Documents/proyectos/dibujosOasis&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles" />
@@ -285,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732817576980</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update plugins, wordpress and languages">
+      <option name="closed" value="true" />
+      <created>1733048113411</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1733048113411</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +330,7 @@
     <MESSAGE value="fix styles for menu" />
     <MESSAGE value="update plugin and add order shop" />
     <MESSAGE value="add functions js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add functions js" />
+    <MESSAGE value="update plugins, wordpress and languages" />
+    <option name="LAST_COMMIT_MESSAGE" value="update plugins, wordpress and languages" />
   </component>
 </project>
