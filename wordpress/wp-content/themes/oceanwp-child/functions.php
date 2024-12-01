@@ -80,3 +80,15 @@ add_action('woocommerce_product_meta_end', 'add_custom_span_to_product_meta');
 function add_custom_span_to_product_meta() {
 	echo '<span class="custom-meta">Todos los pedidos incluyen un regalo.</span>';
 }
+
+function enqueue_swiper_slider() {
+	// Agregar los estilos de Swiper
+	wp_enqueue_style('swiper-css', 'https://unpkg.com/swiper/swiper-bundle.min.css', array(), null);
+
+	// Agregar el script de Swiper
+	wp_enqueue_script('swiper-js', 'https://unpkg.com/swiper/swiper-bundle.min.js', array('jquery'), null, true);
+
+	// Agregar el script personalizado para inicializar el slider
+	wp_enqueue_script('custom-swiper-init', get_stylesheet_directory_uri() . '/js/custom-swiper.js', array('swiper-js'), null, true);
+}
+add_action('wp_enqueue_scripts', 'enqueue_swiper_slider');

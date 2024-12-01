@@ -130,3 +130,27 @@ p.cart-empty.woocommerce-info {
 .woocommerce ul.product_list_widget .owp-grid-wrap {
     margin: 10px !important;
 }
+
+/* Imagen destacada */
+.featured-image {
+    width: 100%; /* Ajustar al ancho del contenedor */
+    max-width: 600px; /* Ancho máximo */
+    margin: 0 auto; /* Centrar */
+    text-align: center;
+}
+
+.featured-image img {
+    width: 100%; /* Ajustar al contenedor */
+    height: auto; /* Mantener proporciones */
+    border-radius: 5px; /* Opcional: Bordes redondeados */
+}
+
+/* Miniaturas del slider */
+.gallery-image {
+    cursor: pointer; /* Mostrar el cursor de "mano" para clics */
+    transition: transform 0.2s; /* Efecto de hover */
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); /* Aumentar tamaño ligeramente al pasar el ratón */
+}

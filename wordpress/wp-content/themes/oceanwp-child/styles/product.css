@@ -158,3 +158,99 @@ a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
 .wc-block-components-product-metadata {
     display: none;
 }
+
+.swiper-container {
+    max-width: 700px; /* Incrementa el ancho total para incluir las flechas */
+    margin: 10px auto; /* Centrar el slider */
+    padding: 0; /* Quita el padding innecesario */
+    position: relative; /* Necesario para posicionar las flechas */
+    overflow: hidden; /* Evita que el contenido sobresalga */
+    height: 177px;
+}
+
+/* Estilo para las diapositivas */
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Evita que las imágenes desborden */
+}
+
+/* Imágenes dentro de las diapositivas */
+.swiper-slide img {
+    width: 100%; /* Asegura que las imágenes ocupen el ancho de las diapositivas */
+    height: auto; /* Mantiene proporciones */
+    object-fit: cover; /* Recorta la imagen para ajustarla al tamaño del contenedor */
+    border-radius: 5px; /* Opcional: Bordes redondeados */
+}
+
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    color: #000000 !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    transform: translateY(-50%); /* Ajustar el centrado vertical */
+    z-index: 10; /* Asegura que estén por encima de otros elementos */
+    width: 30px; /* Tamaño de las flechas */
+    height: 30px;
+    color: #bbae7f !important; /* Color de las flechas */
+    bottom: 0 !important;
+    top: 100% !important;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    color: #000000 !important;
+}
+
+/* Ajustar las posiciones de las flechas */
+.swiper-button-prev {
+    left: 42% !important;
+}
+
+.swiper-button-next {
+    left: 55% !important;
+}
+
+
+/* Paginación centrada debajo del slider */
+.swiper-pagination {
+    position: relative;
+    bottom: 7px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    /*background: #000; !* Color de los puntos *!*/
+    opacity: 0.5;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: opacity 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1; /* Puntos activos más visibles */
+    background: #bbae7f !important;
+}
+
+/* Imagen destacada */
+.woocommerce-product-gallery__image img {
+    transition: all 0.3s ease-in-out; /* Transición suave al cambiar la imagen */
+}
+
+/* Miniaturas del slider */
+.swiper-slide img {
+    cursor: pointer; /* Mostrar el cursor de clic */
+    transition: transform 0.2s ease-in-out; /* Efecto al pasar el mouse */
+}
+
+.swiper-slide img:hover {
+    transform: scale(1.05); /* Aumentar ligeramente al hacer hover */
+}
