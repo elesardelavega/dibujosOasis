@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="fix buttons home" />
+    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="fix buttons home and hero">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -325,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733253014399</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="fix buttons home and hero">
+      <option name="closed" value="true" />
+      <created>1733253413428</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1733253413428</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +359,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="add theme ocean and child, and updates" />
     <MESSAGE value="add plugins,theme..." />
     <MESSAGE value="git ignore" />
     <MESSAGE value="fix style for banners and home" />
@@ -373,6 +383,7 @@
     <MESSAGE value="add slide gallery product single" />
     <MESSAGE value="fix text &quot;sin existencias&quot;" />
     <MESSAGE value="fix buttons home" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix buttons home" />
+    <MESSAGE value="fix buttons home and hero" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix buttons home and hero" />
   </component>
 </project>
