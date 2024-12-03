@@ -12,13 +12,14 @@
 }
 
 button.single_add_to_cart_button.button.alt:hover, a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart:hover {
+    background: #BBAE7F;
     opacity: 1;
     transform: translateY(-3px) !important;
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
 }
 
 button.single_add_to_cart_button.button.alt, button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained {
-    background: linear-gradient(135deg, rgb(187, 174, 127) 0%, rgb(0, 0, 0) 100%);
+    background: #e6decb;
     font-family: "Rubik";
     font-weight: 600;
     font-size: 16px;
@@ -27,8 +28,18 @@ button.single_add_to_cart_button.button.alt, button.wc-block-components-button.w
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     color: #ffffff;
-    box-shadow: 0px 0px 0 #00000026;
-    opacity: 0.8;
+    transition: all .3s ease;
+    border-width: 0px;
+    border-color: #000000;
+    border-style: solid;
+    box-shadow: 0 1px 1px #626262;
+}
+
+button.single_add_to_cart_button.button.alt, button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained:hover {
+    background: #BBAE7F;
+    opacity: 1;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
 }
 
 .woocommerce div.product .woocommerce-tabs div#tab-description h2 {
@@ -139,7 +150,7 @@ a.tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt.tinvwl-position-after:b
 }
 
 a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
-    background: linear-gradient(135deg, rgb(187, 174, 127) 0%, rgb(0, 0, 0) 100%);
+    background: #e6decb;
     font-family: "Rubik";
     font-weight: 600;
     border-top-left-radius: 5px;
@@ -147,10 +158,10 @@ a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     color: #ffffff;
-    box-shadow: 0px 0px 0 #00000026;
+    box-shadow: 0 1px 1px #626262;
     opacity: 0.8;
     text-decoration: none !important;
-    text-transform: capitalize;
+    text-transform: initial;
     font-size: 13px;
     width: 60%;
 }
@@ -274,4 +285,14 @@ div#tab-additional_information {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.wc-block-cart__submit-container{
+    display: flex;
+    justify-content: center;
+}
+
+a.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.contained {
+    transition: all .3s ease;
+    width: 46%;
 }
