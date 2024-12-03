@@ -157,3 +157,7 @@ p.cart-empty.woocommerce-info {
 .gallery-image:hover {
     transform: scale(1.05); /* Aumentar tamaño ligeramente al pasar el ratón */
 }
+
+.wc-block-cart-item__wrap .wc-block-cart-item__prices {
+    display: none;
+}

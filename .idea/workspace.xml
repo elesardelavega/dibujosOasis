@@ -4,8 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="fix buttons carrito modal">
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/functions.php" afterDir="false" />
+    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="delete product generic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-04418208c292b36bc4a3469b3ffc3d41.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-04418208c292b36bc4a3469b3ffc3d41.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-07d88e6a803e01276b9bfcc1203e862e.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-07d88e6a803e01276b9bfcc1203e862e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-07ef134978802e52988301e5564a124c.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-07ef134978802e52988301e5564a124c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-17d863d02d419d257cce84f2a9934b91.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-17d863d02d419d257cce84f2a9934b91.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-195c2ee33af3438dc681885037a9dd77.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-195c2ee33af3438dc681885037a9dd77.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-22103b0fceb70bf4f3ed789172c4cc4e.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-22103b0fceb70bf4f3ed789172c4cc4e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-2db29b02b406fc710377e5966a268a5b.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-2db29b02b406fc710377e5966a268a5b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-2ecc15db55b460a0c1c65371b1c7144e.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-2ecc15db55b460a0c1c65371b1c7144e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-562b384b5ba625d9c67b6a487da0fb82.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-562b384b5ba625d9c67b6a487da0fb82.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-57ca266aaa51c0865f9b606c3b122edf.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-57ca266aaa51c0865f9b606c3b122edf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-5a39926d0d16d0b7e0231768f706d685.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-5a39926d0d16d0b7e0231768f706d685.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-5b24ba153c5b34da32d79d6bf83c42fd.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-5b24ba153c5b34da32d79d6bf83c42fd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-5b6fdbd8b6d8e74e269a71b5e2a640ae.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-5b6fdbd8b6d8e74e269a71b5e2a640ae.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-664bd2d849a376fcdd35ecc175c8077e.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-664bd2d849a376fcdd35ecc175c8077e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-669341f094c411cfc73de2f3b74475cd.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-669341f094c411cfc73de2f3b74475cd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-6da18768062abe6e705a5ac7876b5642.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-6da18768062abe6e705a5ac7876b5642.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-84a7625187e218b518298469e531382d.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-84a7625187e218b518298469e531382d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-89337192c82f6ec91cfe1bb3aafe66b2.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-89337192c82f6ec91cfe1bb3aafe66b2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-b28e16a397b8722f99fae785b95a4478.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-b28e16a397b8722f99fae785b95a4478.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-ba39bebc48939c14ec581e7cf44bb27a.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-ba39bebc48939c14ec581e7cf44bb27a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-bd25c177bb43e960435d8bf33c14f6d3.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-bd25c177bb43e960435d8bf33c14f6d3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-c4c26f565695d6a88d0e7ab2e54949c3.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-c4c26f565695d6a88d0e7ab2e54949c3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-cc0ae1a9d2f54754d6de5eabbcb89f5b.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-cc0ae1a9d2f54754d6de5eabbcb89f5b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-d4accdff3b7b226dad1f5f72ccee5bae.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-d4accdff3b7b226dad1f5f72ccee5bae.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-d83116db7e3459d9c9a90cae3216278f.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-d83116db7e3459d9c9a90cae3216278f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-e5d3200f2f39097aa25c45c0f7243af8.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-e5d3200f2f39097aa25c45c0f7243af8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-e7b6005012912540099a002617fcee91.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-e7b6005012912540099a002617fcee91.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-f39744326030f4f787227808e504b523.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES-f39744326030f4f787227808e504b523.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES.l10n.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES.l10n.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES.po" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/plugins/gutenberg-es_ES.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/shop.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +159,7 @@
       <workItem from="1733142214482" duration="3069000" />
       <workItem from="1733209535842" duration="103000" />
       <workItem from="1733232649239" duration="2828000" />
+      <workItem from="1733256896042" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -343,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733253855926</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="delete product generic">
+      <option name="closed" value="true" />
+      <created>1733254739483</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1733254739483</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +408,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="git ignore" />
     <MESSAGE value="fix style for banners and home" />
     <MESSAGE value="updates themes and languages" />
     <MESSAGE value="updates plugins" />
@@ -391,6 +432,7 @@
     <MESSAGE value="fix buttons home" />
     <MESSAGE value="fix buttons home and hero" />
     <MESSAGE value="fix buttons carrito modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix buttons carrito modal" />
+    <MESSAGE value="delete product generic" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete product generic" />
   </component>
 </project>
