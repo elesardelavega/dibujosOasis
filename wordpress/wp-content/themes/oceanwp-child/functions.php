@@ -75,10 +75,10 @@ function hide_generic_product_from_shop($query) {
 	}
 }
 
-add_action('woocommerce_product_meta_end', 'add_custom_span_to_product_meta');
+add_action('woocommerce_product_additional_information', 'add_line_below_additional_info_table', 20);
 
-function add_custom_span_to_product_meta() {
-	echo '<span class="custom-meta">Todos los pedidos incluyen un regalo.</span>';
+function add_line_below_additional_info_table() {
+	echo '<p class="custom-additional-info">Todos los pedidos incluyen un obsequio.</p>';
 }
 
 function enqueue_swiper_slider() {

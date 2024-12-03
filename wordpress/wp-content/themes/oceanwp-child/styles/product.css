@@ -264,3 +264,14 @@ a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
 .woocommerce-product-gallery__image:hover img {
     transform: none !important;
 }
+
+.woocommerce-product-attributes.shop_attributes {
+    margin-bottom: 15px;
+}
+
+div#tab-additional_information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

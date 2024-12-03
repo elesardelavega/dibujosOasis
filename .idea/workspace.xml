@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="delete zoom image single product">
+    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="fix text &quot;sin existencias&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +126,7 @@
       <workItem from="1732912574153" duration="8422000" />
       <workItem from="1733142214482" duration="3069000" />
       <workItem from="1733209535842" duration="103000" />
-      <workItem from="1733232649239" duration="758000" />
+      <workItem from="1733232649239" duration="2828000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -311,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733063661201</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="fix text &quot;sin existencias&quot;">
+      <option name="closed" value="true" />
+      <created>1733233530769</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1733233530769</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +367,7 @@
     <MESSAGE value="update plugins, wordpress and languages" />
     <MESSAGE value="updates" />
     <MESSAGE value="add slide gallery product single" />
-    <option name="LAST_COMMIT_MESSAGE" value="add slide gallery product single" />
+    <MESSAGE value="fix text &quot;sin existencias&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix text &quot;sin existencias&quot;" />
   </component>
 </project>
