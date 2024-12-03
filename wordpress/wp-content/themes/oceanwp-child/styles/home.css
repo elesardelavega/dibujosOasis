@@ -15,18 +15,38 @@
     font-weight: 500 !important;
 }
 
-.frm_style_estilo-de-formidable.with_frm_style .frm_submit button.frm_button_submit, .button-product a {
+a.uagb-buttons-repeater.wp-block-button__link {
+    transition: all .3s ease;
+    line-height: normal;
+    text-align: center;
+    border-width: 0px !important;
+    border-color: #000000 !important;
+    border-style: solid !important;
+    cursor: pointer;
+    border-radius: 8px !important;
+    text-shadow: none;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px #626262 !important;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    vertical-align: middle;
+}
+
+a.uagb-buttons-repeater.wp-block-button__link:hover {
+    opacity: 1;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
+}
+
+.frm_style_estilo-de-formidable.with_frm_style .frm_submit button.frm_button_submit {
+    background: #e6decb;
+    transition: all .3s ease;
     text-transform: capitalize;
-    font-size: 16px !important;
-    border: 1px solid #bbae7f !important;
-    cursor: pointer !important;
-    transition: all 0.3s ease !important;
-    background: linear-gradient(to right, #bbae7f, #000000a1);
-    color: white;
-    opacity: 0.8;
 }
 
 .frm_style_estilo-de-formidable.with_frm_style .frm_submit button.frm_button_submit:hover, .button-product a:hover {
+    background: #BBAE7F;
     opacity: 1;
     transform: translateY(-3px) !important;
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
