@@ -32,49 +32,6 @@ function agregar_functions_js() {
 }
 add_action('wp_enqueue_scripts', 'agregar_functions_js');
 
-add_action('woocommerce_before_calculate_totals', 'add_generic_product_to_cart');
-
-function add_generic_product_to_cart($cart) {
-	if (is_admin() || did_action('woocommerce_before_calculate_totals') >= 2) {
-		return;
-	}
-
-	$generic_product_id = 899;
-
-	$has_generic_product = false;
-	$cart_has_other_products = false;
-
-	foreach ($cart->get_cart() as $cart_item) {
-		if ($cart_item['product_id'] == $generic_product_id) {
-			$has_generic_product = true;
-		} else {
-			$cart_has_other_products = true;
-		}
-	}
-
-	if ($cart_has_other_products && !$has_generic_product) {
-		$cart->add_to_cart($generic_product_id);
-	}
-
-	// Elimina el producto genérico si no hay otros productos
-	if (!$cart_has_other_products && $has_generic_product) {
-		foreach ($cart->get_cart() as $cart_item_key => $cart_item) {
-			if ($cart_item['product_id'] == $generic_product_id) {
-				$cart->remove_cart_item($cart_item_key);
-			}
-		}
-	}
-}
-
-add_action('pre_get_posts', 'hide_generic_product_from_shop');
-
-function hide_generic_product_from_shop($query) {
-	if (!is_admin() && $query->is_main_query() && (is_shop() || is_product_category() || is_product_tag())) {
-		$generic_product_id = 899; // Cambia 123 por el ID del producto genérico
-		$query->set('post__not_in', array($generic_product_id));
-	}
-}
-
 add_action('woocommerce_product_additional_information', 'add_line_below_additional_info_table', 20);
 
 function add_line_below_additional_info_table() {
