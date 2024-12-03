@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="add coupons and display none cart sells">
+    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="fix buttons carrito and slides">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/shop.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +128,7 @@
       <workItem from="1733209535842" duration="103000" />
       <workItem from="1733232649239" duration="2828000" />
       <workItem from="1733256896042" duration="22000" />
-      <workItem from="1733256949125" duration="915000" />
+      <workItem from="1733256949125" duration="1841000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -370,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733257257026</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fix buttons carrito and slides">
+      <option name="closed" value="true" />
+      <created>1733258144191</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1733258144191</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +401,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="updates themes and languages" />
     <MESSAGE value="updates plugins" />
     <MESSAGE value="update themes and wordpress" />
     <MESSAGE value="plugins and new form" />
@@ -418,6 +425,7 @@
     <MESSAGE value="fix buttons carrito modal" />
     <MESSAGE value="delete product generic" />
     <MESSAGE value="add coupons and display none cart sells" />
-    <option name="LAST_COMMIT_MESSAGE" value="add coupons and display none cart sells" />
+    <MESSAGE value="fix buttons carrito and slides" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix buttons carrito and slides" />
   </component>
 </project>
