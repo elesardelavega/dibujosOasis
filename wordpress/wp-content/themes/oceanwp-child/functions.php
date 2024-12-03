@@ -96,3 +96,12 @@ add_action('wp_enqueue_scripts', 'enqueue_swiper_slider');
 add_action( 'wp_enqueue_scripts', function() {
 	remove_theme_support( 'wc-product-gallery-zoom' );
 }, 99 );
+
+add_filter('woocommerce_get_availability_text', 'custom_out_of_stock_text', 10, 2);
+
+function custom_out_of_stock_text($text, $product) {
+	if (!$product->is_in_stock()) {
+		$text = 'No disponible';
+	}
+	return $text;
+}
