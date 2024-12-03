@@ -15,7 +15,7 @@
     font-weight: 500 !important;
 }
 
-a.uagb-buttons-repeater.wp-block-button__link {
+.wp-block-uagb-buttons-child.button-product a.uagb-buttons-repeater.wp-block-button__link {
     transition: all .3s ease;
     line-height: normal;
     text-align: center;
@@ -33,7 +33,7 @@ a.uagb-buttons-repeater.wp-block-button__link {
     vertical-align: middle;
 }
 
-a.uagb-buttons-repeater.wp-block-button__link:hover {
+.wp-block-uagb-buttons-child.button-product a.uagb-buttons-repeater.wp-block-button__link:hover {
     opacity: 1;
     transform: translateY(-3px) !important;
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
