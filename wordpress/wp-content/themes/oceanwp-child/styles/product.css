@@ -16,13 +16,18 @@ button.single_add_to_cart_button.button.alt:hover, a.wp-block-button__link.add_t
     opacity: 1;
     transform: translateY(-3px) !important;
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
+    text-transform: initial !important;
 }
 
 button.single_add_to_cart_button.button.alt, button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained {
-    background: #e6decb;
-    font-family: "Rubik";
+    background: #e6decb !important;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
+    font-family: Rubik;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1px;
     font-weight: 600;
-    font-size: 16px;
+    text-transform: initial !important;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -32,7 +37,7 @@ button.single_add_to_cart_button.button.alt, button.wc-block-components-button.w
     border-width: 0px;
     border-color: #000000;
     border-style: solid;
-    box-shadow: 0 1px 1px #626262;
+    padding: 12px 20px;
 }
 
 button.single_add_to_cart_button.button.alt, button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained:hover {
@@ -295,4 +300,34 @@ div#tab-additional_information {
 a.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.contained {
     transition: all .3s ease;
     width: 46%;
+}
+
+a.tinvwl_add_to_wishlist_button.tinvwl-position-after.tinvwl-product-in-list.tinvwl-product-make-remove {
+    background: #e6decb;
+    opacity: 1;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
+    font-family: Rubik;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: initial;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ffffff;
+    transition: all .3s ease;
+    border-width: 0px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 12px 20px;
+}
+
+a.tinvwl_add_to_wishlist_button.tinvwl-position-after.tinvwl-product-in-list.tinvwl-product-make-remove:hover {
+    background: #BBAE7F;
+    opacity: 1;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
 }

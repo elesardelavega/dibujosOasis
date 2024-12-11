@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="fix buttons shop">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/footer.css" afterDir="false" />
+    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="styles product home">
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/js/custom-swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/js/custom-swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/product.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +135,7 @@
       <workItem from="1733380261777" duration="491000" />
       <workItem from="1733423888544" duration="1274000" />
       <workItem from="1733813020463" duration="302000" />
+      <workItem from="1733839214216" duration="5998000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -391,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733259412364</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="styles product home">
+      <option name="closed" value="true" />
+      <created>1733844986891</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1733844986891</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +424,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="update themes and wordpress" />
     <MESSAGE value="plugins and new form" />
     <MESSAGE value="fix footer padding" />
     <MESSAGE value="styles button" />
@@ -439,6 +448,7 @@
     <MESSAGE value="add coupons and display none cart sells" />
     <MESSAGE value="fix buttons carrito and slides" />
     <MESSAGE value="fix buttons shop" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix buttons shop" />
+    <MESSAGE value="styles product home" />
+    <option name="LAST_COMMIT_MESSAGE" value="styles product home" />
   </component>
 </project>

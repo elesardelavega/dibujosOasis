@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var swiper = new Swiper('.swiper-container', {
         loop: false,
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: false,
+            prevEl: false,
         },
         pagination: {
             el: '.swiper-pagination',
@@ -31,4 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
             featuredImage.dataset.large_image = this.src;
         });
     });
+});
+
+document.querySelectorAll('.swiper-button-next, .swiper-button-prev').forEach(function (button) {
+    button.remove();
 });

@@ -135,7 +135,7 @@
 
 .wp-block-uagb-container.product-home.uagb-layout-flex.uagb-is-root-container .woocommerce div.product form.cart button:hover {
     opacity: 1;
-    transform: translateY(-3px) !important;
+    transform: translateY(-8px) !important;
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
     background: #bbae7f;
 }
