@@ -124,8 +124,8 @@ button.single_add_to_cart_button.button.alt:hover, button.wc-block-components-bu
 }
 
 .woocommerce div.product div.summary p.in-stock {
-    margin-bottom: 20px;
-    color: #57bf6d;
+    margin-bottom: 20px !important;
+    color: #57bf6d !important;
     margin-top: 10px !important;
 }
 
@@ -334,4 +334,8 @@ a.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.cont
     opacity: 1;
     transform: translateY(-3px) !important;
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
+}
+
+.owp-floating-bar .container {
+    height: 75px;
 }

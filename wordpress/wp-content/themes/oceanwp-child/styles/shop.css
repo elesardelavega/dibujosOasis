@@ -156,7 +156,7 @@ p.return-to-shop a.button.wc-backward, td.product-action button.button.alt, span
     text-shadow: none;
     box-sizing: border-box;
     box-shadow: 0 1px 1px #626262 !important;
-    margin: 10px;
+    margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
     vertical-align: middle;
@@ -168,7 +168,6 @@ p.return-to-shop a.button.wc-backward, td.product-action button.button.alt, span
 p.return-to-shop a.button.wc-backward:hover, td.product-action button.button.alt:hover, span.tinvwl-input-group-btn button.button:hover, .tinvwl-to-right.look_in button.button:hover, .tinv-wishlist .tinvwl-buttons-group button:hover, td.product-action a.button.product_type_simple:hover, button.floating_add_to_cart_button.button.alt:hover {
     background: #BBAE7F;
     opacity: 1;
-    transform: translateY(-3px) !important;
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
 }
 
