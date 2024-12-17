@@ -575,8 +575,8 @@ class API_Coupon_Templates extends Base_Model implements Model_Interface {
                     case 'product_categories':
                     case 'coupons':
                     case 'customers':
-                        $value              = array_column( $f['value'], 'value' );
-                        $f['display_value'] = $f['value'];
+                        $value              = array_column( (array) $f['value'], 'value' );
+                        $f['display_value'] = (array) $f['value'];
                         $type               = 'arrayint';
                         break;
 

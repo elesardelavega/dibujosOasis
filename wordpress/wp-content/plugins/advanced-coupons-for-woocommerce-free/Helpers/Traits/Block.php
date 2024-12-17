@@ -23,6 +23,12 @@ trait Block {
     public function is_current_page_using_cart_checkout_block() {
         global $post;
 
+        // Allow developers to hijack the returning value.
+        $value_from_filter = apply_filters( 'acfw_filter_is_current_page_using_cart_checkout_block', null, $post );
+        if ( null !== $value_from_filter && is_bool( $value_from_filter ) ) {
+            return $value_from_filter;
+        }
+
         // Bail early if post is not set.
         if ( ! $post instanceof \WP_Post ) {
             return false;

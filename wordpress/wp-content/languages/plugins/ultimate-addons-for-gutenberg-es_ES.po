@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Spectra &#8211; WordPress Gutenberg Blocks - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-29 12:31:39+0000\n"
+"PO-Revision-Date: 2024-12-12 22:09:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -44,15 +44,15 @@ msgstr "Necesitas enviar un ID de foto"
 msgid "normal"
 msgstr "normal"
 
-#: classes/class-uagb-admin.php:472 admin-core/assets/build/dashboard-app.js:1
+#: classes/class-uagb-admin.php:439 admin-core/assets/build/dashboard-app.js:1
 msgid "Upgrade Now"
 msgstr "Actualizar ahora"
 
-#: classes/class-uagb-admin.php:470
+#: classes/class-uagb-admin.php:437
 msgid "Maximize your popup potential with Spectra Pro. Unlock enhanced features, intuitive design options, and increased conversions!"
 msgstr "Maximiza tu potencial de ventanas emergentes con Spectra Pro. Desbloquea funciones mejoradas, opciones de diseño intuitivas y ¡aumenta las conversiones!"
 
-#: classes/class-uagb-admin.php:469
+#: classes/class-uagb-admin.php:436
 msgid "Want to do more with Popup Builder?"
 msgstr "¿Quieres hacer más cosas con Popup Builder?"
 
@@ -93,15 +93,15 @@ msgctxt "block title"
 msgid "Spectra AI"
 msgstr "Spectra IA"
 
-#: lib/zip-ai/classes/sidebar-configurations.php:265
+#: lib/zip-ai/classes/sidebar-configurations.php:270
 msgid "You have no credits left."
 msgstr "No te quedan créditos."
 
-#: lib/zip-ai/classes/sidebar-configurations.php:264
+#: lib/zip-ai/classes/sidebar-configurations.php:269
 msgid "Invalid auth token."
 msgstr "Token de identificación no válido."
 
-#: lib/zip-ai/classes/sidebar-configurations.php:185
+#: lib/zip-ai/classes/sidebar-configurations.php:187
 msgid "The message array was not supplied"
 msgstr "No se ha proporcionado el array de mensajes"
 
@@ -162,7 +162,7 @@ msgstr "No tienes permisos para realizar esta acción."
 #: lib/gutenberg-templates/inc/importer/plugin.php:269
 #: lib/gutenberg-templates/inc/importer/plugin.php:273
 #: lib/gutenberg-templates/inc/importer/plugin.php:436
-#: lib/zip-ai/classes/sidebar-configurations.php:250
+#: lib/zip-ai/classes/sidebar-configurations.php:255
 msgid "Something went wrong"
 msgstr "Algo salió mal"
 
@@ -217,6 +217,8 @@ msgstr "Acción fallida"
 #: lib/gutenberg-templates/inc/api/sites.php:93
 #: lib/gutenberg-templates/inc/classes/ast-block-templates-zipwp-api.php:138
 #: lib/gutenberg-templates/inc/classes/ast-block-templates-zipwp-api.php:197
+#: lib/nps-survey/classes/nps-survey-script.php:270
+#: lib/nps-survey/classes/nps-survey-script.php:351
 #: lib/zipwp-images/classes/zipwp-images-api.php:169
 msgid "Nonce verification failed."
 msgstr "Falló la verificación del nonce."
@@ -235,6 +237,7 @@ msgstr "Falló la verificación del nonce."
 #: lib/gutenberg-templates/inc/api/settings.php:92
 #: lib/gutenberg-templates/inc/api/sites.php:70
 #: lib/gutenberg-templates/inc/classes/ast-block-templates-zipwp-api.php:77
+#: lib/nps-survey/classes/nps-survey-script.php:249
 #: lib/zipwp-images/classes/zipwp-images-api.php:92
 msgid "Sorry, you are not allowed to do that."
 msgstr "Lo siento, no tienes permisos para hacer eso."
@@ -319,12 +322,12 @@ msgstr "Extension de animaciones"
 msgid "Heads up!"
 msgstr "¡Atención!"
 
-#: classes/class-uagb-init-blocks.php:963
+#: classes/class-uagb-init-blocks.php:966
 msgid "Invalid request"
 msgstr "Petición no válida"
 
 #: classes/class-uagb-init-blocks.php:378
-#: classes/class-uagb-init-blocks.php:522
+#: classes/class-uagb-init-blocks.php:525
 msgid "User is not authenticated!"
 msgstr "¡El usuario no está identificado!"
 
@@ -395,59 +398,51 @@ msgstr "Ocurrió algún error al borrar la fuente."
 msgid "400"
 msgstr "400"
 
-#: classes/class-uagb-admin.php:405
+#: classes/class-uagb-admin.php:372
 msgid "View Log"
 msgstr "Ver registro"
 
-#: classes/class-uagb-admin.php:405
+#: classes/class-uagb-admin.php:372
 msgid "Your Spectra database is now up-to-date. Your website will continue to function as before."
 msgstr "Tu base de datos de Spectra ahora está actualizada. Tu web seguirá funcionando como antes."
 
-#: classes/class-uagb-admin.php:404
+#: classes/class-uagb-admin.php:371
 msgid "Update Successful!"
 msgstr "¡Actualización correcta!"
 
-#: classes/class-uagb-admin.php:379
+#: classes/class-uagb-admin.php:346
 msgid "Great! This should only take a few minutes. Thanks for hanging in there."
 msgstr "¡Genial» Esto solo debería tardar unos pocos minutos. Gracias por seguir ahí."
 
-#: classes/class-uagb-admin.php:378
+#: classes/class-uagb-admin.php:345
 msgid "Spectra database update in progress"
 msgstr "Actualización de la base de datos de Spectra en curso"
 
-#: classes/class-uagb-admin.php:353
+#: classes/class-uagb-admin.php:320
 msgid "Learn More About This"
 msgstr "Aprende más sobre esto"
 
-#: classes/class-uagb-admin.php:351
+#: classes/class-uagb-admin.php:318
 msgid "Update Spectra Database"
 msgstr "Actualizar base de datos de Spectra"
 
-#: classes/class-uagb-admin.php:350
+#: classes/class-uagb-admin.php:317
 msgid "To be on the safer side, please be sure to back up your site before updating."
 msgstr "Para mantenerte a salvo, por favor, asegúrate de hacer una copia de seguridad de tu sitio antes de actualizar."
 
-#: classes/class-uagb-admin.php:349
+#: classes/class-uagb-admin.php:316
 msgid "We've detected that some of your pages were created with an older version of Spectra. To ensure your designs remain unaffected, we recommend updating the Spectra database now. Updating the Spectra database will not impact any other parts of your website."
 msgstr "Hemos detectado que algunas de tus páginas se crearon con una versión antigua de Spectra. Para que tus diseños no se vean afectados, te recomendamos que actualices ahora la base de datos de Spectra. La actualización de la base de datos de Spectra no afectará a ninguna otra parte de tu sitio web."
 
-#: classes/class-uagb-admin.php:348
+#: classes/class-uagb-admin.php:315
 msgid "Spectra database update required"
 msgstr "Es necesario actualizar la base de datos de Spectra"
 
-#: classes/class-uagb-admin.php:306
-msgid "We're a small independent team passionate about creating plugins like this one. It would mean the world to us if you could spend just a minute to leave a 5-star review on WordPress' official website. Your support really helps us a lot!"
-msgstr "Somos un pequeño equipo independiente apasionado por crear plugins como éste. Significaría mucho para nosotros si dedicaras sólo un minuto a dejar una reseña de 5 estrellas en el sitio web oficial de WordPress. ¡Tu apoyo nos ayuda mucho!"
-
-#: classes/class-uagb-admin.php:305
-msgid "Wow! Spectra has helped you build over 5 pages!!"
-msgstr "¡Guau! ¡¡Spectra te ha ayudado a construir más de 5 páginas!!"
-
-#: classes/class-uagb-admin.php:129
+#: classes/class-uagb-admin.php:141
 msgid "Log file not found."
 msgstr "Archivo de registro no encontrado."
 
-#: classes/class-uagb-admin.php:96
+#: classes/class-uagb-admin.php:108
 msgid "Migration started successfully."
 msgstr "La migración se ha iniciado correctamente."
 
@@ -5853,7 +5848,7 @@ msgid "Copyright"
 msgstr "Derechos de autor"
 
 #: blocks-config/uagb-controls/spectra-icons-v6-0.php:5045
-#: lib/zip-ai/sidebar/build/sidebar-app.js:1
+#: lib/zip-ai/sidebar/build/sidebar-app.js:3
 msgid "Copy"
 msgstr "Copiar"
 
@@ -7649,7 +7644,7 @@ msgstr "Contador"
 msgid "Add Your Title Here…"
 msgstr "Añade aquí tu título…"
 
-#: classes/class-uagb-init-blocks.php:812
+#: classes/class-uagb-init-blocks.php:815
 msgid ""
 "Use custom class added in block's advanced settings to target your desired block. Examples:\n"
 "\t\t.my-class {text-align: center;} // my-class is a custom selector"
@@ -8056,7 +8051,7 @@ msgid "Spectra <p>Rollback to Previous Version</p>"
 msgstr "Spectra <p>Retroceso a versión anterior</p>"
 
 #. translators: %s: html tags
-#: classes/class-uagb-loader.php:384
+#: classes/class-uagb-loader.php:386
 msgid "The %1$sSpectra%2$s plugin requires %1$sGutenberg%2$s plugin installed & activated."
 msgstr "El plugin %1$sSpectra%2$s requiere que el plugin %1$sGutenberg%2$s esté instalado y activo."
 
@@ -8075,12 +8070,12 @@ msgstr "Lo siento, no puedes listar recursos."
 
 #: admin-core/ajax/common-settings.php:164
 #: admin-core/ajax/common-settings.php:754
-#: classes/class-uagb-init-blocks.php:539
+#: classes/class-uagb-init-blocks.php:542
 msgid "Successfully saved data!"
 msgstr "¡Datos guardados correctamente!"
 
 #: admin-core/ajax/common-settings.php:180
-#: classes/class-uagb-init-blocks.php:1071
+#: classes/class-uagb-init-blocks.php:1074
 msgid "No post data found!"
 msgstr "¡No se han encontrado datos de la entrada!"
 
@@ -8101,7 +8096,7 @@ msgstr "Lo siento, no tienes permisos para realizar esta operación."
 #: admin-core/inc/admin-menu.php:148 admin-core/inc/admin-menu.php:159
 #: admin-core/inc/admin-menu.php:169 admin-core/inc/admin-menu.php:183
 #: admin-core/inc/admin-menu.php:194 admin-core/inc/admin-menu.php:273
-#: classes/class-uagb-init-blocks.php:576
+#: classes/class-uagb-init-blocks.php:579 classes/class-uagb-nps-notice.php:176
 msgid "Spectra"
 msgstr "Spectra"
 
@@ -8166,7 +8161,7 @@ msgstr "Selector de fecha"
 msgid "Toggle"
 msgstr "Conmutador"
 
-#: blocks-config/taxonomy-list/class-uagb-taxonomy-list.php:708
+#: blocks-config/taxonomy-list/class-uagb-taxonomy-list.php:716
 #: includes/blocks/forms-select/block.php:15
 msgid "Select"
 msgstr "Seleccionar"
@@ -8216,7 +8211,7 @@ msgstr "Envío del formulario"
 msgid "The form has been submitted Successfully!"
 msgstr "¡El mensaje ha sido enviado correctamente!"
 
-#: includes/blocks/forms/attributes.php:35
+#: includes/blocks/forms/attributes.php:35 lib/nps-survey/dist/main.js:1
 msgid "Submit"
 msgstr "Enviar"
 
@@ -8252,17 +8247,17 @@ msgstr "Título de la entrada"
 msgid "Content Timeline Child"
 msgstr "Cronología de contenidos hija"
 
-#: classes/class-uagb-admin.php:196
+#: classes/class-uagb-admin.php:208
 msgid "Error occurred, The version selected is invalid. Try selecting different version."
 msgstr "Ha ocurrido un error. La versión seleccionada no es válida. Prueba a seleccionar una versión diferente."
 
-#: classes/class-uagb-admin.php:183 classes/class-uagb-admin.php:214
+#: classes/class-uagb-admin.php:195 classes/class-uagb-admin.php:226
 #: admin-core/assets/build/dashboard-app.js:1
 #: admin-core/assets/build/dashboard-app.js:3
 msgid "Rollback to Previous Version"
 msgstr "Volver a una versión anterior"
 
-#: classes/class-uagb-admin.php:112 classes/class-uagb-admin.php:182
+#: classes/class-uagb-admin.php:124 classes/class-uagb-admin.php:194
 msgid "You do not have permission to access this page."
 msgstr "No tienes permisos para acceder a esta página."
 
@@ -8381,8 +8376,8 @@ msgstr "Libro"
 msgid "Cloud"
 msgstr "Nube"
 
-#: blocks-config/table-of-content/class-uagb-table-of-content.php:646
-#: blocks-config/table-of-content/class-uagb-table-of-content.php:650
+#: blocks-config/table-of-content/class-uagb-table-of-content.php:703
+#: blocks-config/table-of-content/class-uagb-table-of-content.php:707
 #: includes/blocks/table-of-contents/attributes.php:18
 #: dist/blocks-placeholder.js:38
 msgid "Table Of Contents"
@@ -8534,11 +8529,11 @@ msgid "Image"
 msgstr "Imagen"
 
 #: classes/class-uagb-fse-fonts-compatibility.php:165
-#: classes/class-uagb-init-blocks.php:721
+#: classes/class-uagb-init-blocks.php:724
 msgid "Default"
 msgstr "Por defecto"
 
-#: classes/class-uagb-init-blocks.php:871 classes/class-uagb-rest-api.php:318
+#: classes/class-uagb-init-blocks.php:874 classes/class-uagb-rest-api.php:318
 #: classes/class-uagb-rest-api.php:333
 msgid "None"
 msgstr "Ninguno"
@@ -8552,7 +8547,7 @@ msgstr "Separador"
 msgid "Heading"
 msgstr "Encabezado"
 
-#: blocks-config/table-of-content/class-uagb-table-of-content.php:934
+#: blocks-config/table-of-content/class-uagb-table-of-content.php:991
 #: includes/blocks/table-of-contents/attributes.php:19
 msgid "Add a header to begin generating the table of contents"
 msgstr "Añade un encabezado para empezar a generar la tabla de contenido"
@@ -8569,11 +8564,11 @@ msgstr "Nonce de WordPress no validado."
 msgid "Table of Contents"
 msgstr "Tabla de contenidos"
 
-#: classes/class-uagb-init-blocks.php:947
+#: classes/class-uagb-init-blocks.php:950
 msgid "You have not added any Gravity Forms yet."
 msgstr "Todavía no has añadido ningún formulario de Gravity Forms."
 
-#: classes/class-uagb-init-blocks.php:509
+#: classes/class-uagb-init-blocks.php:512
 msgid "Please select a valid Gravity Form."
 msgstr "Por favor, selecciona un formulario válido de Gravity Forms."
 
@@ -8581,16 +8576,16 @@ msgstr "Por favor, selecciona un formulario válido de Gravity Forms."
 msgid "Marketing Button"
 msgstr "Botón de marketing"
 
-#: classes/class-uagb-init-blocks.php:559
+#: classes/class-uagb-init-blocks.php:562
 msgid "Please select a valid Contact Form 7."
 msgstr "Por favor, selecciona un formulario válido de Contact Form 7."
 
-#: classes/class-uagb-init-blocks.php:914
+#: classes/class-uagb-init-blocks.php:917
 msgid "You have not added any Contact Form 7 yet."
 msgstr "Todavía no has añadido ningún formulario de Contact Form 7."
 
-#: classes/class-uagb-init-blocks.php:900
-#: classes/class-uagb-init-blocks.php:933
+#: classes/class-uagb-init-blocks.php:903
+#: classes/class-uagb-init-blocks.php:936
 msgid "Select Form"
 msgstr "Selecciona un formulario"
 
@@ -8603,7 +8598,7 @@ msgid "Blockquote"
 msgstr "Cita"
 
 #. translators: %s: html tags
-#: classes/class-uagb-admin.php:424
+#: classes/class-uagb-admin.php:391
 msgid "Spectra requires&nbsp;%3$sBlock Editor%4$s. You can change your editor settings to Block Editor from&nbsp;%1$shere%2$s. Plugin is currently NOT RUNNING."
 msgstr "Spectra necesita el&nbsp;%3$seditor de bloques%4$s. Puedes cambiar los ajustes de tu editor al editor de bloques desde&nbsp;%1$saquí%2$s. En este momento, el plugin NO ESTÁ EN FUNCIONAMIENTO."
 
@@ -8627,18 +8622,6 @@ msgstr "Columna"
 #: includes/blocks/columns/block.php:16
 msgid "Advanced Columns"
 msgstr "Columnas avanzadas"
-
-#: classes/class-uagb-admin.php:311
-msgid "I already did"
-msgstr "Ya lo he hecho"
-
-#: classes/class-uagb-admin.php:310
-msgid "Nope, maybe later"
-msgstr "No, quizá más tarde"
-
-#: classes/class-uagb-admin.php:308
-msgid "Ok, you deserve it"
-msgstr "Vale, lo mereces"
 
 #: includes/blocks/call-to-action/block.php:16 dist/blocks-placeholder.js:12
 msgid "Call To Action"
@@ -8733,6 +8716,6 @@ msgstr "https://www.brainstormforce.com"
 msgid "Brainstorm Force"
 msgstr "Brainstorm Force"
 
-#: classes/class-uagb-loader.php:387
+#: classes/class-uagb-loader.php:389
 msgid "Install Gutenberg"
 msgstr "Instalar Gutenberg"

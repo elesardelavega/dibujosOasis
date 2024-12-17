@@ -13,7 +13,7 @@ let exludeCouponShown = false;
 export default function upsell_events() {
   $('#usage_limit_coupon_data').on('change', '#reset_usage_limit_period', upsell_advance_usage_limits);
   $(
-    '#usage_restriction_coupon_data .acfw_exclude_coupons_field,#usage_restriction_coupon_data .acfw_allowed_customers_field,#usage_restriction_coupon_data .acfw_allowed_coupons_field'
+    '#usage_restriction_coupon_data .acfw_exclude_coupons_field,#usage_restriction_coupon_data .acfw_allowed_customers_field,#usage_restriction_coupon_data .acfw_allowed_coupons_field,#usage_restriction_coupon_data .acfw_product_attributes_field,#usage_restriction_coupon_data .acfw_exclude_product_attributes_field'
   ).on('click change focus', 'input,select', upsell_exclude_coupons_restriction);
   $('#acfw-auto-apply-coupon').on('change', '#acfw_auto_apply_coupon_field', upsell_auto_apply);
   $('#acfw-virtual-coupon').on('change', '#acfw_enable_virtual_coupons', upsell_virtual_coupons);
@@ -38,6 +38,7 @@ export default function upsell_events() {
 
   initExcludeCouponField();
   initAllowedCouponsField();
+  initProductAttributeFields();
 }
 
 function initExcludeCouponField() {
@@ -274,4 +275,25 @@ function toggleAllowedCouponsField() {
     $field.prop('disabled', true);
     $wrapper.hide();
   }
+}
+
+/**
+ * Display upsell for product attributes.
+ *
+ * @since 4.6.4
+ */
+function initProductAttributeFields() {
+  const $productAttributesField = jQuery('p.acfw_product_attributes_field');
+  const $excludeProductAttributesField = jQuery('p.acfw_exclude_product_attributes_field');
+
+  const $parentOfExcludeCategoriesLabel = jQuery('label[for="exclude_product_categories"]').closest(
+    'div.options_group'
+  );
+
+  const $wrapper = jQuery('<div class="options_group"></div>');
+
+  $wrapper.append($productAttributesField);
+  $wrapper.append($excludeProductAttributesField);
+
+  $wrapper.insertAfter($parentOfExcludeCategoriesLabel);
 }

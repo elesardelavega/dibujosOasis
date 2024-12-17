@@ -29,7 +29,7 @@ interface IProps {
 
 const SingleNotice = (props: IProps) => {
   const {
-    notice: { slug, content, type, nonce, actions, is_dismissable, is_in_app_notifications },
+    notice: { slug, heading, content, type, nonce, actions, is_dismissable, is_in_app_notifications },
     onDismiss,
     onRead,
   } = props;
@@ -43,6 +43,11 @@ const SingleNotice = (props: IProps) => {
       className={`single-notice notice-${type} ${slug}-notice`}
       onMouseEnter={is_in_app_notifications ? () => onRead(slug, nonce) : undefined}
     >
+      {heading && (
+        <div className="notice-heading">
+          <h3>{heading}</h3>
+        </div>
+      )}
       <div className="notice-content">
         {content.map((text, i) => (
           <p key={i} dangerouslySetInnerHTML={{ __html: text }} />

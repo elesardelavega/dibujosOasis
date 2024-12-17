@@ -2,8 +2,8 @@
 Contributors: jkohlbach, RymeraWebCo, Rymera01, smub
 Tags: woocommerce coupons, bogo coupons, store credit, url coupons, bogo
 Requires at least: 5.2
-Tested up to: 6.6
-Stable tag: 4.6.3.2
+Tested up to: 6.7
+Stable tag: 4.6.4
 Requires PHP: 5.6
 License: GNU General Public License v2.0 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -336,8 +336,8 @@ Purchasing an Advanced Coupons Premium license gives you access to the full feat
 You can also explore our other compatible extensions as well:
 
 * <a href="https://advancedcouponsplugin.com/pricing/?utm_source=wprepo&utm_medium=link&utm_campaign=acfwf" rel="friend">Advanced Coupons Premium</a>
-* <a href="https://advancedcouponsplugin.com/pricing/?tab=loyalty&utm_source=wprepo&utm_medium=link&utm_campaign=acfwf" rel="friend">Loyalty Program for WooCommerce</a>
-* <a href="https://advancedcouponsplugin.com/pricing/?tab=gift-cards&utm_source=wprepo&utm_medium=link&utm_campaign=acfwf" rel="friend">Advanced Gift Cards</a>
+* <a href="https://advancedcouponsplugin.com/pricing/loyalty/?utm_source=wprepo&utm_medium=link&utm_campaign=acfwf" rel="friend">Loyalty Program for WooCommerce</a>
+* <a href="https://advancedcouponsplugin.com/pricing/gift-cards/?utm_source=wprepo&utm_medium=link&utm_campaign=acfwf" rel="friend">Advanced Gift Cards</a>
 
 == Screenshots ==
 
@@ -367,6 +367,18 @@ Thanks,
 Josh Kohlbach (CEO of Rymera Web Co)
 
 == Changelog ==
+
+= 4.6.4 =
+- Bug Fix: Always use regular price for all coupon types is showing the sale price for specific condition
+- Bug Fix: Always use regular price for all coupon types is showing the sale price on the cart block
+- Bug Fix: Arrow entities are broken on in-app notification buttons
+- Bug Fix: Coupon Template: couldn't create the coupons when the field is non required for the products and product categories usage restrictions
+- Bug Fix: Fix links to Advanced Coupons website in some locations
+- Bug Fix: Integration - CheckoutWC - Store Credit Field Doesn't Show Up
+- Bug Fix: The title for in-app notifications is not being displayed in the coupon dashboard page
+- Bug Fix: scripts and styles loaded by Vite are not enqueued properly when using a CDN
+- Improvement: Add a Filter for is_current_page_using_cart_checkout_block function
+- Improvement: Add the upsell for "Products Attributes" and "Exclude Product Attributes"
 
 = 4.6.3.2 =
 - Bug Fix: Store Credit Should Only Applied to Orders not on the Subscription

@@ -790,7 +790,7 @@ class ACFW_Settings extends \WC_Settings_Page {
                     'type'      => 'acfw_help_resources_field',
                     'desc'      => __( 'Guides, troubleshooting, FAQ and more.', 'advanced-coupons-for-woocommerce-free' ),
                     'link_text' => __( 'Knowledge Base', 'advanced-coupons-for-woocommerce-free' ),
-                    'link_url'  => 'http://advancedcouponsplugin.com/knowledge-base/?utm_source=Plugin&utm_medium=Help&utm_campaign=Knowledge%20Base%20Link',
+                    'link_url'  => 'https://advancedcouponsplugin.com/knowledge-base/?utm_source=Plugin&utm_medium=Help&utm_campaign=Knowledge%20Base%20Link',
                 ),
 
                 array(

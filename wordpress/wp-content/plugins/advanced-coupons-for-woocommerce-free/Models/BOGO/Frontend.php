@@ -301,7 +301,7 @@ class Frontend extends Base_Model implements Model_Interface {
             // NOTE: this will only be false when $discount value is 0.
             if ( (bool) $total_discount ) {
                 // get BOGO Buys price.
-                $price['buy'] = $this->_helper_functions->get_price( $cart_item['data'], array( 'ignore_always_use_regular_price' => true ) ); // ignore always use regular price option, because BOGO Buys should always use the sale price if present.
+                $price['buy'] = $this->_helper_functions->get_price( $cart_item['data'], array( 'ignore_always_use_regular_price' => 'all_valid' !== get_option( Plugin_Constants::ALWAYS_USE_REGULAR_PRICE ) ) ); // ignore always use regular price option, because BOGO Buys should always use the sale price if present.
 
                 // Calculate new_price, to get total price of the item.
                 // new_price is the average price of the item after discount.

@@ -425,7 +425,7 @@ class Bootstrap extends Base_Model implements Model_Interface {
      */
     public function run() {
         // Internationalization.
-        add_action( 'plugins_loaded', array( $this, 'load_plugin_textdomain' ) );
+        add_action( 'init', array( $this, 'load_plugin_textdomain' ) );
 
         // Execute plugin activation/deactivation.
         register_activation_hook( $this->_constants->MAIN_PLUGIN_FILE_PATH, array( $this, 'activate_plugin' ) );

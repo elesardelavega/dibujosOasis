@@ -356,6 +356,62 @@ class Upsell extends Base_Model implements Model_Interface, Initializable_Interf
     }
 
     /**
+     * Add product attributes upsell field in usage restrictions tab.
+     *
+     * @since 4.6.4
+     * @access public
+     *
+     * @param int $coupon_id Coupon ID.
+     */
+    public function upsell_product_attributes_restriction( $coupon_id ) {
+        woocommerce_wp_select(
+            array(
+                'id'                => 'acfw_product_attributes',
+                'class'             => 'wc-product-search',
+                'style'             => 'width:50%;',
+                'label'             => __( 'Product attributes (Premium)', 'advanced-coupons-for-woocommerce-free' ),
+                'description'       => __( 'Search and select product attributes that are eligible to only use this coupon.', 'advanced-coupons-for-woocommerce-free' ),
+                'desc_tip'          => true,
+                'options'           => array(),
+                'custom_attributes' => array(
+                    'multiple'         => true,
+                    'data-placeholder' => __( 'Search product attributes&hellip;', 'advanced-coupons-for-woocommerce-free' ),
+                    'data-action'      => 'acfw_search_coupons',
+                    'readonly'         => true,
+                ),
+            )
+        );
+    }
+
+    /**
+     * Add exclude product attributes upsell field in usage restrictions tab.
+     *
+     * @since 4.6.4
+     * @access public
+     *
+     * @param int $coupon_id Coupon ID.
+     */
+    public function upsell_exclude_product_attributes_restriction( $coupon_id ) {
+        woocommerce_wp_select(
+            array(
+                'id'                => 'acfw_exclude_product_attributes',
+                'class'             => 'wc-product-search',
+                'style'             => 'width:50%;',
+                'label'             => __( 'Exclude product attributes (Premium)', 'advanced-coupons-for-woocommerce-free' ),
+                'description'       => __( 'Search and select product attributes that will be excluded from using this coupon.', 'advanced-coupons-for-woocommerce-free' ),
+                'desc_tip'          => true,
+                'options'           => array(),
+                'custom_attributes' => array(
+                    'multiple'         => true,
+                    'data-placeholder' => __( 'Search product attributes&hellip;', 'advanced-coupons-for-woocommerce-free' ),
+                    'data-action'      => 'acfw_search_coupons',
+                    'readonly'         => true,
+                ),
+            )
+        );
+    }
+
+    /**
      * Cart condition premium field options upsell.
      *
      * @since 1.0
@@ -1205,7 +1261,7 @@ class Upsell extends Base_Model implements Model_Interface, Initializable_Interf
                     __( 'This premium cart condition and more are available in the Premium add-on for Advanced Coupons', 'advanced-coupons-for-woocommerce-free' ),
                     sprintf(
                         /* Translators: %s: Advanced coupons pricing link. */
-                        __( '<a href="%s" target="_blank">See all features & pricing &rarr;</a>', 'advanced-coupons-for-woocommerce-free' ),
+                        __( '<a href="%s" target="_blank">See all features & pricing →</a>', 'advanced-coupons-for-woocommerce-free' ),
                         apply_filters( 'acfwp_upsell_link', 'https://advancedcouponsplugin.com/pricing/?utm_source=acfwf&utm_medium=upsell&utm_campaign=cartcondition' )
                     ),
                 ),
@@ -1225,7 +1281,7 @@ class Upsell extends Base_Model implements Model_Interface, Initializable_Interf
                     __( 'In Advanced Coupons Premium you can reset the usage counts of a coupon on a timer. This is great for running recurring deals such as daily deals, giving coupons to influencers to redeem samples and more.', 'advanced-coupons-for-woocommerce-free' ),
                     sprintf(
                         /* Translators: %s: Advanced coupons pricing link. */
-                        __( '<a href="%s" target="_blank">See all features & pricing &rarr;</a>', 'advanced-coupons-for-woocommerce-free' ),
+                        __( '<a href="%s" target="_blank">See all features & pricing →</a>', 'advanced-coupons-for-woocommerce-free' ),
                         apply_filters( 'acfwp_upsell_link', 'https://advancedcouponsplugin.com/pricing/?utm_source=acfwf&utm_medium=upsell&utm_campaign=usagelimits' )
                     ),
                 ),
@@ -1238,8 +1294,8 @@ class Upsell extends Base_Model implements Model_Interface, Initializable_Interf
                     __( 'This is great if you have a coupon that is allowed to work with some coupons but not others and/or only allow it to be used by certain customers registered on your store.', 'advanced-coupons-for-woocommerce-free' ),
                     sprintf(
                         /* Translators: %s: Advanced coupons pricing link. */
-                        __( '<a href="%s" target="_blank">See all features & pricing &rarr;</a>', 'advanced-coupons-for-woocommerce-free' ),
-                        apply_filters( 'acfwp_upsell_link', 'https://advancedcouponsplugin.com/pricing/?utm_source=acfwf&utm_medium=upsell&utm_campaign=usagelimits' )
+                        __( '<a href="%s" target="_blank">See all features & pricing →</a>', 'advanced-coupons-for-woocommerce-free' ),
+                        apply_filters( 'acfwp_upsell_link', 'https://advancedcouponsplugin.com/pricing/?utm_source=acfwf&utm_medium=upsell&utm_campaign=usagerestriction' )
                     ),
                 ),
             ),
@@ -1250,7 +1306,7 @@ class Upsell extends Base_Model implements Model_Interface, Initializable_Interf
                     __( 'In Advanced Coupons Premium you can have coupons automatically apply to a customer’s cart once the Cart Conditions match! Surprise and delight your customers with auto apply coupons.', 'advanced-coupons-for-woocommerce-free' ),
                     sprintf(
                         /* Translators: %s: Advanced coupons pricing link. */
-                        __( '<a href="%s" target="_blank">See all features & pricing &rarr;</a>', 'advanced-coupons-for-woocommerce-free' ),
+                        __( '<a href="%s" target="_blank">See all features & pricing →</a>', 'advanced-coupons-for-woocommerce-free' ),
                         apply_filters( 'acfwp_upsell_link', 'https://advancedcouponsplugin.com/pricing/?utm_source=acfwf&utm_medium=upsell&utm_campaign=autoapply' )
                     ),
                 ),
@@ -1262,7 +1318,7 @@ class Upsell extends Base_Model implements Model_Interface, Initializable_Interf
                     __( 'In Advanced Coupons Premium you can have virtual coupons which are other codes that are also valid for this coupon. Bulk generate 100’s or 1000’s of unique alternative coupon codes for a coupon to use in welcome sequences, abandoned cart sequences, and other scenarios.', 'advanced-coupons-for-woocommerce-free' ),
                     sprintf(
                         /* Translators: %s: Advanced coupons pricing link. */
-                        __( '<a href="%s" target="_blank">See all features & pricing &rarr;</a>', 'advanced-coupons-for-woocommerce-free' ),
+                        __( '<a href="%s" target="_blank">See all features & pricing →</a>', 'advanced-coupons-for-woocommerce-free' ),
                         apply_filters( 'acfwp_upsell_link', 'https://advancedcouponsplugin.com/pricing/?utm_source=acfwf&utm_medium=upsell&utm_campaign=virtualcoupons' )
                     ),
                 ),
@@ -1274,7 +1330,7 @@ class Upsell extends Base_Model implements Model_Interface, Initializable_Interf
                     __( 'In Advanced Coupons Premium, BOGO coupons with the Specific Product "Get" type can automatically apply the product to a customer’s cart! This is only available for Specific Product type. It’s a great user experience upgrade for your customers to have it done for them.', 'advanced-coupons-for-woocommerce-free' ),
                     sprintf(
                         /* Translators: %s: Advanced coupons pricing link. */
-                        __( '<a href="%s" target="_blank">See all features & pricing &rarr;</a>', 'advanced-coupons-for-woocommerce-free' ),
+                        __( '<a href="%s" target="_blank">See all features & pricing →</a>', 'advanced-coupons-for-woocommerce-free' ),
                         apply_filters( 'acfwp_upsell_link', 'https://advancedcouponsplugin.com/pricing/?utm_source=acfwf&utm_medium=upsell&utm_campaign=bogoautoadd' )
                     ),
                 ),
@@ -1286,7 +1342,7 @@ class Upsell extends Base_Model implements Model_Interface, Initializable_Interf
                     __( 'Set more advanced day and time schedules to control exactly when your coupon is valid using Advanced Coupons Premium.', 'advanced-coupons-for-woocommerce-free' ),
                     sprintf(
                         /* Translators: %s: Advanced coupons pricing link. */
-                        __( '<a href="%s" target="_blank">See all features & pricing &rarr;</a>', 'advanced-coupons-for-woocommerce-free' ),
+                        __( '<a href="%s" target="_blank">See all features & pricing →</a>', 'advanced-coupons-for-woocommerce-free' ),
                         apply_filters( 'acfwp_upsell_link', 'https://advancedcouponsplugin.com/pricing/?utm_source=acfwf&utm_medium=upsell&utm_campaign=daytimeschedules' )
                     ),
                 ),
@@ -1298,7 +1354,7 @@ class Upsell extends Base_Model implements Model_Interface, Initializable_Interf
                     __( 'In Advanced Coupons Premium you can create cashback coupons which give a customer a percentage of their order back as store credit. This is a great way to incentivize customers to come back and shop again.', 'advanced-coupons-for-woocommerce-free' ),
                     sprintf(
                         /* Translators: %s: Advanced coupons pricing link. */
-                        __( '<a href="%s" target="_blank">See all features & pricing &rarr;</a>', 'advanced-coupons-for-woocommerce-free' ),
+                        __( '<a href="%s" target="_blank">See all features & pricing →</a>', 'advanced-coupons-for-woocommerce-free' ),
                         apply_filters( 'acfwp_upsell_link', 'https://advancedcouponsplugin.com/pricing/?utm_source=acfwf&utm_medium=upsell&utm_campaign=cashbackcoupon' )
                     ),
                 ),
@@ -1775,7 +1831,7 @@ class Upsell extends Base_Model implements Model_Interface, Initializable_Interf
                     'description' => __( 'Your customers will love being able to earn points for their orders so they can redeem them for coupons on future orders. Get set up and running in a few minutes.', 'advanced-coupons-for-woocommerce-free' ),
                     'is_active'   => ! $this->_helper_functions->is_plugin_installed( Plugin_Constants::LOYALTY_PLUGIN ),
                     'action_text' => __( 'Get Loyalty Program', 'advanced-coupons-for-woocommerce-free' ),
-                    'link'        => 'https://advancedcouponsplugin.com/pricing/?tab=loyalty&utm_source=acfwf&utm_medium=upsell&utm_campaign=loyaltyprogrampage',
+                    'link'        => 'https://advancedcouponsplugin.com/pricing/loyalty/?utm_source=acfwf&utm_medium=upsell&utm_campaign=loyaltyprogrampage',
                     'is_external' => true,
                 ),
                 array(
@@ -1854,7 +1910,7 @@ class Upsell extends Base_Model implements Model_Interface, Initializable_Interf
                     'description' => __( 'Your customers will love being able to purchase gift cards for their friends and family. It’s also a great way to virally spread your store while guaranteeing a future sale today.', 'advanced-coupons-for-woocommerce-free' ),
                     'is_active'   => ! $this->_helper_functions->is_plugin_installed( Plugin_Constants::GIFT_CARDS_PLUGIN ),
                     'action_text' => __( 'Get Advanced Gift Cards', 'advanced-coupons-for-woocommerce-free' ),
-                    'link'        => 'https://advancedcouponsplugin.com/pricing/?tab=gift-cards&utm_source=acfwf&utm_medium=upsell&utm_campaign=advancedgiftcardspage',
+                    'link'        => 'https://advancedcouponsplugin.com/pricing/gift-cards/?utm_source=acfwf&utm_medium=upsell&utm_campaign=advancedgiftcardspage',
                     'is_external' => true,
                 ),
                 array(
@@ -2011,6 +2067,8 @@ class Upsell extends Base_Model implements Model_Interface, Initializable_Interf
             add_action( 'woocommerce_coupon_options_usage_limit', array( $this, 'upsell_advanced_usage_limits_fields' ) );
             add_action( 'woocommerce_coupon_options_usage_restriction', array( $this, 'upsell_exclude_coupons_restriction' ) );
             add_action( 'woocommerce_coupon_options_usage_restriction', array( $this, 'upsell_allowed_customers_restriction' ) );
+            add_action( 'woocommerce_coupon_options_usage_restriction', array( $this, 'upsell_product_attributes_restriction' ) );
+            add_action( 'woocommerce_coupon_options_usage_restriction', array( $this, 'upsell_exclude_product_attributes_restriction' ) );
             add_action( 'woocommerce_coupon_options_usage_restriction', array( $this, 'usage_restrictions_add_help_link' ) );
             add_action( 'woocommerce_coupon_options_usage_limit', array( $this, 'usage_limits_add_help_link' ) );
             add_action( 'acfw_after_scheduler_panel', array( $this, 'display_day_time_scheduler_ui_upsell' ) );

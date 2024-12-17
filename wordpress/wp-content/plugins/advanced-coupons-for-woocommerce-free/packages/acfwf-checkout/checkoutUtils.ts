@@ -1,8 +1,8 @@
 const $ = jQuery;
 
 export default function checkoutGenericEvents() {
-  $('body').on('acfw-blockCheckout', blockCheckout);
-  $('body').on('acfw-unblockCheckout', unblockCheckout);
+  $(document.body).on('acfw-blockCheckout', blockCheckout);
+  $(document.body).on('acfw-unblockCheckout', unblockCheckout);
 }
 
 export function blockCheckout() {

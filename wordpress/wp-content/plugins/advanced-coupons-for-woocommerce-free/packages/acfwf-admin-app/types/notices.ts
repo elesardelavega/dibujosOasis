@@ -5,6 +5,7 @@ export interface ISingleNotice {
   is_in_app_notifications: boolean;
   type: string;
   nonce: string;
+  heading: string;
   content: string[];
   actions: INoticeAction[];
 }

@@ -4,13 +4,13 @@
  * Plugin Name: Advanced Coupons for WooCommerce Free
  * Plugin URI: https://advancedcouponsplugin.com
  * Description: Advanced Coupons for WooCommerce (Free Version) gives WooCommerce store owners extra coupon features so they can market their stores better.
- * Version: 4.6.3.2
+ * Version: 4.6.4
  * Author: Rymera Web Co
  * Author URI: https://rymera.com.au
  * Requires at least: 5.2
- * Tested up to: 6.6
+ * Tested up to: 6.7
  * WC requires at least: 4.0
- * WC tested up to: 9.3
+ * WC tested up to: 9.4
  *
  * Text Domain: advanced-coupons-for-woocommerce-free
  * Domain Path: /languages/
@@ -220,7 +220,7 @@ class ACFWF extends Abstract_Main_Plugin_Class { // phpcs:ignore
             require_once ABSPATH . 'wp-admin/includes/plugin.php';
         }
 
-        $acfwp_plugin_data = get_plugin_data( WP_PLUGIN_DIR . '/' . $acfwp_basename );
+        $acfwp_plugin_data = get_plugin_data( WP_PLUGIN_DIR . '/' . $acfwp_basename, false, false );
 
         return version_compare( $acfwp_plugin_data['Version'], $acfwp_version, '>=' );
     }
@@ -241,10 +241,10 @@ class ACFWF extends Abstract_Main_Plugin_Class { // phpcs:ignore
                 $failed_dep_plugin_file = trailingslashit( WP_PLUGIN_DIR ) . plugin_basename( $failed_dependency['plugin-base-name'] );
 
                 if ( file_exists( $failed_dep_plugin_file ) ) {
-                    $failed_dep_install_text  = '<a class="action-button" href="' . wp_nonce_url( 'plugins.php?action=activate&amp;plugin=' . $failed_dependency['plugin-base-name'] . '&amp;plugin_status=all&amp;s', 'activate-plugin_' . $failed_dependency['plugin-base-name'] ) . '" title="' . __( 'Activate this plugin', 'advanced-coupons-for-woocommerce-free' ) . '" class="edit">' . __( 'Click here to activate &rarr;', 'advanced-coupons-for-woocommerce-free' ) . '</a>';
+                    $failed_dep_install_text  = '<a class="action-button" href="' . wp_nonce_url( 'plugins.php?action=activate&amp;plugin=' . $failed_dependency['plugin-base-name'] . '&amp;plugin_status=all&amp;s', 'activate-plugin_' . $failed_dependency['plugin-base-name'] ) . '" title="' . __( 'Activate this plugin', 'advanced-coupons-for-woocommerce-free' ) . '" class="edit">' . __( 'Click here to activate →', 'advanced-coupons-for-woocommerce-free' ) . '</a>';
                     $failed_dep_install_text .= '<span class="plugin-detected"><em>' . __( 'Plugin detected', 'advanced-coupons-for-woocommerce-free' ) . '</em></span>';
                 } else {
-                    $failed_dep_install_text = '<a class="action-button" href="' . wp_nonce_url( 'update.php?action=install-plugin&amp;plugin=' . $failed_dependency['plugin-key'], 'install-plugin_' . $failed_dependency['plugin-key'] ) . '" title="' . __( 'Install this plugin', 'advanced-coupons-for-woocommerce-free' ) . '">' . __( 'Click here to install from WordPress.org repo &rarr;', 'advanced-coupons-for-woocommerce-free' ) . '</a>';
+                    $failed_dep_install_text = '<a class="action-button" href="' . wp_nonce_url( 'update.php?action=install-plugin&amp;plugin=' . $failed_dependency['plugin-key'], 'install-plugin_' . $failed_dependency['plugin-key'] ) . '" title="' . __( 'Install this plugin', 'advanced-coupons-for-woocommerce-free' ) . '">' . __( 'Click here to install from WordPress.org repo →', 'advanced-coupons-for-woocommerce-free' ) . '</a>';
                 }
 
                 $admin_notice_msg .= sprintf(

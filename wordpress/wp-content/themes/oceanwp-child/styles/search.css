@@ -1,0 +1,21 @@
+body.search.search-results h2.search-entry-title.entry-title a {
+    font-size: 18px;
+    outline: none !important;
+}
+
+body.search.search-results .search-entry-summary.clr p {
+    font-size: 16px;
+}
+
+body.search.search-results .search-entry-readmore.clr a {
+    font-size: 12px !important;
+    text-transform: unset !important;
+    color: #bbae7f;
+    text-decoration: none !important;
+    border: none !important;
+    outline: none !important;
+}
+
+body.search.search-results .search-entry-readmore.clr a:hover {
+    color: #000000;
+}

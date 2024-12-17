@@ -37,7 +37,7 @@ class Loyalty_Points_Upsell extends Abstract_Report_Widget {
         $this->title       = __( 'Create a Loyalty Program', 'advanced-coupons-for-woocommerce-free' );
         $this->description = sprintf(
             '<a href="%s">%s</span>',
-            'https://advancedcouponsplugin.com/pricing/?tab=loyalty&utm_source=acfwf&utm_medium=upsell&utm_campaign=dashboardwidgetlearnmorelpfw',
+            'https://advancedcouponsplugin.com/pricing/loyalty/?utm_source=acfwf&utm_medium=upsell&utm_campaign=dashboardwidgetlearnmorelpfw',
             __( 'Learn more →', 'advanced-coupons-for-woocommerce-free' )
         );
 

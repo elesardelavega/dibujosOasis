@@ -122,9 +122,16 @@ class General extends Base_Model implements Model_Interface {
      */
     public function always_use_regular_price_for_coupon_discounted_products( $price, $product ) {
 
-        // Don't proceed when the \WC_Discounts object is not yet set or when the setting is not enabled.
-        if ( 'all_valid' !== get_option( Plugin_Constants::ALWAYS_USE_REGULAR_PRICE ) ) {
+        // Don't proceed when the \WC_Discounts object is not yet set or when the setting is not enabled or not in cart/checkout.
+        if ( 'all_valid' !== get_option( Plugin_Constants::ALWAYS_USE_REGULAR_PRICE ) || ( ! $this->_helper_functions->is_cart() && ! $this->_helper_functions->is_checkout_fragments() && ! $this->_helper_functions->is_current_page_using_cart_checkout_block() && ! $this->_helper_functions->is_current_request_using_wpjson_wc_api() ) ) {
             return $price;
+        }
+
+        // Return regular price if 'fixed_cart' coupon is applied.
+        foreach ( $this->_get_coupon_objects_from_wc_discounts() as $coupon ) {
+            if ( $coupon->is_type( 'fixed_cart' ) ) {
+                return $product->get_regular_price();
+            }
         }
 
         // Get product type.
