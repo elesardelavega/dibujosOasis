@@ -38,10 +38,14 @@ button.single_add_to_cart_button.button.alt, button.wc-block-components-button.w
     border-color: #000000;
     border-style: solid;
     padding: 12px 20px;
+    margin-left: 0;
+    margin-top: 0;
 }
 
-button.single_add_to_cart_button.button.alt, button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained:hover {
-    background: #BBAE7F;
+
+
+button.single_add_to_cart_button.button.alt:hover, button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained:hover {
+    background: #BBAE7F !important;
     opacity: 1;
     transform: translateY(-3px) !important;
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
@@ -302,10 +306,9 @@ a.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.cont
     width: 46%;
 }
 
-a.tinvwl_add_to_wishlist_button.tinvwl-position-after.tinvwl-product-in-list.tinvwl-product-make-remove {
+.tinv-wraper.woocommerce.tinv-wishlist.tinvwl-woocommerce_after_add_to_cart_button a.tinvwl_add_to_wishlist_button.tinvwl-position-after.tinvwl-product-in-list.tinvwl-product-make-remove, .single-product div.product form.cart .tinvwl-button.tinvwl_add_to_wishlist_button, div.product form.cart .tinvwl_add_to_wishlist_button {
     background: #e6decb;
     opacity: 1;
-    transform: translateY(-3px) !important;
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
     font-family: Rubik;
     font-size: 12px;
@@ -323,10 +326,11 @@ a.tinvwl_add_to_wishlist_button.tinvwl-position-after.tinvwl-product-in-list.tin
     border-color: #000000;
     border-style: solid;
     padding: 12px 20px;
+    margin-top: 0;
 }
 
-a.tinvwl_add_to_wishlist_button.tinvwl-position-after.tinvwl-product-in-list.tinvwl-product-make-remove:hover {
-    background: #BBAE7F;
+.tinv-wraper.woocommerce.tinv-wishlist.tinvwl-woocommerce_after_add_to_cart_button a.tinvwl_add_to_wishlist_button.tinvwl-position-after.tinvwl-product-in-list.tinvwl-product-make-remove:hover, .single-product div.product form.cart .tinvwl-button.tinvwl_add_to_wishlist_button, div.product form.cart .tinvwl_add_to_wishlist_button:hover {
+    background: #BBAE7F !important;
     opacity: 1;
     transform: translateY(-3px) !important;
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;

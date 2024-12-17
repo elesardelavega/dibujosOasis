@@ -139,3 +139,7 @@
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2) !important;
     background: #bbae7f;
 }
+
+.home .tinv-wraper.woocommerce.tinv-wishlist.tinvwl-after-add-to-cart.tinvwl-woocommerce_after_add_to_cart_button {
+    display: none !important;
+}

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="styles product home">
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/js/custom-swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/js/custom-swiper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/home.css" afterDir="false" />
+    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="updates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/product.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/updates" />
+        <entry key="$PROJECT_DIR$" value="feature/search" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,12 +44,12 @@
     &quot;assignee&quot;: &quot;elesardelavega&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/elesardelavega/dibujosOasis.git&quot;,
-    &quot;accountId&quot;: &quot;88f0e77c-9f4b-4fa1-8198-33adf42d258c&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/elesardelavega/dibujosOasis.git",
+    "accountId": "66fa01ac-d3de-4ead-985e-e8751ff666d5"
   }
-}</component>
+}]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.2.11/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -60,23 +60,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/macbook/Documents/proyectos/dibujosOasis/wordpress/wp-content/themes/oceanwp-child/woocommerce&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/Elesardelavega/Documents/proyectos/dibujosOasis",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/woocommerce" />
@@ -91,8 +91,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PS-243.21565.202" />
-        <option value="bundled-php-predefined-a98d8de5180a-5fbe0c30323e-com.jetbrains.php.sharedIndexes-PS-243.21565.202" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PS-243.22562.164" />
+        <option value="bundled-php-predefined-a98d8de5180a-7980c7aaca61-com.jetbrains.php.sharedIndexes-PS-243.22562.164" />
       </set>
     </attachedChunks>
   </component>
@@ -136,6 +136,9 @@
       <workItem from="1733423888544" duration="1274000" />
       <workItem from="1733813020463" duration="302000" />
       <workItem from="1733839214216" duration="5998000" />
+      <workItem from="1734036592639" duration="78000" />
+      <workItem from="1734074570527" duration="603000" />
+      <workItem from="1734446322430" duration="2455000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -438,7 +441,6 @@
     <MESSAGE value="update plugin and add order shop" />
     <MESSAGE value="add functions js" />
     <MESSAGE value="update plugins, wordpress and languages" />
-    <MESSAGE value="updates" />
     <MESSAGE value="add slide gallery product single" />
     <MESSAGE value="fix text &quot;sin existencias&quot;" />
     <MESSAGE value="fix buttons home" />
@@ -449,6 +451,7 @@
     <MESSAGE value="fix buttons carrito and slides" />
     <MESSAGE value="fix buttons shop" />
     <MESSAGE value="styles product home" />
-    <option name="LAST_COMMIT_MESSAGE" value="styles product home" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
 </project>

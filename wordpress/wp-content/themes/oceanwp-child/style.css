@@ -163,7 +163,3 @@ p.cart-empty.woocommerce-info {
 .wc-block-cart-item__wrap .wc-block-cart-item__prices {
     display: none;
 }
-
-a, a:hover, a:focus {
-    outline: none !important;
-}
