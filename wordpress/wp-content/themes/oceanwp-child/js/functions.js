@@ -30,4 +30,16 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
+    // Seleccionamos el elemento a mover
+    const variationsElement = document.querySelector(' .woocommerce-variation.single_variation');
+
+    // Seleccionamos el contenedor destino
+    const productMetaElement = document.querySelector('.woovr-variations.woovr-variations-select2');
+
+    // Verificamos que ambos elementos existan
+    if (variationsElement && productMetaElement) {
+        // Movemos el elemento dentro de product_meta
+        productMetaElement.appendChild(variationsElement);
+    }
+
 });

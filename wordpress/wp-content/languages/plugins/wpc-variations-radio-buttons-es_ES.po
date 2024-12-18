@@ -1,0 +1,235 @@
+# Translation of Plugins - WPC Variations Radio Buttons for WooCommerce - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WPC Variations Radio Buttons for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-05-30 04:25:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WPC Variations Radio Buttons for WooCommerce - Stable (latest release)\n"
+
+#: wpc-variations-radio-buttons.php:146
+msgid "Premium"
+msgstr "Premium"
+
+#: wpc-variations-radio-buttons.php:275 wpc-variations-radio-buttons.php:555
+msgid "Choose Image"
+msgstr "Elegir imagen"
+
+#: wpc-variations-radio-buttons.php:270 wpc-variations-radio-buttons.php:430
+#: wpc-variations-radio-buttons.php:550
+msgid "Remove"
+msgstr "Eliminar"
+
+#: wpc-variations-radio-buttons.php:429
+msgid "Custom Image"
+msgstr "Imagen personalizada"
+
+#. Author of the plugin
+#: wpc-variations-radio-buttons.php
+msgid "WPClever"
+msgstr "WPClever"
+
+#: wpc-variations-radio-buttons.php:260 wpc-variations-radio-buttons.php:545
+msgid "Custom image"
+msgstr "Imagen personalizada"
+
+#: wpc-variations-radio-buttons.php:540
+msgid "Custom name"
+msgstr "Nombre personalizado"
+
+#. translators: updated time
+#: includes/kit/wpc-kit.php:216
+msgid "%s ago"
+msgstr "hace %s"
+
+#: includes/kit/wpc-kit.php:215
+msgid "Last Updated:"
+msgstr "Última actualización:"
+
+#: includes/kit/wpc-kit.php:209
+msgid "+ Active Installations"
+msgstr "+ Instalaciones activas"
+
+#. translators: plugin name
+#: includes/kit/wpc-kit.php:173
+msgid "More Details"
+msgstr "Más detalles"
+
+#. translators: plugin name
+#: includes/kit/wpc-kit.php:172
+msgid "More information about %s"
+msgstr "Más información sobre %s"
+
+#: includes/kit/wpc-kit.php:167
+msgid "Install Now"
+msgstr "Instalar ahora"
+
+#: includes/kit/wpc-kit.php:161 includes/kit/wpc-kit.php:239
+msgid "Activate"
+msgstr "Activar"
+
+#: includes/kit/wpc-kit.php:155 includes/kit/wpc-kit.php:233
+msgid "Deactivate"
+msgstr "Desactivar"
+
+#: includes/kit/wpc-kit.php:37
+msgid "WPC Essential Kit"
+msgstr "WPC Essential Kit"
+
+#: includes/kit/wpc-kit.php:37 wpc-variations-radio-buttons.php:170
+msgid "Essential Kit"
+msgstr "Paquete esencial"
+
+#: includes/kit/wpc-kit.php:202
+msgid "Version:"
+msgstr "Versión:"
+
+#: wpc-variations-radio-buttons.php:325
+msgid "Show availability"
+msgstr "Mostrar la disponibilidad"
+
+#: wpc-variations-radio-buttons.php:336
+msgid "Show description"
+msgstr "Mostrar la descripción"
+
+#: wpc-variations-radio-buttons.php:248 wpc-variations-radio-buttons.php:678
+#: wpc-variations-radio-buttons.php:696
+msgid "Choose an option"
+msgstr "Elegir una opción"
+
+#: wpc-variations-radio-buttons.php:206
+msgid "Hide unpurchasable variation"
+msgstr "Ocultar la variación que no pueda comprarse"
+
+#: wpc-variations-radio-buttons.php:281
+msgid "Variation name"
+msgstr "Nombre de la variación"
+
+#: wpc-variations-radio-buttons.php:285
+msgid "Formatted with attribute label (e.g Color: Green, Size: M)"
+msgstr "Formado con etiqueta de atributo (por ejemplo, Color: Verde, Tamaño: M)"
+
+#: wpc-variations-radio-buttons.php:284
+msgid "Formatted without attribute label (e.g Green, M)"
+msgstr "Formado sin etiqueta de atributo (por ejemplo, Verde, M)"
+
+#: wpc-variations-radio-buttons.php:221
+msgid "Select2"
+msgstr "Select2"
+
+#: wpc-variations-radio-buttons.php:194 wpc-variations-radio-buttons.php:483
+msgid "Active"
+msgstr "Activo"
+
+#: wpc-variations-radio-buttons.php:488
+msgid "Default"
+msgstr "Por defecto"
+
+#: wpc-variations-radio-buttons.php:449
+msgid "Radio Buttons"
+msgstr "Botones de radio"
+
+#: wpc-variations-radio-buttons.php:488
+msgid "settings"
+msgstr "ajustes"
+
+#: wpc-variations-radio-buttons.php:201
+msgid "This is the default status, you can set status for individual product in the its settings."
+msgstr "Este es el estado por defecto, puedes establecer el estado por producto individual en sus ajustes."
+
+#: wpc-variations-radio-buttons.php:152
+msgid "Changelog"
+msgstr "Registro de cambios"
+
+#: wpc-variations-radio-buttons.php:153
+msgid "Discussion"
+msgstr "Discusión"
+
+#: wpc-variations-radio-buttons.php:198 wpc-variations-radio-buttons.php:210
+#: wpc-variations-radio-buttons.php:237 wpc-variations-radio-buttons.php:295
+#: wpc-variations-radio-buttons.php:307 wpc-variations-radio-buttons.php:318
+#: wpc-variations-radio-buttons.php:329 wpc-variations-radio-buttons.php:340
+#: wpc-variations-radio-buttons.php:491
+msgid "No"
+msgstr "No"
+
+#: wpc-variations-radio-buttons.php:167 wpc-variations-radio-buttons.php:395
+msgid "Premium Version"
+msgstr "Versión premium"
+
+#: wpc-variations-radio-buttons.php:219
+msgid "Radio buttons (default)"
+msgstr "Botones radio (por defecto)"
+
+#: wpc-variations-radio-buttons.php:151
+msgid "Reviews"
+msgstr "Valoraciones"
+
+#: wpc-variations-radio-buttons.php:164 wpc-variations-radio-buttons.php:394
+msgid "Settings"
+msgstr "Ajustes"
+
+#: wpc-variations-radio-buttons.php:136 wpc-variations-radio-buttons.php:146
+#: wpc-variations-radio-buttons.php:536
+msgid "WPC Variations Radio Buttons"
+msgstr "WPC Variations Radio Buttons"
+
+#. Plugin Name of the plugin
+#: wpc-variations-radio-buttons.php
+msgid "WPC Variations Radio Buttons for WooCommerce"
+msgstr "WPC Variations Radio Buttons for WooCommerce"
+
+#: wpc-variations-radio-buttons.php:199 wpc-variations-radio-buttons.php:211
+#: wpc-variations-radio-buttons.php:238 wpc-variations-radio-buttons.php:296
+#: wpc-variations-radio-buttons.php:308 wpc-variations-radio-buttons.php:319
+#: wpc-variations-radio-buttons.php:330 wpc-variations-radio-buttons.php:341
+msgid "Yes"
+msgstr "Sí"
+
+#: wpc-variations-radio-buttons.php:220
+msgid "ddSlick"
+msgstr "ddSlick"
+
+#. Author URI of the plugin
+#: wpc-variations-radio-buttons.php
+msgid "https://wpclever.net"
+msgstr "https://wpclever.net"
+
+#. Plugin URI of the plugin
+#: wpc-variations-radio-buttons.php
+msgid "https://wpclever.net/"
+msgstr "https://wpclever.net/"
+
+#: wpc-variations-radio-buttons.php:222
+msgid "HTML select tag"
+msgstr "Etiqueta HTML de selección"
+
+#: wpc-variations-radio-buttons.php:216
+msgid "Selector interface"
+msgstr "Selector de la interfaz"
+
+#: wpc-variations-radio-buttons.php:303
+msgid "Show image"
+msgstr "Mostrar la imagen"
+
+#: wpc-variations-radio-buttons.php:314
+msgid "Show price"
+msgstr "Mostrar el precio"
+
+#. translators: stars
+#: wpc-variations-radio-buttons.php:149
+msgid "Thank you for using our plugin! If you are satisfied, please reward it a full five-star %s rating."
+msgstr "¡Gracias por utilizar nuestro plugin! Si estás satisfecho, por favor, podrías puntuarlo con cinco estrella %s de valoración."
+
+#: wpc-variations-radio-buttons.php:136
+msgid "Variations Radio Buttons"
+msgstr "Botones de radio de variaciones"
+
+#. Description of the plugin
+#: wpc-variations-radio-buttons.php
+msgid "WPC Variations Radio Buttons will replace dropdown select with radio buttons for the buyer easier in selecting the variations."
+msgstr "WPC Variations Radio Buttons reemplazará las selecciones de los desplegables por botones de radio para facilitar al comprador la selección de variaciones."
