@@ -1,5 +1,4 @@
 <?php
-// Cargar estilos del tema padre y del tema hijo
 function oceanwp_child_enqueue_styles() {
 	wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style('child-style', get_stylesheet_uri(), array('parent-style'));
@@ -39,13 +38,10 @@ function add_line_below_additional_info_table() {
 }
 
 function enqueue_swiper_slider() {
-	// Agregar los estilos de Swiper
 	wp_enqueue_style('swiper-css', 'https://unpkg.com/swiper/swiper-bundle.min.css', array(), null);
 
-	// Agregar el script de Swiper
 	wp_enqueue_script('swiper-js', 'https://unpkg.com/swiper/swiper-bundle.min.js', array('jquery'), null, true);
 
-	// Agregar el script personalizado para inicializar el slider
 	wp_enqueue_script('custom-swiper-init', get_stylesheet_directory_uri() . '/js/custom-swiper.js', array('swiper-js'), null, true);
 }
 add_action('wp_enqueue_scripts', 'enqueue_swiper_slider');

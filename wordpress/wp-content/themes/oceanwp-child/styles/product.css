@@ -109,7 +109,6 @@ button.single_add_to_cart_button.button.alt:hover, button.wc-block-components-bu
     margin-top: 20px;
 }
 
-/* Cambiar el color del precio en productos marcados como "outofstock" */
 .woocommerce ul.products li.product.outofstock .woocommerce-Price-amount.amount {
     color: #fe5252 !important;
 }
@@ -180,30 +179,28 @@ a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
 }
 
 .swiper-container {
-    max-width: 700px; /* Incrementa el ancho total para incluir las flechas */
-    margin: 10px auto; /* Centrar el slider */
-    padding: 0; /* Quita el padding innecesario */
-    position: relative; /* Necesario para posicionar las flechas */
-    overflow: hidden; /* Evita que el contenido sobresalga */
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
     height: 177px;
 }
 
-/* Estilo para las diapositivas */
+
 .swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Evita que las imágenes desborden */
+    overflow: hidden;
 }
 
-/* Imágenes dentro de las diapositivas */
 .swiper-slide img {
-    width: 100%; /* Asegura que las imágenes ocupen el ancho de las diapositivas */
-    height: auto; /* Mantiene proporciones */
-    object-fit: cover; /* Recorta la imagen para ajustarla al tamaño del contenedor */
-    border-radius: 5px; /* Opcional: Bordes redondeados */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
 }
-
 
 .swiper-button-prev:hover, .swiper-button-next:hover {
     color: #000000 !important;
@@ -212,11 +209,11 @@ a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
 .swiper-button-prev,
 .swiper-button-next {
     position: absolute;
-    transform: translateY(-50%); /* Ajustar el centrado vertical */
-    z-index: 10; /* Asegura que estén por encima de otros elementos */
-    width: 30px; /* Tamaño de las flechas */
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 30px;
     height: 30px;
-    color: #bbae7f !important; /* Color de las flechas */
+    color: #bbae7f !important;
     bottom: 0 !important;
     top: 100% !important;
 }
@@ -225,7 +222,6 @@ a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
     color: #000000 !important;
 }
 
-/* Ajustar las posiciones de las flechas */
 .swiper-button-prev {
     left: 42% !important;
 }
@@ -234,21 +230,17 @@ a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
     left: 55% !important;
 }
 
-
-/* Paginación centrada debajo del slider */
 .swiper-pagination {
     position: relative;
-    bottom: 7px;
+    bottom: 0;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
     width: 100%;
 }
 
 .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
-    /*background: #000; !* Color de los puntos *!*/
     opacity: 0.5;
     border-radius: 50%;
     margin: 0 5px;
@@ -256,26 +248,23 @@ a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
 }
 
 .swiper-pagination-bullet-active {
-    opacity: 1; /* Puntos activos más visibles */
+    opacity: 1;
     background: #bbae7f !important;
 }
 
-/* Imagen destacada */
 .woocommerce-product-gallery__image img {
-    transition: all 0.3s ease-in-out; /* Transición suave al cambiar la imagen */
+    transition: all 0.3s ease-in-out;
 }
 
-/* Miniaturas del slider */
 .swiper-slide img {
-    cursor: pointer; /* Mostrar el cursor de clic */
-    transition: transform 0.2s ease-in-out; /* Efecto al pasar el mouse */
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
 }
 
 .swiper-slide img:hover {
-    transform: scale(1.05); /* Aumentar ligeramente al hacer hover */
+    transform: scale(1.05);
 }
 
-/* Eliminar zoom en la galería de imágenes del producto */
 .woocommerce-product-gallery__image img {
     transform: none !important;
     transition: none !important;
@@ -396,29 +385,3 @@ li.select2-results__option {
     align-items: flex-start;
     gap: 20px;
 }
-
-/*
-.woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-disabled {
-    display: flex;
-    gap: 20px;
-}
-
-.product_meta table.variations th.label {
-    padding: 19px 0 0 0;
-    width: 11%;
-}
-
-.product_meta table.variations th.label label {
-    font-size: 17px;
-    color: #333;
-    font-weight: 600;
-}
-
-.product_meta table.variations td.value {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    width: 50%;
-}*/

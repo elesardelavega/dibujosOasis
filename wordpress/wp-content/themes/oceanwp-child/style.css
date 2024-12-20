@@ -136,28 +136,26 @@ p.cart-empty.woocommerce-info {
     margin: 10px !important;
 }
 
-/* Imagen destacada */
 .featured-image {
-    width: 100%; /* Ajustar al ancho del contenedor */
-    max-width: 600px; /* Ancho máximo */
-    margin: 0 auto; /* Centrar */
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
     text-align: center;
 }
 
 .featured-image img {
-    width: 100%; /* Ajustar al contenedor */
-    height: auto; /* Mantener proporciones */
-    border-radius: 5px; /* Opcional: Bordes redondeados */
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
-/* Miniaturas del slider */
 .gallery-image {
-    cursor: pointer; /* Mostrar el cursor de "mano" para clics */
-    transition: transform 0.2s; /* Efecto de hover */
+    cursor: pointer;
+    transition: transform 0.2s;
 }
 
 .gallery-image:hover {
-    transform: scale(1.05); /* Aumentar tamaño ligeramente al pasar el ratón */
+    transform: scale(1.05);
 }
 
 .wc-block-cart-item__wrap .wc-block-cart-item__prices {
