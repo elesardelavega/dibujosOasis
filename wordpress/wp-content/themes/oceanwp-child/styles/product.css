@@ -124,7 +124,7 @@ button.single_add_to_cart_button.button.alt:hover, button.wc-block-components-bu
 
 .woocommerce div.product div.summary p.in-stock {
     color: #57bf6d !important;
-    margin-top: 0 !important;
+    margin-top: 10px !important;
     margin-bottom: 0 !important;
 }
 
