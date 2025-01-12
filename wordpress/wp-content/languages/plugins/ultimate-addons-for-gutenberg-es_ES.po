@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Spectra &#8211; WordPress Gutenberg Blocks - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-12-12 22:09:01+0000\n"
+"PO-Revision-Date: 2024-12-24 10:42:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,30 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Spectra &#8211; WordPress Gutenberg Blocks - Stable (latest release)\n"
+
+#: classes/class-uagb-nps-notice.php:183
+msgid "Rate Spectra"
+msgstr "Valora Spectra"
+
+#: classes/class-uagb-nps-notice.php:182
+msgid "We value your input. How can we improve your experience?"
+msgstr "Valoramos tu opinión. ¿Cómo podemos mejorar tu experiencia?"
+
+#: classes/class-uagb-nps-notice.php:181
+msgid "Thank you for your feedback"
+msgstr "Gracias por sus comentarios"
+
+#: classes/class-uagb-nps-notice.php:179
+msgid "Could you please do us a favor and give us a 5-star rating on WordPress? It would help others choose Spectra with confidence. Thank you!"
+msgstr "¿Podrías hacernos un gran favor y darnos una valoración de 5 estrellas en WordPress? Ayudará a otros a elegir Spectra con confianza. ¡Muchas gracias!"
+
+#: classes/class-uagb-nps-notice.php:178
+msgid "Thanks a lot for your feedback! 😍"
+msgstr "¡Muchas gracias por tu comentario! 😍"
+
+#: classes/class-uagb-nps-notice.php:177
+msgid "How likely are you to recommend Spectra to your friends or colleagues?"
+msgstr "¿Qué probabilidades hay de que recomiendes Spectra a tus amigos o compañeros?"
 
 #: lib/zipwp-images/classes/zipwp-images-script.php:103
 msgid "Validating..."
