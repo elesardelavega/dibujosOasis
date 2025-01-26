@@ -24,6 +24,8 @@ Version: 1.0.0
 
 @import "styles/search.css";
 
+@import "styles/responsive.css";
+
 #main {
     padding-top: 90px;
 }
@@ -147,15 +149,6 @@ p.cart-empty.woocommerce-info {
     width: 100%;
     height: auto;
     border-radius: 5px;
-}
-
-.gallery-image {
-    cursor: pointer;
-    transition: transform 0.2s;
-}
-
-.gallery-image:hover {
-    transform: scale(1.05);
 }
 
 .wc-block-cart-item__wrap .wc-block-cart-item__prices {

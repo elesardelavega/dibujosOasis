@@ -7,13 +7,11 @@
     padding-bottom: 0 !important;
 }
 
-/*.footer-box.span_1_of_3.col.col-1 {*/
-/*    width: 13%;*/
-/*    padding-left: 0 !important;*/
-/*}*/
-
 .footer-box.span_1_of_3.col.col-1 {
     width: 50%;
+    @media (max-width: 768px){
+        width: 70%;
+    }
 }
 
 .footer-box.span_1_of_3.col.col-1 ul#menu-footer {
@@ -36,6 +34,9 @@
 .footer-box.span_1_of_3.col.col-3 {
     width: 50%;
     padding-right: 0 !important;
+    @media (max-width: 768px){
+        width: 20%;
+    }
 }
 
 .footer-box.span_1_of_3.col.col-3 ul.oceanwp-social-icons {

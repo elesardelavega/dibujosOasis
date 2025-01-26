@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="plugin and styles variations">
+    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="fix styles map and buttons forms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,7 @@
     &quot;accountId&quot;: &quot;66fa01ac-d3de-4ead-985e-e8751ff666d5&quot;
   }
 }</component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.2.11/bin/php" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -141,6 +141,14 @@
       <workItem from="1734541671743" duration="437000" />
       <workItem from="1734542176696" duration="3957000" />
       <workItem from="1734628553249" duration="441000" />
+      <workItem from="1734700133571" duration="2743000" />
+      <workItem from="1735039827466" duration="107000" />
+      <workItem from="1735472436684" duration="40000" />
+      <workItem from="1735841481659" duration="1702000" />
+      <workItem from="1736234882877" duration="7000" />
+      <workItem from="1736591728845" duration="1093000" />
+      <workItem from="1736676593053" duration="1563000" />
+      <workItem from="1736750773491" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -430,7 +438,39 @@
       <option name="project" value="LOCAL" />
       <updated>1734546606347</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="refactor delete comments">
+      <option name="closed" value="true" />
+      <created>1734700829212</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1734700829212</updated>
+    </task>
+    <task id="LOCAL-00038" summary="refactor delete comments js">
+      <option name="closed" value="true" />
+      <created>1734700871934</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1734700871934</updated>
+    </task>
+    <task id="LOCAL-00039" summary="fix product disponible">
+      <option name="closed" value="true" />
+      <created>1734701105996</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1734701105996</updated>
+    </task>
+    <task id="LOCAL-00040" summary="fix styles map and buttons forms">
+      <option name="closed" value="true" />
+      <created>1736679186158</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1736679186158</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,10 +493,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="styles button" />
-    <MESSAGE value="fix styles" />
-    <MESSAGE value="fix woocommmerce" />
-    <MESSAGE value="update plugins and add border and outline none menu" />
     <MESSAGE value="update plugins and add new styles" />
     <MESSAGE value="fix docts slide gallery" />
     <MESSAGE value="fix products, menu .. styles" />
@@ -478,6 +514,10 @@
     <MESSAGE value="fix styles buttons" />
     <MESSAGE value="fix styles buttons and home" />
     <MESSAGE value="plugin and styles variations" />
-    <option name="LAST_COMMIT_MESSAGE" value="plugin and styles variations" />
+    <MESSAGE value="refactor delete comments" />
+    <MESSAGE value="refactor delete comments js" />
+    <MESSAGE value="fix product disponible" />
+    <MESSAGE value="fix styles map and buttons forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix styles map and buttons forms" />
   </component>
 </project>

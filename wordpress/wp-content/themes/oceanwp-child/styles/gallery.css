@@ -11,3 +11,12 @@
 .spectra-image-gallery__layout--carousel ul.slick-dots {
     top: -30px !important;
 }
+
+.gallery-image {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
