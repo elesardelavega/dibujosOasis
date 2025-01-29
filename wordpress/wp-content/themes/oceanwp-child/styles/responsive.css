@@ -161,3 +161,11 @@
         justify-items: center;
     }
 }
+
+/*Contact*/
+
+@media (max-width: 768px){
+    .wp-block-uagb-container.container-blocks-maps {
+        max-height: 100% !important;
+    }
+}

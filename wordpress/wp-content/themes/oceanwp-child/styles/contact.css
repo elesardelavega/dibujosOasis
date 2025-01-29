@@ -28,8 +28,8 @@
 }
 
 .wp-block-uagb-google-map.uagb-google-map__wrap.block-map embed {
-    max-height: 490px;
-    height: 490px !important;
+    max-height: 440px;
+    height: 440px !important;
 }
 
 div.frm_form_field.vertical_radio {

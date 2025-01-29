@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="add plugin newsletter and styles home responsive">
+    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="add responsive shop styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/responsive.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +152,8 @@
       <workItem from="1736676593053" duration="1563000" />
       <workItem from="1736750773491" duration="77000" />
       <workItem from="1737884310193" duration="5663000" />
-      <workItem from="1738151768674" duration="1593000" />
+      <workItem from="1738151768674" duration="1863000" />
+      <workItem from="1738171777794" duration="775000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -481,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737892362725</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="add responsive shop styles">
+      <option name="closed" value="true" />
+      <created>1738154082113</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1738154082113</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +514,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="fix docts slide gallery" />
     <MESSAGE value="fix products, menu .. styles" />
     <MESSAGE value="fix styles for menu" />
     <MESSAGE value="update plugin and add order shop" />
@@ -529,6 +538,7 @@
     <MESSAGE value="fix product disponible" />
     <MESSAGE value="fix styles map and buttons forms" />
     <MESSAGE value="add plugin newsletter and styles home responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="add plugin newsletter and styles home responsive" />
+    <MESSAGE value="add responsive shop styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="add responsive shop styles" />
   </component>
 </project>
