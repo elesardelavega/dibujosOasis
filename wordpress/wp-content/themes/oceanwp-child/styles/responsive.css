@@ -16,7 +16,15 @@
         width: 40%;
     }
 }
+@media (max-width: 964px){
+    .footer-box.span_1_of_3.col.col-1 {
+        width: 66%;
+    }
 
+    .footer-box.span_1_of_3.col.col-3 {
+        width: 30%;
+    }
+}
 @media (max-width: 768px){
 
     body.content-full-screen.page .entry .alignfull.wp-block-uagb-container.uagb-is-root-container {
@@ -117,5 +125,39 @@
     }
     body.content-full-screen.page .entry .wp-block-uagb-container.container-contact-home.alignfull.uagb-is-root-container .uagb-container-inner-blocks-wrap {
         padding-left: 0;
+    }
+}
+
+/*Shop*/
+@media (max-width: 1350px){
+    .archive li.image-wrap {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px){
+    body .oceanwp-row .span_1_of_4.col:not(.swiper-slide), .blog-entry {
+        width: 25% !important;
+    }
+}
+
+@media (max-width: 550px) {
+    body .oceanwp-row .span_1_of_4.col:not(.swiper-slide), .blog-entry {
+        width: 49% !important;
+    }
+
+    .woocommerce ul.products {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 550px){
+    body .oceanwp-row .span_1_of_4.col:not(.swiper-slide), .blog-entry {
+        width: 100% !important;
+        justify-items: center;
     }
 }

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="fix styles map and buttons forms">
+    <list default="true" id="5dd4d500-6e59-4ddb-bfb8-de0c3bd5a01e" name="Changes" comment="add plugin newsletter and styles home responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/oceanwp-child/styles/responsive.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +150,8 @@
       <workItem from="1736591728845" duration="1093000" />
       <workItem from="1736676593053" duration="1563000" />
       <workItem from="1736750773491" duration="77000" />
+      <workItem from="1737884310193" duration="5663000" />
+      <workItem from="1738151768674" duration="1593000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -470,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736679186158</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="add plugin newsletter and styles home responsive">
+      <option name="closed" value="true" />
+      <created>1737892362724</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1737892362725</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +504,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="update plugins and add new styles" />
     <MESSAGE value="fix docts slide gallery" />
     <MESSAGE value="fix products, menu .. styles" />
     <MESSAGE value="fix styles for menu" />
@@ -518,6 +528,7 @@
     <MESSAGE value="refactor delete comments js" />
     <MESSAGE value="fix product disponible" />
     <MESSAGE value="fix styles map and buttons forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix styles map and buttons forms" />
+    <MESSAGE value="add plugin newsletter and styles home responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="add plugin newsletter and styles home responsive" />
   </component>
 </project>
