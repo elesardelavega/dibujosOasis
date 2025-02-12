@@ -156,6 +156,11 @@ class Frontend extends Base_Model implements Model_Interface {
         // apply discount by adjusting cart item prices.
         if ( ! empty( $this->_calculation->get_all_entries() ) ) {
             $this->_set_matching_cart_item_deals_prices();
+
+            // apply price of matching cart item triggers.
+            if ( apply_filters( 'acfw_enable_matching_cart_triggers_prices', false ) ) {
+                $this->_set_matching_cart_item_triggers_prices();
+            }
         }
 
         // mark calculation as done.
@@ -325,6 +330,35 @@ class Frontend extends Base_Model implements Model_Interface {
                     'discounted_prices' => $discounted_prices,
                 );
             }
+        }
+    }
+
+    /**
+     * Apply price of matching cart item triggers by adjusting of cart line items.
+     *
+     * @since 4.6.5
+     * @access private
+     */
+    private function _set_matching_cart_item_triggers_prices() {
+        foreach ( \WC()->cart->get_cart_contents() as $cart_item ) {
+
+            $key = $cart_item['key'];
+
+            // if cart key already present in price display, then skip.
+            // this prevents price be applied multiple times on the cart.
+            if ( isset( $this->_price_display[ $key ] ) ) {
+                continue;
+            }
+
+            $triggers = $this->_calculation->get_entries_by_cart_item( $key, 'trigger' );
+
+            // don't proceed if there are no deal triggers for the current item.
+            if ( empty( $triggers ) ) {
+                continue;
+            }
+
+            $price = $this->_helper_functions->get_price( $cart_item['data'], array( 'ignore_always_use_regular_price' => 'all_valid' !== get_option( Plugin_Constants::ALWAYS_USE_REGULAR_PRICE ) ) );
+            $cart_item['data']->set_price( apply_filters( 'acfw_bogo_set_trigger_item_price', $price, $cart_item ) );
         }
     }
 

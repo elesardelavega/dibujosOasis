@@ -93,23 +93,31 @@ function generateQRCode() {
   // If couponUrl is exist, generate the QR Code.
   if (couponUrl) {
     let qrcodeContainer = $('#acfw-qr-code');
-    let qrcode = new QRCode(qrcodeContainer[0], {
-      text: couponUrl,
-      width: 200,
-      height: 200,
-      colorDark: '#000000',
-      colorLight: '#ffffff',
-      correctLevel: QRCode.CorrectLevel.H,
-    });
-    qrcode.makeCode(couponUrl);
-    downloadLink.click(function () {
-      // Get the QR image and its src attribute
-      var qrImage = $('#acfw-qr-code img');
-      var qrURL = qrImage.attr('src');
-      // Download the QR image with coupon title name
-      downloadLink.attr('href', qrURL);
-      downloadLink.attr('download', `${$('#title').val()}.png`);
-    });
+
+    try {
+      let qrcode = new QRCode(qrcodeContainer[0], {
+        text: couponUrl,
+        width: 200,
+        height: 200,
+        colorDark: '#000000',
+        colorLight: '#ffffff',
+        correctLevel: QRCode.CorrectLevel.L,
+      });
+      qrcode.makeCode(couponUrl);
+
+      downloadLink.click(function () {
+        // Get the QR image and its src attribute
+        var qrImage = $('#acfw-qr-code img');
+        var qrURL = qrImage.attr('src');
+        // Download the QR image with coupon title name
+        downloadLink.attr('href', qrURL);
+        downloadLink.attr('download', `${$('#title').val()}.png`);
+      });
+    } catch (error) {
+      $('#acfw-qr-code').remove();
+      $('#acfw-download-qr-link').addClass('disabled');
+      $('#acfw-download-qr-link').before(`<p class="error-message">${acfw_edit_coupon.error_generate_qr_image}</p>`);
+    }
   } else {
     // Hide acfw-qr-code-container if the couponUrl is not exist
     $('.acfw-qr-code-container').hide();

@@ -96,7 +96,7 @@ const reducer = (
       if (!edit || !edit.fields) return state;
 
       const fields = edit.fields.map((f) => {
-        if (f.is_required && !f.value) {
+        if (f.is_required && (!f.value || f.fixtures?.options?.disabled === f.value)) {
           f.error = 'This field is required';
         } else {
           f.error = undefined;

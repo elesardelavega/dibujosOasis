@@ -3,7 +3,7 @@ Contributors: jkohlbach, RymeraWebCo, Rymera01, smub
 Tags: woocommerce coupons, bogo coupons, store credit, url coupons, bogo
 Requires at least: 5.2
 Tested up to: 6.7
-Stable tag: 4.6.4
+Stable tag: 4.6.5
 Requires PHP: 5.6
 License: GNU General Public License v2.0 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -367,6 +367,23 @@ Thanks,
 Josh Kohlbach (CEO of Rymera Web Co)
 
 == Changelog ==
+
+= 4.6.5 =
+- Bug Fix: Coupon Template not working with "Total Customer Spend" cart condition
+- Bug Fix: Coupon Template: The required enable scheduler field is not showing the validation when coupon template is created
+- Bug Fix: Dates on the store credit history are not translatable
+- Bug Fix: Extra characters showing on "Cart Subtotal" condition on the Coupon Templates creation screen
+- Bug Fix: Fix links to Advanced Coupons website in coupons dashboard license activation status
+- Bug Fix: Integration - Always use regular price for "fixed product discount" & "percentage discount" are not working with subscription products
+- Bug Fix: JS Error When coupon code is exceeding certain characters
+- Bug Fix: Store credit discount amount is wrong when "Prices entered with tax" setting is set to include tax
+- Bug Fix: Pushengage: Fatal error when trying to send push notification for account that has no segment setup yet
+- Feature: PushEngage: Add push notification option with plugin install and activation
+- Feature: PushEngage: Develop and test dynamic notification preview
+- Feature: PushEngage: Integrate segment selection and message customization
+- Feature: PushEngage: Set up API integration for notification broadcast
+- Improvement: Advanced Coupons by Category Block: Make the coupons stack on mobile
+- Improvement: Store Credit HTML elements still showing when store credit Is disabled
 
 = 4.6.4 =
 - Bug Fix: Always use regular price for all coupon types is showing the sale price for specific condition

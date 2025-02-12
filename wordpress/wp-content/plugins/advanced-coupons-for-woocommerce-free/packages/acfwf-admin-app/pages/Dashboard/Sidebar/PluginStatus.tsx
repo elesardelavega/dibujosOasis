@@ -24,8 +24,8 @@ export interface IPluginStatus {
 
 // #region [Component] =================================================================================================
 
-const PluginStatus = (props: IPluginStatus) => {
-  const { name, campaign, status } = props;
+const PluginStatus = (props: IPluginStatus & { itemKey: string }) => {
+  const { name, campaign, status, itemKey } = props;
   const {
     dashboard_page: { labels },
   } = acfwAdminApp;
@@ -33,9 +33,29 @@ const PluginStatus = (props: IPluginStatus) => {
   let statusHtml: string;
 
   if ('learn_more' === status) {
-    const link = `https://advancedcouponsplugin.com/pricing/?utm_source=acfwf&utm_medium=dashboard&utm_campaign=${campaign}`;
+    let basePath = 'https://advancedcouponsplugin.com/pricing/';
+    let pluginPath = '';
+
+    // Determine the plugin-specific path
+    switch (itemKey) {
+      case 'acfwp':
+        pluginPath = '';
+        break;
+      case 'lpfw':
+        pluginPath = 'loyalty/';
+        break;
+      case 'agc':
+        pluginPath = 'gift-cards/';
+        break;
+      default:
+        pluginPath = '';
+    }
+
+    const link = `${basePath}${pluginPath}?utm_source=acfwf&utm_medium=dashboard&utm_campaign=${campaign}`;
     statusHtml = `<a class="${status}" href="${link}" target="_blank" href="javascript:void(0);">${labels[status]}</a>`;
-  } else statusHtml = `<span class="plugin-status ${status}">${labels[status]}</span>`;
+  } else {
+    statusHtml = `<span class="plugin-status ${status}">${labels[status]}</span>`;
+  }
 
   return (
     <>

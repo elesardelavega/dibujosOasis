@@ -130,41 +130,6 @@ class Emails implements Model_Interface, Initializable_Interface {
     }
 
     /**
-     * Register send coupon localized data.
-     *
-     * @since 4.5.3
-     * @access public
-     *
-     * @param array $data Localized data.
-     * @return array Filtered localized data.
-     */
-    public function register_send_coupon_localized_data( $data ) {
-
-        $data['send_coupon'] = array(
-            'labels'     => array(
-                'title'                     => __( 'Send Coupon', 'advanced-coupons-for-woocommerce-free' ),
-                'description'               => __( 'Deliver this coupon via email to a customer.', 'advanced-coupons-for-woocommerce-free' ),
-                'send_coupon_to'            => __( 'Send coupon to', 'advanced-coupons-for-woocommerce-free' ),
-                'existing_customer_account' => __( 'Existing customer account', 'advanced-coupons-for-woocommerce-free' ),
-                'new_customer'              => __( 'New customer (no account)', 'advanced-coupons-for-woocommerce-free' ),
-                'next'                      => __( 'Next', 'advanced-coupons-for-woocommerce-free' ),
-                'customer_details'          => __( 'Customer details', 'advanced-coupons-for-woocommerce-free' ),
-                'search'                    => __( 'Search', 'advanced-coupons-for-woocommerce-free' ),
-                'name'                      => __( 'Name', 'advanced-coupons-for-woocommerce-free' ),
-                'email'                     => __( 'Email', 'advanced-coupons-for-woocommerce-free' ),
-                'create_new_user_account'   => __( 'Create new user account', 'advanced-coupons-for-woocommerce-free' ),
-                'confirm_and_send'          => __( 'Confirm & send', 'advanced-coupons-for-woocommerce-free' ),
-                'customer'                  => __( 'Customer', 'advanced-coupons-for-woocommerce-free' ),
-                'preview_email'             => __( 'Preview email', 'advanced-coupons-for-woocommerce-free' ),
-                'send_email'                => __( 'Send Email', 'advanced-coupons-for-woocommerce-free' ),
-            ),
-            'form_nonce' => wp_create_nonce( 'acfw_advanced_coupon_preview_email' ),
-        );
-
-        return $data;
-    }
-
-    /**
      * Display the advanced coupons email footer.
      *
      * @since 4.5.4.2
@@ -242,9 +207,9 @@ class Emails implements Model_Interface, Initializable_Interface {
                 $args  = wp_parse_args(
                     $args,
                     array(
-						'coupon_id' => 0,
-						'email'     => '',
-						'user_id'   => 0,
+                        'coupon_id' => 0,
+                        'email'     => '',
+                        'user_id'   => 0,
                         'name'      => '',
                     )
                 );
@@ -341,7 +306,6 @@ class Emails implements Model_Interface, Initializable_Interface {
     public function run() {
         add_filter( 'woocommerce_email_classes', array( $this, 'register_advanced_gift_card_email' ) );
         add_filter( 'woocommerce_locate_core_template', array( $this, 'override_template_file_path_check' ), 10, 4 );
-        add_filter( 'acfw_edit_advanced_coupon_localize', array( $this, 'register_send_coupon_localized_data' ) );
         add_action( 'acfw_email_header', array( $this, 'display_advanced_coupons_email_header' ) );
         add_action( 'acfw_email_footer', array( $this, 'display_advanced_coupons_email_footer' ) );
         add_action( Plugin_Constants::SEND_COUPON_ACTION_SCHEDULE, array( $this, 'trigger_send_coupon_email' ), 10, 3 );

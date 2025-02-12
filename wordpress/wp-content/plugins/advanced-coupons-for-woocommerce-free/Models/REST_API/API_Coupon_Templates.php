@@ -799,7 +799,7 @@ class API_Coupon_Templates extends Base_Model implements Model_Interface {
 
                     // append the translatable strings data to the condition fields.
                     $field_type    = str_replace( '-', '_', $field['type'] );
-                    $field['i18n'] = $fields_i18n['cart_condition_fields'][ $field_type ] ?? array();
+                    $field['i18n'] = isset( $fields_i18n['cart_condition_fields'][ $field_type ] ) ? $this->_helper_functions->decode_html_entities_recursive( $fields_i18n['cart_condition_fields'][ $field_type ] ) : array();
 
                     // Append user role options to the role related cart condition fields.
                     if ( strpos( $field['type'], 'customer-user-role' ) !== false ) {

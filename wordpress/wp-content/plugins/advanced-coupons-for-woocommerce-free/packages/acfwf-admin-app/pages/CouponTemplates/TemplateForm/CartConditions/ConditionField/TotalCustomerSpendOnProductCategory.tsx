@@ -24,8 +24,9 @@ declare var acfwAdminApp: any;
 
 interface IFieldData {
   condition: string;
-  quantity: number;
-  value: number[];
+  spend: number;
+  categories: number[];
+  type: any;
 }
 
 interface IProps {
@@ -46,39 +47,77 @@ const TotalCustomerSpendOnProductCategory = (props: IProps) => {
     onChange(data);
   };
 
+  const getTypeValueLabel = (): string => {
+    switch (field.data.type.condition) {
+      case 'within-a-period':
+        return field.i18n.num_prev_days;
+      case 'number-of-orders':
+        return field.i18n.number_of_orders;
+      default:
+        return '';
+    }
+  };
+
+  const getCategoryOptions = (categories: Record<string, string>) => {
+    return Object.keys(categories).map((key) => ({
+      value: key,
+      label: categories[key],
+    }));
+  };
+
   return (
     <div className="condition-field">
       <h3>{field.i18n.title}</h3>
       <div className="condition-field-form">
-        <div className="field-control full-width">
-          <label>{field.i18n.field}</label>
-          <DebounceSelect
-            mode="multiple"
-            placeholder="Select categories"
-            value={field.data.value}
-            style={{ width: '100%' }}
-            fetchOptions={(value: string) => searchCategoryOptions(value, field.data.value)}
-            onChange={(value: IFieldOption[]) =>
-              handleChange(
-                'value',
-                value.map((v) => v.value)
-              )
-            }
+        <div className="field-control">
+          <label>{field.i18n.type}</label>
+          <Select
+            value={field.data.type.condition}
+            options={field.i18n.type_options}
+            onSelect={(value: string) => handleChange('type', { ...field.data.type, condition: value })}
+          />
+        </div>
+
+        <div className="field-control">
+          <label>{getTypeValueLabel()}</label>
+          <InputNumber
+            value={field.data.type.value}
+            onChange={(value: number | null) => handleChange('type', { ...field.data.type, value: value })}
+            min={0}
           />
         </div>
       </div>
+
+      <div className="condition-field-form">
+        <div className="field-control full-width">
+          <label>{field.i18n.categories.field}</label>
+          <Select
+            mode="multiple"
+            placeholder="Select categories"
+            style={{ width: '100%' }}
+            options={getCategoryOptions(field.i18n.categories.options)}
+            onChange={(selectedValues: string[]) => handleChange('categories', selectedValues)}
+          />
+        </div>
+      </div>
+
       <div className="condition-field-form">
         <div className="field-control">
           <label>{labels.condition}</label>
           <Select
             value={field.data.condition}
             options={getConditionOptions()}
-            onSelect={(value) => handleChange('condition', value)}
+            onSelect={(value: string) => handleChange('condition', value)}
           />
         </div>
+
         <div className="field-control">
-          <label>{labels.quantity}</label>
-          <InputNumber value={field.data.quantity} onChange={(value) => handleChange('quantity', value ?? 0)} min={0} />
+          <label>{field.i18n.total_spend}</label>
+          <InputNumber
+            value={field.data.spend}
+            onChange={(value: number | null) => handleChange('spend', value ?? 0)}
+            min={0}
+          />
         </div>
       </div>
     </div>
@@ -95,16 +134,16 @@ export const totalCustomerSpendProductCatDataValidator = (rawData: unknown) => {
   const data = rawData as IFieldData;
   const errors: string[] = [];
 
-  if (data.quantity < 0 || typeof data.quantity !== 'number') {
-    errors.push('quantity');
+  if (data.spend < 0 || typeof data.spend !== 'number') {
+    errors.push('spend');
   }
 
   if (!data.condition) {
     errors.push('condition');
   }
 
-  if (data.value.length < 1) {
-    errors.push('value');
+  if (data.categories.length < 1) {
+    errors.push('categories');
   }
 
   return errors;

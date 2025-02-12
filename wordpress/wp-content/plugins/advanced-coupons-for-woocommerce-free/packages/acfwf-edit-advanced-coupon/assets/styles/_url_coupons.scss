@@ -35,6 +35,9 @@
     display: flex;
     justify-content: center;
   }
+  .error-message{
+    text-align: center;
+  }
   @media (max-width: 1440px) {
     position: initial;
     display: block;

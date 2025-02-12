@@ -281,6 +281,7 @@ class Script_Loader extends Base_Model implements Model_Interface {
                         'each_product_same_product_error' => __( "Any products trigger type based on each product's quantity can only work with <em>Same Products</em> apply type.", 'advanced-coupons-for-woocommerce-free' ),
                         'copied_label'                    => __( 'Copied', 'advanced-coupons-for-woocommerce-free' ),
                         'download_qr_image_label'         => __( 'Download QR Image', 'advanced-coupons-for-woocommerce-free' ),
+                        'error_generate_qr_image'         => __( 'Coupon code is too long, failed to generate QR Code.', 'advanced-coupons-for-woocommerce-free' ),
                         'invalid_scheduler_time'          => __( '<strong>Scheduler:</strong> Please enter a valid date and time range.', 'advanced-coupons-for-woocommerce-free' ),
                         'product_table_buttons'           => array(
                             'add'    => __( 'Add', 'advanced-coupons-for-woocommerce-free' ),

@@ -150,7 +150,7 @@ class General extends Base_Model implements Model_Interface {
         }
 
         // Check if the product type is unsupported.
-        $unsupported_product_types = apply_filters( 'acfw_always_use_regular_price_unsupported_product_types', array( 'bundle', 'subscription', 'membership' ) );
+        $unsupported_product_types = apply_filters( 'acfw_always_use_regular_price_unsupported_product_types', array() );
         if ( in_array( $product_type, $unsupported_product_types, true ) ) {
             return $price;
         }

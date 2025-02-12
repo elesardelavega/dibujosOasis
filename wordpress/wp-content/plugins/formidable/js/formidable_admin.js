@@ -4411,9 +4411,6 @@ function frmAdminBuildJS() {
 						}
 					}
 				);
-
-				// when holding shift and clicking, text gets selected. unselect it.
-				document.getSelection().removeAllRanges();
 			}
 		} else {
 			// not multi-selecting
@@ -5424,22 +5421,22 @@ function frmAdminBuildJS() {
 	}
 
 	/**
-	 * Update the phone format input based on the selected phone type.
-	 *
-	 * This function is triggered when a phone type is selected.
-	 * If the selected type is 'custom' and the current format is 'international',
-	 * the format input value is cleared to allow for custom input.
+	 * Update the format input based on the selected format type.
 	 *
 	 * @since 6.9
 	 *
-	 * @param {Event} event The event object from the phone type selection.
+	 * @param {Event} event The event object from the format type selection.
 	 * @return {void}
 	 */
-	function maybeUpdatePhoneFormatInput( event ) {
-		const phoneType = event.target;
-		if ( 'custom' === phoneType.value ) {
-			const formatInput = phoneType.parentElement.nextElementSibling.querySelector( '.frm_format_opt' );
-			if ( 'international' === formatInput.value ) {
+	function maybeUpdateFormatInput( event ) {
+		const formatElement = event.target;
+		const type = formatElement.value
+
+		if ( 'custom' === type ) {
+			const fieldId = formatElement.dataset.fieldId;
+			const formatInput = document.getElementById( `frm-field-format-custom-${fieldId}` ).querySelector( '.frm_format_opt' );
+
+			if ( 'international' === formatInput.value || 'currency' === formatInput.value || 'number' === formatInput.value ) {
 				formatInput.setAttribute( 'value', '' );
 			}
 		}
@@ -6150,8 +6147,10 @@ function frmAdminBuildJS() {
 			}
 
 			if ( showSelect || showText ) {
+				const comparison = document.querySelector( `#frm_logic_${fieldID}_${metaKey} [name="field_options[hide_field_cond_${fieldID}][]"]` ).value;
 				fill.innerHTML = '';
-				if ( showSelect ) {
+				const creatingValuesDropdown = showSelect && ! [ 'LIKE', 'not LIKE', 'LIKE%', '%LIKE' ].includes( comparison );
+				if ( creatingValuesDropdown ) {
 					input = document.createElement( 'select' );
 				} else {
 					input = document.createElement( 'input' );
@@ -6161,7 +6160,7 @@ function frmAdminBuildJS() {
 				input.id = optionID + '_' + metaKey;
 				fill.appendChild( input );
 
-				if ( showSelect ) {
+				if ( creatingValuesDropdown ) {
 					const fillField = document.getElementById( input.id );
 					fillDropdownOpts( fillField, {
 						sourceID: val,
@@ -6689,32 +6688,26 @@ function frmAdminBuildJS() {
 	}
 
 	/**
-	 * Updates the format input based on the selected phone type from dropdowns during the form save process.
-	 *
-	 * Triggered within the preFormSave function, this function iterates through all phone type dropdown elements
-	 * and adjusts the format input value accordingly. Specifically, if the phone type is 'custom' but the format input
-	 * is empty, it sets it to 'none'. If the phone type is 'international', it sets the format input value to 'international'
-	 * before the form is saved.
+	 * Updates the format input based on the selected format type from dropdowns during the form save process.
 	 *
 	 * @since 6.9
 	 *
-	 * @param {HTMLButtonElement} submitButton The button that was submitted.
 	 * @return {void}
 	 */
-	function adjustFormatInputBeforeSave( submitButton ) {
-		const phoneTypes = document.querySelectorAll( '.frm_phone_type_dropdown' );
-		phoneTypes.forEach( phoneType => {
-			const value = phoneType.value;
-			if ( ! [ 'none', 'international' ].includes( value ) ) {
-				return;
-			}
+	function adjustFormatInputBeforeSave() {
+		const formatTypes = document.querySelectorAll( '.frm_format_dropdown, .frm_phone_type_dropdown' );
+		const valueMap = {
+			none: '',
+			international: 'international',
+			currency: 'currency',
+			number: 'number'
+		};
 
-			const formatInput = phoneType.parentElement.nextElementSibling.querySelector( '.frm_format_opt' );
-			if ( 'none' === value ) {
-				formatInput.setAttribute( 'value', '' );
-			}
-			if ( 'international' === value ) {
-				formatInput.setAttribute( 'value', 'international' );
+		formatTypes.forEach( formatType => {
+			const value = formatType.value;
+			if ( value in valueMap ) {
+				const formatInput = document.getElementById( `frm_format_${formatType.dataset.fieldId}` );
+				formatInput.value = valueMap[ value ];
 			}
 		});
 	}
@@ -7073,10 +7066,12 @@ function frmAdminBuildJS() {
 		}
 
 		const targetSettings = event.target.closest( '.frm_form_action_settings' );
-		const wysiwyg        = targetSettings.querySelector( '.wp-editor-area' );
-		if ( wysiwyg ) {
+		const wysiwygs	     = targetSettings.querySelectorAll( '.wp-editor-area' );
+		if ( wysiwygs.length ) {
 			// Temporary remove TinyMCE before cloning to avoid TinyMCE conflicts.
-			tinymce.EditorManager.execCommand( 'mceRemoveEditor', true, wysiwyg.id );
+			wysiwygs.forEach( wysiwyg => {
+				tinymce.EditorManager.execCommand( 'mceRemoveEditor', true, wysiwyg.id );
+			});
 		}
 
 		const $action   = jQuery( targetSettings ).clone();
@@ -7121,10 +7116,15 @@ function frmAdminBuildJS() {
 		newAction.classList.remove( 'open' );
 		document.getElementById( 'frm_notification_settings' ).appendChild( newAction );
 
-		if ( wysiwyg ) {
+		if ( wysiwygs.length ) {
 			// Re-initialize the original wysiwyg which was removed before cloning.
-			frmDom.wysiwyg.init( wysiwyg );
-			frmDom.wysiwyg.init( newAction.querySelector( '.wp-editor-area' ) );
+			wysiwygs.forEach( wysiwyg => {
+				frmDom.wysiwyg.init( wysiwyg );
+			});
+
+			newAction.querySelectorAll( '.wp-editor-area' ).forEach( wysiwyg => {
+				frmDom.wysiwyg.init( wysiwyg );
+			});
 		}
 
 		if ( newAction.classList.contains( 'frm_single_on_submit_settings' ) ) {
@@ -8379,7 +8379,7 @@ function frmAdminBuildJS() {
 	 * Handles 'change' event on the document.
 	 *
 	 * @since 6.16.3
-	 * 
+	 *
 	 * @param {Event} event
 	 * @returns {Void}
 	 */
@@ -8445,7 +8445,7 @@ function frmAdminBuildJS() {
 			onClickPreventDefault( continueButton, () => {
 				saveAndReloadFormBuilder();
 			} );
-	
+
 			const cancelButton = frmDom.modal.footerButton({
 				text: __( 'Cancel', 'formidable' ),
 				buttonType: 'cancel'
@@ -8558,7 +8558,12 @@ function frmAdminBuildJS() {
 	 * @returns {Boolean}
 	 */
 	function isContextualShortcode( item ) {
-		const shortcode = item.querySelector( 'a' ).dataset.code;
+		const anchor = item.querySelector( 'a' );
+		if ( ! anchor ) {
+			return false;
+		}
+
+		const shortcode = anchor.dataset.code;
 		return frmAdminJs.contextualShortcodes.address.includes( shortcode ) || frmAdminJs.contextualShortcodes.body.includes( shortcode );
 	}
 
@@ -8883,13 +8888,12 @@ function frmAdminBuildJS() {
 	}
 
 	function initWysiwygOnActionLoaded( settings ) {
-		const wysiwyg = settings.querySelector( '.wp-editor-area' );
-		if ( wysiwyg ) {
+		settings.querySelectorAll( '.wp-editor-area' ).forEach( wysiwyg => {
 			frmDom.wysiwyg.init(
 				wysiwyg,
 				{ height: 160, addFocusEvents: true }
 			);
-		}
+		});
 	}
 
 	/* Global settings page */
@@ -10351,7 +10355,7 @@ function frmAdminBuildJS() {
 		 */
 		function toggleDependencyVisibility( select ) {
 			const selectedOption = select.options[ select.selectedIndex ];
-			select.querySelectorAll( 'option[data-dependency]' ).forEach( option => {
+			select.querySelectorAll( 'option[data-dependency]:not([data-dependency-skip])' ).forEach( option => {
 				const dependencyElement = document.querySelector( option.dataset.dependency );
 				dependencyElement?.classList.toggle( 'frm_hidden', selectedOption !== option );
 			});
@@ -10694,7 +10698,7 @@ function frmAdminBuildJS() {
 			jQuery( document ).on( 'blur', '.frm-single-settings ul input[type="text"][name^="field_options[options_"]', onOptionTextBlur );
 
 			frmDom.util.documentOn( 'click', '.frm-show-field-settings', clickVis );
-			frmDom.util.documentOn( 'change', 'select.frm_phone_type_dropdown', maybeUpdatePhoneFormatInput );
+			frmDom.util.documentOn( 'change', 'select.frm_format_dropdown, select.frm_phone_type_dropdown', maybeUpdateFormatInput );
 
 			initBulkOptionsOverlay();
 			hideEmptyEle();
@@ -10704,6 +10708,11 @@ function frmAdminBuildJS() {
 			handleShowPasswordLiveUpdate();
 			document.addEventListener( 'scroll', updateShortcodesPopupPosition, true );
 			document.addEventListener( 'change', handleBuilderChangeEvent );
+			document.querySelector( '.frm_form_builder' ).addEventListener( 'mousedown', event => {
+				if ( event.shiftKey ) {
+				  event.preventDefault();
+				}
+			});
 		},
 
 		settingsInit: function() {
@@ -11242,6 +11251,7 @@ function frmAdminBuildJS() {
 		purifyHtml,
 		loadApiEmailForm,
 		addMyEmailAddress,
+		fillDropdownOpts,
 		showSaveAndReloadModal
 	};
 }

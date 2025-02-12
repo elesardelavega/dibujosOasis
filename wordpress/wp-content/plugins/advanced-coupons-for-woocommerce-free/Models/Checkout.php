@@ -74,11 +74,17 @@ class Checkout extends Base_Model implements Model_Interface, Initializable_Inte
     public function display_checkout_tabbed_box() {
 
         $accordions = apply_filters( 'acfw_checkout_accordions_data', array() );
-        $args       = apply_filters(
+
+        // If there are no accordion data, return early and do not render the UI block template.
+        if ( empty( $accordions ) ) {
+            return;
+        }
+
+        $args = apply_filters(
             'acfw_checkout_template_args',
             array(
-				'id'            => 'acfw-checkout-ui-block',
-				'classnames'    => array( 'acfw-checkout-ui-block' ),
+                'id'            => 'acfw-checkout-ui-block',
+                'classnames'    => array( 'acfw-checkout-ui-block' ),
                 'caret_img_src' => $this->_constants->IMAGES_ROOT_URL . 'caret.svg',
             )
         );

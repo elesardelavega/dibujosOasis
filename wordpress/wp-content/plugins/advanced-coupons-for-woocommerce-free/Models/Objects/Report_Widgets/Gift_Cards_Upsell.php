@@ -37,7 +37,7 @@ class Gift_Cards_Upsell extends Abstract_Report_Widget {
         $this->title       = __( 'Sell Gift Cards', 'advanced-coupons-for-woocommerce-free' );
         $this->description = sprintf(
             '<a href="%s">%s</span>',
-            'https://advancedcouponsplugin.com/pricing/gift-cards/?&utm_source=acfwf&utm_medium=upsell&utm_campaign=dashboardwidgetlearnmoreagc',
+            'https://advancedcouponsplugin.com/pricing/gift-cards/?utm_source=acfwf&utm_medium=upsell&utm_campaign=dashboardwidgetlearnmoreagc',
             __( 'Learn more →', 'advanced-coupons-for-woocommerce-free' )
         );
 

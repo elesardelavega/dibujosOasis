@@ -210,6 +210,7 @@ class Usage implements Model_Interface, Initializable_Interface, Activatable_Int
             OR option_name NOT LIKE '%activation_email%'
             OR option_name NOT LIKE '%settings_hash%'
             OR option_name NOT LIKE '%installed_version%')
+            AND (option_name != 'acfw_recent_coupon_templates')
             "
         );
 

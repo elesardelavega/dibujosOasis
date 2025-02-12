@@ -272,7 +272,7 @@ class Store_Credit_Entry {
             'user_id'        => $this->get_prop( 'user_id', $context ),
             'customer_name'  => \ACFWF()->Helper_Functions->get_customer_name( $this->get_prop( 'user_id', $context ) ),
             'customer_email' => \ACFWF()->Helper_Functions->get_customer_email( $this->get_prop( 'user_id', $context ) ),
-            'date'           => is_object( $date ) ? $date->format( $date_format ) : '',
+            'date'           => is_object( $date ) ? $date->date_i18n( $date_format ) : '',
             'rel_link'       => $this->get_related_object_link( $is_admin ),
             'rel_label'      => $this->get_related_object_label( $is_admin ),
             'note'           => $this->get_prop( 'note', $context ),

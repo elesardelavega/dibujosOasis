@@ -980,6 +980,11 @@ class Helper_Functions {
                     $sanitized[ $param ] = absint( $value );
                     break;
 
+                case 'segments':
+                case 'segment_ids':
+                    $sanitized[ $param ] = array_map( 'sanitize_text_field', (array) $value );
+                    break;
+
                 default:
                     $sanitized[ $param ] = sanitize_text_field( $value );
             }
@@ -1592,5 +1597,27 @@ class Helper_Functions {
         }
         // Translators: This refers to a very short time interval (less than a minute).
         return __( 'just now', 'advanced-coupons-for-woocommerce-free' );
+    }
+
+    /**
+     * Decode HTML entities in an array or string recursively.
+     *
+     * This method traverses an array and decodes HTML entities in all string elements,
+     * leaving other data types untouched. It ensures compatibility with nested arrays
+     * and mixed data types.
+     *
+     * @since 4.6.5
+     * @access public
+     *
+     * @param mixed $input The input value to decode. It can be an array, string, or other data type.
+     * @return mixed The input value with HTML entities decoded in strings, preserving the original structure.
+     */
+    public function decode_html_entities_recursive( $input ) {
+        if ( is_array( $input ) ) {
+            return array_map( array( $this, 'decode_html_entities_recursive' ), $input );
+        } elseif ( is_string( $input ) ) {
+            return html_entity_decode( $input );
+        }
+        return $input;
     }
 }

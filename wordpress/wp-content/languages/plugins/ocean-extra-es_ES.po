@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Ocean Extra - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-27 20:02:20+0000\n"
+"PO-Revision-Date: 2025-01-27 20:57:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,18 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Ocean Extra - Stable (latest release)\n"
+
+#: includes/update-message.php:129
+msgid "Requires at Least"
+msgstr "Requiere, al menos"
+
+#: includes/update-message.php:116
+msgid "This plugin update requires compatibility with specific OceanWP theme versions. Please ensure your theme meets the following requirements before proceeding:"
+msgstr "Esta actualización del plugin requiere la compatibilidad con versiones específicas del tema OceanWP. Asegúrate de que tu tema reúna los siguientes requisitos antes de proceder:"
+
+#: includes/update-message.php:111
+msgid "Compatibility Alert."
+msgstr "Alerta de compatibilidad."
 
 #: includes/preloader/customizer.php:622
 msgid "Overlay"
@@ -148,7 +160,7 @@ msgstr "4.0.0"
 msgid "Required Version"
 msgstr "Versión requerida"
 
-#: includes/update-message.php:79
+#: includes/update-message.php:79 includes/update-message.php:128
 msgid "Items"
 msgstr "Elementos"
 
@@ -269,11 +281,11 @@ msgstr "Página de inicio ( is_home() )"
 msgid "All Pages"
 msgstr "Todas las páginas"
 
-#: ocean-extra.php:852
+#: ocean-extra.php:872
 msgid "Update and get the new Theme Panel"
 msgstr "Actualiza y consigue el nuevo panel del tema"
 
-#: ocean-extra.php:851
+#: ocean-extra.php:871
 msgid "We made changes to our Theme Panel. To complete the installation and enjoy both old and new features, please make sure the OceanWP theme and all Ocean plugins are up to date."
 msgstr "Hemos hecho cambios en nuestro panel del tema. Para completar la instalación y disfrutar tanto de las características antiguas y las nuevas, por favor, asegúrate de que tanto el tema OceanWP como los plugins Ocean estén actualizados."
 
@@ -9033,6 +9045,7 @@ msgstr "https://oceanwp.org/"
 #. Author of the plugin
 #: ocean-extra.php includes/admin-bar/admin-bar.php:53
 #: includes/dashboard.php:72 includes/update-message.php:83
+#: includes/update-message.php:132
 msgid "OceanWP"
 msgstr "OceanWP"
 
@@ -9046,8 +9059,8 @@ msgstr "https://oceanwp.org/extension/ocean-extra/"
 msgid "Ocean Extra"
 msgstr "Ocean Extra"
 
-#: includes/adobe-font.php:87 includes/adobe-font.php:94 ocean-extra.php:244
-#: ocean-extra.php:253
+#: includes/adobe-font.php:87 includes/adobe-font.php:94 ocean-extra.php:243
+#: ocean-extra.php:252
 msgid "Cheatin&#8217; huh?"
 msgstr "¿Haciendo trampas?"
 

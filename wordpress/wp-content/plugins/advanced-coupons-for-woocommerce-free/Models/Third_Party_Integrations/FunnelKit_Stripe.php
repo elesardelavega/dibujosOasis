@@ -126,8 +126,8 @@ class FunnelKit_Stripe extends Base_Model implements Model_Interface, Activatabl
      * @since 4.6.1
      * @access public
      *
-     * @param string $plugin_slug Filtered plugin slug.
-     * @param string $result Filtered result install activate plugin.
+     * @param string         $plugin_slug Filtered plugin slug.
+     * @param bool|\WP_Error $result Filtered result install activate plugin.
      */
     public function update_funnelkit_stripe_promote_after_install_activate_plugin( $plugin_slug, $result ) {
         // If plugin is not funnel kit stripe, then return.
@@ -135,8 +135,8 @@ class FunnelKit_Stripe extends Base_Model implements Model_Interface, Activatabl
             return;
         }
 
-        // Set partner key if the result is true. We must check if the result is boolean, because it could be that the result is an array.
-        if ( is_bool( $result ) && true === $result ) {
+        // Set partner key if the result is true.
+        if ( ! is_wp_error( $result ) ) {
             update_option( 'fkwcs_wp_stripe', '51c012eccfe7b12df7e51be418fab892', false );
             update_option( Plugin_Constants::SHOW_FUNNELKIT_STRIPE_PROMOTE_NOTICE, 'dismissed' );
         }

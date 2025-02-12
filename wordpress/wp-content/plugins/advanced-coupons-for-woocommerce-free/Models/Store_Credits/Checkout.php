@@ -415,7 +415,14 @@ class Checkout extends Base_Model implements Model_Interface, Initializable_Inte
             return;
         }
 
-        $sc_data['amount'] = min( (float) $sc_data['amount'], (float) $coupon_item->get_discount() );
+        $coupon_discount = (float) $coupon_item->get_discount();
+
+        // Include the discount tax to the store credit coupon discount amount when prices include tax.
+        if ( wc_prices_include_tax() && apply_filters( 'acfw_store_credits_coupon_discount_include_tax', true, $coupon_discount, $coupon_item, $sc_data ) ) {
+            $coupon_discount += $coupon_item->get_discount_tax();
+        }
+
+        $sc_data['amount'] = min( (float) $sc_data['amount'], $coupon_discount );
         $amount            = apply_filters( 'acfw_filter_amount', $sc_data['amount'], true );
 
         // create store credit entry object.

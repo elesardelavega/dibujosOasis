@@ -37,6 +37,21 @@
     flex-flow: column;
   }
 
+  .option-sections {
+    margin-bottom: 15px;
+  }
+
+  .acfw-button-pushengage-install {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .acfw-button-pushengage-connect {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   .acfw-send-coupon-form-section {
     display: flex;
     flex-flow: row;
@@ -81,7 +96,7 @@
       margin-bottom: 0.5em;
     }
 
-    select, input[type="text"], input[type="email"] {
+    select, input[type="text"]:not(.select2-search__field), input[type="email"] {
       width: 100%;
       box-sizing: border-box;
       margin: 0 0 0.5em;
@@ -147,7 +162,7 @@
       }
     }
 
-    .preview-email-link {
+    .preview-email-link, .preview-pushengage-link {
 
       &.disabled {
         opacity: 0.6;
@@ -170,5 +185,15 @@
         background: #dc3232;
       }
     }
+
+    .message-form div {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .message-form input {
+      width: 80% !important;
+    }
+
   }
 }

@@ -69,7 +69,23 @@ class Notifications extends Base_Model implements Model_Interface, Initializable
 
         // Parsing to ACFW Notes.
         foreach ( $admin_notes as $admin_note ) {
-            $note         = $this->_helper_functions->wc_admin_note( $admin_note->note_id );
+            $note = $this->_helper_functions->wc_admin_note( $admin_note->note_id );
+
+            // Filter by end_date.
+            $content_data = $note->get_content_data();
+            if ( isset( $content_data->end_date ) ) {
+                $current_timezone = new \DateTimeZone( $this->_helper_functions->get_site_current_timezone() );
+                $now              = new \WC_DateTime( 'now', $current_timezone );
+                $end_time         = new \WC_DateTime( $content_data->end_date, $current_timezone );
+
+                if ( $now > $end_time ) {
+                    // Mark note as deleted.
+                    $note->set_is_deleted( 1 );
+                    $note->save();
+                    continue; // Skip processing this note further.
+                }
+            }
+
             $note_actions = $note->get_actions();
             $actions      = array();
 
@@ -300,7 +316,13 @@ class Notifications extends Base_Model implements Model_Interface, Initializable
             $note->set_title( $notification['title'] );
             $note->set_content( $notification['content'] );
             $note->set_name( $name );
-            $note->set_content_data( (object) array() );
+
+            $content_data = (object) array();
+            if ( ! empty( $notification['end_date'] ) ) {
+                $content_data->end_date = sanitize_text_field( $notification['end_date'] );
+            }
+            $note->set_content_data( $content_data );
+
             $note->set_source( 'advancedcouponsplugin.com' );
 
             foreach ( $notification['buttons'] as $button ) {
