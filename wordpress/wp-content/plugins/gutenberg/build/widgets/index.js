@@ -128,6 +128,7 @@ const external_wp_coreData_namespaceObject = window["wp"]["coreData"];
 ;// external ["wp","data"]
 const external_wp_data_namespaceObject = window["wp"]["data"];
 ;// ./packages/widgets/build-module/blocks/legacy-widget/edit/widget-type-selector.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
@@ -218,7 +219,7 @@ var external_wp_apiFetch_default = /*#__PURE__*/__webpack_require__.n(external_w
 /**
  * An API for creating and loading a widget control (a <div class="widget">
  * element) that is compatible with most third party widget scripts. By not
- * using React for this, we ensure that we have complete contorl over the DOM
+ * using React for this, we ensure that we have complete control over the DOM
  * and do not accidentally remove any elements that a third party widget script
  * has attached an event listener to.
  *
@@ -265,7 +266,7 @@ class Control {
   }
 
   /**
-   * Clean up the control so that it can be garabge collected.
+   * Clean up the control so that it can be garbage collected.
    *
    * @access public
    */
@@ -618,7 +619,6 @@ function serializeForm(form) {
 }
 
 ;// ./packages/widgets/build-module/blocks/legacy-widget/edit/form.js
-/* wp:polyfill */
 /**
  * External dependencies
  */
@@ -1060,6 +1060,7 @@ function NotEmpty({
 }
 
 ;// ./packages/widgets/build-module/blocks/legacy-widget/transforms.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
@@ -1456,6 +1457,7 @@ const v1 = {
 /* harmony default export */ const deprecated = ([v1]);
 
 ;// ./packages/widgets/build-module/blocks/widget-group/index.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
@@ -1551,6 +1553,7 @@ const moveTo = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(ext
 /* harmony default export */ const move_to = (moveTo);
 
 ;// ./packages/widgets/build-module/components/move-to-widget-area/index.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
@@ -1630,6 +1633,7 @@ function addWidgetIdToBlock(block, widgetId) {
 }
 
 ;// ./packages/widgets/build-module/register-legacy-widget-variations.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */

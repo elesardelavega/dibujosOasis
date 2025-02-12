@@ -357,7 +357,7 @@ $options = [
 				'hideLabel' => false,
 				'multiple' => false,
 				'active_callback' => 'oceanwp_cac_has_background_image',
-				'sanitize_callback' => 'sanitize_key',
+				'sanitize_callback' => 'sanitize_text_field',
 				'choices' => [
 					'initial'       => esc_html__( 'Default', 'oceanwp' ),
 					'top left'      => esc_html__( 'Top Left', 'oceanwp' ),
@@ -388,7 +388,7 @@ $options = [
 				'hideLabel' => false,
 				'multiple' => false,
 				'active_callback' => 'oceanwp_cac_has_background_image',
-				'sanitize_callback' => 'sanitize_key',
+				'sanitize_callback' => 'sanitize_text_field',
 				'choices' => [
 					'initial'   => esc_html__( 'Default', 'oceanwp' ),
 					'no-repeat' => esc_html__( 'No-repeat', 'oceanwp' ),
@@ -1224,7 +1224,7 @@ $options = [
 						'key' => 'normal',
 						'label' => esc_html__( 'Normal', 'oceanwp' ),
 						'selector' => [
-							'body .theme-button,body input[type="submit"],body button[type="submit"],body button,body .button, body div.wpforms-container-full .wpforms-form input[type=submit], body div.wpforms-container-full .wpforms-form button[type=submit], body div.wpforms-container-full .wpforms-form .wpforms-page-button' => 'background-color'
+							'body .theme-button,body input[type="submit"],body button[type="submit"],body button,body .button, body div.wpforms-container-full .wpforms-form input[type=submit], body div.wpforms-container-full .wpforms-form button[type=submit], body div.wpforms-container-full .wpforms-form .wpforms-page-button, .woocommerce-cart .wp-element-button,.woocommerce-checkout .wp-element-button' => 'background-color'
 						],
 						'attr' => [
 							'transport' => 'postMessage',
@@ -1236,7 +1236,7 @@ $options = [
 						'key' => 'hover',
 						'label' => esc_html__( 'Hover', 'oceanwp' ),
 						'selector' => [
-							'body .theme-button:hover,body input[type="submit"]:hover,body button[type="submit"]:hover,body button:hover,body .button:hover, body div.wpforms-container-full .wpforms-form input[type=submit]:hover, body div.wpforms-container-full .wpforms-form input[type=submit]:active, body div.wpforms-container-full .wpforms-form button[type=submit]:hover, body div.wpforms-container-full .wpforms-form button[type=submit]:active, body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover, body div.wpforms-container-full .wpforms-form .wpforms-page-button:active' => 'background-color'
+							'body .theme-button:hover,body input[type="submit"]:hover,body button[type="submit"]:hover,body button:hover,body .button:hover, body div.wpforms-container-full .wpforms-form input[type=submit]:hover, body div.wpforms-container-full .wpforms-form input[type=submit]:active, body div.wpforms-container-full .wpforms-form button[type=submit]:hover, body div.wpforms-container-full .wpforms-form button[type=submit]:active, body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover, body div.wpforms-container-full .wpforms-form .wpforms-page-button:active, .woocommerce-cart .wp-element-button:hover,.woocommerce-checkout .wp-element-button:hover' => 'background-color'
 						],
 						'attr' => [
 							'transport' => 'postMessage',
@@ -1263,7 +1263,7 @@ $options = [
 						'key' => 'normal',
 						'label' => esc_html__( 'Normal', 'oceanwp' ),
 						'selector' => [
-							'body .theme-button,body input[type="submit"],body button[type="submit"],body button,body .button, body div.wpforms-container-full .wpforms-form input[type=submit], body div.wpforms-container-full .wpforms-form button[type=submit], body div.wpforms-container-full .wpforms-form .wpforms-page-button' => 'color'
+							'body .theme-button,body input[type="submit"],body button[type="submit"],body button,body .button, body div.wpforms-container-full .wpforms-form input[type=submit], body div.wpforms-container-full .wpforms-form button[type=submit], body div.wpforms-container-full .wpforms-form .wpforms-page-button, .woocommerce-cart .wp-element-button,.woocommerce-checkout .wp-element-button' => 'color'
 						],
 						'attr' => [
 							'transport' => 'postMessage',
@@ -1275,7 +1275,7 @@ $options = [
 						'key' => 'hover',
 						'label' => esc_html__( 'Hover', 'oceanwp' ),
 						'selector' => [
-							'body .theme-button:hover,body input[type="submit"]:hover,body button[type="submit"]:hover,body button:hover,body .button:hover, body div.wpforms-container-full .wpforms-form input[type=submit]:hover, body div.wpforms-container-full .wpforms-form input[type=submit]:active, body div.wpforms-container-full .wpforms-form button[type=submit]:hover, body div.wpforms-container-full .wpforms-form button[type=submit]:active, body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover, body div.wpforms-container-full .wpforms-form .wpforms-page-button:active' => 'color'
+							'body .theme-button:hover,body input[type="submit"]:hover,body button[type="submit"]:hover,body button:hover,body .button:hover, body div.wpforms-container-full .wpforms-form input[type=submit]:hover, body div.wpforms-container-full .wpforms-form input[type=submit]:active, body div.wpforms-container-full .wpforms-form button[type=submit]:hover, body div.wpforms-container-full .wpforms-form button[type=submit]:active, body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover, body div.wpforms-container-full .wpforms-form .wpforms-page-button:active, .woocommerce-cart .wp-element-button:hover,.woocommerce-checkout .wp-element-button:hover' => 'color'
 						],
 						'attr' => [
 							'transport' => 'postMessage',
@@ -1302,7 +1302,7 @@ $options = [
 						'key' => 'normal',
 						'label' => esc_html__( 'Normal', 'oceanwp' ),
 						'selector' => [
-							'body .theme-button,body input[type="submit"],body button[type="submit"],body button,body .button, body div.wpforms-container-full .wpforms-form input[type=submit], body div.wpforms-container-full .wpforms-form button[type=submit], body div.wpforms-container-full .wpforms-form .wpforms-page-button' => 'border-color'
+							'body .theme-button,body input[type="submit"],body button[type="submit"],body button,body .button, body div.wpforms-container-full .wpforms-form input[type=submit], body div.wpforms-container-full .wpforms-form button[type=submit], body div.wpforms-container-full .wpforms-form .wpforms-page-button, .woocommerce-cart .wp-element-button,.woocommerce-checkout .wp-element-button' => 'border-color'
 						],
 						'attr' => [
 							'transport' => 'postMessage',
@@ -1313,7 +1313,7 @@ $options = [
 						'key' => 'hover',
 						'label' => esc_html__( 'Hover', 'oceanwp' ),
 						'selector' => [
-							'body .theme-button:hover,body input[type="submit"]:hover,body button[type="submit"]:hover,body button:hover,body .button:hover, body div.wpforms-container-full .wpforms-form input[type=submit]:hover, body div.wpforms-container-full .wpforms-form input[type=submit]:active, body div.wpforms-container-full .wpforms-form button[type=submit]:hover, body div.wpforms-container-full .wpforms-form button[type=submit]:active, body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover, body div.wpforms-container-full .wpforms-form .wpforms-page-button:active' => 'border-color'
+							'body .theme-button:hover,body input[type="submit"]:hover,body button[type="submit"]:hover,body button:hover,body .button:hover, body div.wpforms-container-full .wpforms-form input[type=submit]:hover, body div.wpforms-container-full .wpforms-form input[type=submit]:active, body div.wpforms-container-full .wpforms-form button[type=submit]:hover, body div.wpforms-container-full .wpforms-form button[type=submit]:active, body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover, body div.wpforms-container-full .wpforms-form .wpforms-page-button:active, .woocommerce-cart .wp-element-button:hover,.woocommerce-checkout .wp-element-button:hover' => 'border-color'
 						],
 						'attr' => [
 							'transport' => 'postMessage',
@@ -1735,7 +1735,7 @@ $options = [
 				'transport' => 'postMessage',
 				'priority' => 10,
 				'hideLabel' => false,
-				'selector' => 'form input[type=text], form input[type=password], form input[type=email], form input[type=url], form input[type=date], form input[type=month], form input[type=time], form input[type=datetime], form input[type=datetime-local], form input[type=week], form input[type=number], form input[type=search], form input[type=tel], form input[type=color], form select, form textarea',
+				'selector' => 'form label',
 				'setting_args' => [
 					'fontFamily' => [
 						'id' => 'form_label_typography[font-family]',
@@ -3339,6 +3339,59 @@ $options = [
 					]
 				]
 			],
+
+			'ocean_pagination_bg_active_setting' => [
+				'type' => 'ocean-color',
+				'label' => esc_html__( 'Background: Active', 'oceanwp' ),
+				'section' => 'ocean_site_pagination_section',
+				'transport' => 'postMessage',
+				'priority' => 10,
+				'hideLabel' => false,
+				'showAlpha' => true,
+				'showPalette' => true,
+				'wrapper' => 'ocean_pagination_bg_active_setting',
+				'sanitize_callback' => 'wp_kses_post',
+				'setting_args' => [
+					'normal' => [
+						'id' => 'ocean_pagination_bg_active',
+						'key' => 'normal',
+						'label' => esc_html__( 'Select Color', 'oceanwp' ),
+						'selector' => [
+							'.page-numbers .page-numbers.current' => 'background-color',
+						],
+						'attr' => [
+							'transport' => 'postMessage',
+						],
+					]
+				]
+			],
+
+			'ocean_pagination_color_active_setting' => [
+				'type' => 'ocean-color',
+				'label' => esc_html__( 'Pagination Text: Active', 'oceanwp' ),
+				'section' => 'ocean_site_pagination_section',
+				'transport' => 'postMessage',
+				'priority' => 10,
+				'hideLabel' => false,
+				'showAlpha' => true,
+				'showPalette' => true,
+				'wrapper' => 'ocean_pagination_color_active_setting',
+				'sanitize_callback' => 'wp_kses_post',
+				'setting_args' => [
+					'normal' => [
+						'id' => 'ocean_pagination_color_active',
+						'key' => 'normal',
+						'label' => esc_html__( 'Select Color', 'oceanwp' ),
+						'selector' => [
+							'.page-numbers .page-numbers.current' => 'color',
+						],
+						'attr' => [
+							'transport' => 'postMessage',
+						],
+					]
+				]
+			],
+
 
 			'ocean_divider_after_pagination_colors_setting' => [
 				'type' => 'ocean-divider',

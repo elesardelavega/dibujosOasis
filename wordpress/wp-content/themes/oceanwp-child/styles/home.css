@@ -129,7 +129,8 @@
     margin-left: 0;
     margin-right: 0;
     vertical-align: middle;
-    width: 190px;
+    text-transform: none;
+    background: #e6decb;
 }
 
 .wp-block-uagb-container.product-home.uagb-layout-flex.uagb-is-root-container .woocommerce div.product form.cart button:hover {
@@ -139,6 +140,7 @@
     background: #bbae7f;
 }
 
+/*
 .home .tinv-wraper.woocommerce.tinv-wishlist.tinvwl-after-add-to-cart.tinvwl-woocommerce_after_add_to_cart_button {
     display: none !important;
-}
+}*/

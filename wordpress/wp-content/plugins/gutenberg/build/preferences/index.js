@@ -536,7 +536,7 @@ const external_wp_element_namespaceObject = window["wp"]["element"];
  * Return an SVG icon.
  *
  * @param {IconProps}                                 props icon is the SVG component to render
- *                                                          size is a number specifiying the icon size in pixels
+ *                                                          size is a number specifying the icon size in pixels
  *                                                          Other props will be passed to wrapped SVG component
  * @param {import('react').ForwardedRef<HTMLElement>} ref   The forwarded ref to the SVG element.
  *
@@ -599,6 +599,7 @@ const {
 } = (0,external_wp_privateApis_namespaceObject.__dangerousOptInToUnstableAPIsOnlyForCoreModules)('I acknowledge private features are not for use in themes or plugins and doing so will break in the next version of WordPress.', '@wordpress/preferences');
 
 ;// ./packages/preferences/build-module/components/preferences-modal-tabs/index.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */

@@ -595,7 +595,7 @@ function getFormatBoundary(value, format, startIndex = value.start, endIndex = v
   // Safe guard: start index cannot be less than 0.
   startIndex = startIndex < 0 ? 0 : startIndex;
 
-  // // Return the indicies of the "edges" as the boundaries.
+  // // Return the indices of the "edges" as the boundaries.
   return {
     start: startIndex,
     end: endIndex
@@ -654,7 +654,7 @@ const walkToEnd = partialRight(walkToBoundary, 'forwards');
 
 
 
-const LINK_SETTINGS = [...external_wp_blockEditor_namespaceObject.__experimentalLinkControl.DEFAULT_LINK_SETTINGS, {
+const LINK_SETTINGS = [...external_wp_blockEditor_namespaceObject.LinkControl.DEFAULT_LINK_SETTINGS, {
   id: 'nofollow',
   title: (0,external_wp_i18n_namespaceObject.__)('Mark as nofollow')
 }];
@@ -775,7 +775,7 @@ function InlineLinkUI({
       // As "replace" will operate on the first match only, it is
       // run only against the second half of the value which was
       // split at the active format's boundary. This avoids a bug
-      // with incorrectly targetted replacements.
+      // with incorrectly targeted replacements.
       // See: https://github.com/WordPress/gutenberg/issues/41771.
       // Note original formats will be lost when applying this change.
       // That is expected behaviour.
@@ -836,7 +836,7 @@ function InlineLinkUI({
     shift: true,
     focusOnMount: focusOnMount,
     constrainTabbing: true,
-    children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_blockEditor_namespaceObject.__experimentalLinkControl, {
+    children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_blockEditor_namespaceObject.LinkControl, {
       value: linkValue,
       onChange: onChangeLink,
       onRemove: removeLink,
@@ -1223,7 +1223,7 @@ const underline = {
  * Return an SVG icon.
  *
  * @param {IconProps}                                 props icon is the SVG component to render
- *                                                          size is a number specifiying the icon size in pixels
+ *                                                          size is a number specifying the icon size in pixels
  *                                                          Other props will be passed to wrapped SVG component
  * @param {import('react').ForwardedRef<HTMLElement>} ref   The forwarded ref to the SVG element.
  *
@@ -1286,6 +1286,7 @@ const {
 } = (0,external_wp_privateApis_namespaceObject.__dangerousOptInToUnstableAPIsOnlyForCoreModules)('I acknowledge private features are not for use in themes or plugins and doing so will break in the next version of WordPress.', '@wordpress/format-library');
 
 ;// ./packages/format-library/build-module/text-color/inline.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
@@ -1730,6 +1731,7 @@ const help = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(exter
 /* harmony default export */ const library_help = (help);
 
 ;// ./packages/format-library/build-module/unknown/index.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
@@ -1963,6 +1965,7 @@ const nonBreakingSpace = {
 /* harmony default export */ const default_formats = ([bold, code_code, image_image, italic, build_module_link_link, strikethrough, underline, text_color_textColor, subscript_subscript, superscript_superscript, keyboard, unknown, language_language, nonBreakingSpace]);
 
 ;// ./packages/format-library/build-module/index.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */

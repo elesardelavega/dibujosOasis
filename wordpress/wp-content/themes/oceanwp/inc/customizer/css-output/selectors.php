@@ -87,6 +87,9 @@ function ocean_primary_color_selector( $return ) {
 			'body div.wpforms-container-full .wpforms-form input[type=submit]',
 			'body div.wpforms-container-full .wpforms-form button[type=submit]',
 			'body div.wpforms-container-full .wpforms-form .wpforms-page-button',
+			'.woocommerce-cart .wp-element-button',
+			'.woocommerce-checkout .wp-element-button',
+			'.wp-block-button__link',
 		)
 	);
 
@@ -163,6 +166,9 @@ function ocean_primary_color_hover_selector( $return ) {
 			'body div.wpforms-container-full .wpforms-form input[type=submit]:hover',
 			'body div.wpforms-container-full .wpforms-form button[type=submit]:hover',
 			'body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover',
+			'.woocommerce-cart .wp-element-button:hover',
+			'.woocommerce-checkout .wp-element-button:hover',
+			'.wp-block-button__link:hover',
 		)
 	);
 
