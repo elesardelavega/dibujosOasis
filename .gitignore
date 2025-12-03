@@ -1,16 +1,12 @@
-<<<<<<< HEAD
 # Node.js artifacts
 node_modules/
 dist/
 
 # WordPress uploads, cache y backups
-=======
->>>>>>> 3bf1a0f4d36047bfd34098aea31bfc437461754f
 wp-content/uploads/
 wp-content/cache/
 wp-content/upgrade/
 wp-content/backup-db/
-<<<<<<< HEAD
 
 # WordPress config
 wp-config.php
@@ -53,11 +49,3 @@ Thumbs.db
 
 # README u otros archivos de documentación que no quieras subir
 README*
-=======
-wp-config.php
-docker-compose.override.yml
-*.log
-vendor/
-node_modules/
-.env
->>>>>>> 3bf1a0f4d36047bfd34098aea31bfc437461754f
