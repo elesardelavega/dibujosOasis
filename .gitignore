@@ -1,0 +1,10 @@
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-config.php
+docker-compose.override.yml
+*.log
+vendor/
+node_modules/
+.env
