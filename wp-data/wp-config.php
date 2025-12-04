@@ -128,6 +128,11 @@ if ($configExtra = getenv_docker('WORDPRESS_CONFIG_EXTRA', '')) {
 	eval($configExtra);
 }
 
+define('FS_METHOD', 'direct'); // Permite actualizaciones directas sin FTP
+define('FS_CHMOD_DIR', 0755);  // Permisos correctos para directorios
+define('FS_CHMOD_FILE', 0644); // Permisos correctos para archivos
+
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
