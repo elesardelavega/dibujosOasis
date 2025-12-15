@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-12-11 15:10:28+0000\n"
+"PO-Revision-Date: 2025-12-14 23:03:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -191,10 +191,6 @@ msgstr "Se ha rechazado el pago."
 msgid "No payment gateway available."
 msgstr "No hay ninguna pasarela de pago disponible."
 
-#: src/StoreApi/Routes/V1/Agentic/CheckoutSessionsComplete.php:407
-msgid "No agentic-supported payment gateway available."
-msgstr "No hay ninguna pasarela de pago compatible con agencias disponible."
-
 #. translators: 1: current session status, 2: allowed statuses
 #: src/StoreApi/Routes/V1/Agentic/CheckoutSessionsUpdate.php:179
 msgid "Checkout session cannot be updated. Current status: %1$s. Allowed statuses: %2$s"
@@ -297,6 +293,10 @@ msgstr "Dirección de envío/tramitación."
 msgid "Available fulfillment options."
 msgstr "Opciones de tramitación disponibles."
 
+#: src/StoreApi/Routes/V1/Agentic/CheckoutSessionsComplete.php:407
+msgid "No agentic-supported payment gateway available."
+msgstr "No hay ninguna pasarela de pago compatible con agentes disponible."
+
 #: src/Internal/RestApi/Routes/V4/Settings/Tax/Schema/TaxSettingsSchema.php:209
 msgid "Manage your store’s tax setup."
 msgstr "Gestiona la configuración de impuestos de tu tienda."
@@ -377,7 +377,7 @@ msgstr "Valor no válido para «%1$s». Valores permitidos: %2$s."
 
 #: src/Internal/RestApi/Routes/V4/Settings/Tax/Schema/TaxSettingsSchema.php:124
 msgid "Available options for select/radio fields."
-msgstr "Opciones disponibles para los campos de selección."
+msgstr "Opciones disponibles para los campos de selección/radio."
 
 #: src/Internal/RestApi/Routes/V4/Settings/Account/Schema/AccountSettingsSchema.php:204
 msgid "Set options relating to customer accounts and data privacy."
@@ -680,10 +680,6 @@ msgstr "La cantidad de la partida no puede ser mayor que la cantidad del artícu
 msgid "Refund total cannot be greater than the line item total (%s)."
 msgstr "El total del reembolso no puede ser mayor que el total de la partida (%s)."
 
-#: src/Internal/RestApi/Routes/V4/Refunds/DataUtils.php:157
-msgid "Tax id and refund_total are required."
-msgstr "El ID fiscal y el total del reembolso son obligatorios."
-
 #. translators: %s: tax IDs
 #: src/Internal/RestApi/Routes/V4/Refunds/DataUtils.php:167
 msgid "Line item tax not found. Must be: %s."
@@ -697,6 +693,10 @@ msgstr "El total de impuestos del reembolso no puede ser mayor que el total de i
 #: src/Internal/RestApi/Routes/V4/Refunds/Schema/RefundSchema.php:141
 msgid "The date the refund was created, as GMT."
 msgstr "La fecha en que se creó el reembolso, en GMT."
+
+#: src/Internal/RestApi/Routes/V4/Refunds/DataUtils.php:157
+msgid "Tax id and refund_total are required."
+msgstr "El identificador fiscal y el refund_total son obligatorios."
 
 #: src/Internal/RestApi/Routes/V4/Orders/ActionController.php:38
 msgid "Marks the order as paid. Updates the order status and reduces line item stock if necessary."
@@ -835,10 +835,6 @@ msgstr "Varios mensajes para mostrar posiblemente al usuario."
 msgid "Message to show the user."
 msgstr "Mensaje que mostrar al usuario."
 
-#: src/Internal/Admin/Settings/PaymentsRestController.php:898
-msgid "The onboarding steps in case this provider supports native in-context onboarding."
-msgstr "Los pasos de incorporación en el caso de que este proveedor admita la incorporación nativa en contexto."
-
 #. translators: %s: URL to WooCommerce advanced settings
 #: src/Internal/Admin/Agentic/AgenticSettingsPage.php:176
 msgid "Configure your Terms and Conditions page in <a href=\"%s\">WooCommerce &gt; Settings &gt; Advanced &gt; Page setup</a>."
@@ -872,6 +868,10 @@ msgstr "No se ha podido crear la columna de estado de tramitación: %s"
 #: src/Internal/Admin/Analytics.php:261
 msgid "Failed to update order fulfillment status. Please check the database logs for errors."
 msgstr "No se ha podido actualizar el estado de tramitación del pedido. Comprueba los registros de la base de datos en busca de errores."
+
+#: src/Internal/Admin/Settings/PaymentsRestController.php:898
+msgid "The onboarding steps in case this provider supports native in-context onboarding."
+msgstr "Los pasos de la puesta en marcha en el caso de que este proveedor soporte la puesta en marcha nativa en contexto."
 
 #. translators: %1$s: Authorization ID, %2$s: open link tag, %3$s: close link
 #. tag
@@ -8045,7 +8045,7 @@ msgstr[1] ""
 "Se ha encontrado un %%C%1$d%%n de plugins compatibles%2$s"
 
 #. translators: %s is a generated error message.
-#: src/Blocks/Patterns/PTKPatternsStore.php:232
+#: src/Blocks/Patterns/PTKPatternsStore.php:247
 msgid "Failed to get WooCommerce patterns from the PTK: \"%s\""
 msgstr "Se ha producido un error al obtener los patrones de WooCommerce de PTK: «%s»"
 
@@ -9281,25 +9281,25 @@ msgid "Custom fields can be used in a variety of ways, such as sharing more deta
 msgstr "Los campos personalizados pueden utilizarse de diversas formas, como para compartir información más detallada sobre los productos, mostrar más campos de entrada u organizar el inventario interno. %1$sMás información sobre los campos personalizados%2$s"
 
 #. translators: %d is an order ID.
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:674
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:673
 msgid "Unable to create backup post for order %d."
 msgstr "No se puede crear una copia de seguridad del pedido %d."
 
 #. translators: %s is a list of order property names.
-#: src/Internal/DataStores/Orders/LegacyDataHandler.php:567
+#: src/Internal/DataStores/Orders/LegacyDataHandler.php:560
 msgid "%s is not a valid order property."
 msgid_plural "%s are not valid order properties."
 msgstr[0] "%s no es una propiedad de pedido válida."
 msgstr[1] "%s no son propiedades de pedido válidas."
 
 #. translators: %s is a comma separated list of metakey names.
-#: src/Internal/DataStores/Orders/LegacyDataHandler.php:541
+#: src/Internal/DataStores/Orders/LegacyDataHandler.php:534
 msgid "%s is an internal meta key. Use --props to set it."
 msgid_plural "%s are internal meta keys. Use --props to set them."
 msgstr[0] "%s es una palabra clave interna. Utiliza --props para configurarla."
 msgstr[1] "%s son palabras clave internas. Utiliza --props para configurarlas."
 
-#: src/Internal/DataStores/Orders/LegacyDataHandler.php:390
+#: src/Internal/DataStores/Orders/LegacyDataHandler.php:383
 msgid "The backup datastore does not support updating orders."
 msgstr "El almacén de datos de copia de seguridad no admite la actualización de pedidos."
 
@@ -12409,8 +12409,8 @@ msgstr "Confirmación del pedido"
 
 #. translators: %1$s = order ID, %2$s = order id, %3$s = error message.
 #. translators: %1$d = peoperty name, %2$d = order ID, %3$s = error message.
-#: includes/data-stores/abstract-wc-order-data-store-cpt.php:199
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1780
+#: includes/data-stores/abstract-wc-order-data-store-cpt.php:198
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1767
 msgid "Error when setting property '%1$s' for order %2$d: %3$s"
 msgstr "Error al establecer la propiedad '%1$s' para el pedido %2$d: %3$s"
 
@@ -12490,7 +12490,7 @@ msgid "Please enter a valid email address."
 msgstr "Por favor, introduce una dirección de correo electrónico válida."
 
 #. translators: %s: Taxonomy name.
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2272
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2259
 msgid "Invalid taxonomy: %s."
 msgstr "Taxonomía no válida: %s."
 
@@ -14289,7 +14289,7 @@ msgid "Thanks for your order. It’s on-hold until we confirm that payment has b
 msgstr "Gracias por tu pedido. Está en espera hasta que confirmemos que se ha recibido el pago."
 
 #. translators: %1$d order ID.
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1597
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1594
 msgid "Unable to load the post record for order %1$d"
 msgstr "No ha sido posible cargar el registro de publicación del pedido %1$d"
 
@@ -14864,22 +14864,22 @@ msgid "%1$sCollect payments easily%2$s from your customers anywhere with our mob
 msgstr "%1$sRecibe pagos fácilmente%2$s de tus clientes desde cualquier parte con nuestra aplicación móvil."
 
 #. translators: 1: order ID, 2: order status
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2765
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2752
 msgid "Something went wrong when trying to restore order %d from the trash. It could not be restored."
 msgstr "Algo ha salido mal al tratar de restaurar el pedido %d de la papelera. No se pudo restaurar."
 
 #. translators: 1: order ID, 2: order status
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2729
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2716
 msgid "The previous status of order %1$d (\"%2$s\") is invalid. It could not be restored."
 msgstr "El estado previo del pedido %1$d («%2$s») no es válido. No se ha podido restaurar."
 
 #. translators: 1: order ID, 2: order status
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2717
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2704
 msgid "The previous status of order %1$d (\"%2$s\") is invalid. It has been restored to \"pending\" status instead."
 msgstr "El estado previo del pedido %1$d («%2$s») no es válido. Se ha restaurado al estado de «pendiente» en su lugar."
 
 #. translators: 1: order ID, 2: order status
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2699
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2686
 msgid "Order %1$d cannot be restored from the trash: it has already been restored to status \"%2$s\"."
 msgstr "El pedido %1$d no se ha podido restaurar de la papelera: ya se había restaurado con el estado de «%2$s»."
 
@@ -14962,7 +14962,6 @@ msgid "Your store is not connected to WooCommerce.com. Run `wp wc com connect` c
 msgstr "Tu tienda no está conectada a Woo.com. Ejecuta el comando `wp wc com connect`."
 
 #: includes/admin/class-wc-admin-assets.php:647
-#: assets/client/admin/product-editor/index.js:2
 msgid "Describe this product. What makes it unique? What are its most important features?"
 msgstr "Describe este producto. ¿Qué lo hace único? ¿Cuáles son sus características más importantes?"
 
@@ -15065,7 +15064,7 @@ msgstr "ID de la tabla no válido: %s."
 msgid "%s can not be used as a table alias in OrdersTableQuery"
 msgstr "%s no se puede usar como alias de tabla en la consulta de la tabla de pedidos"
 
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1350
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1349
 msgid "Invalid order IDs in call to read_multiple()"
 msgstr "ID del pedido no válido en la llamada a read_multiple()"
 
@@ -15257,7 +15256,7 @@ msgstr "Tarifas con descuento"
 
 #. translators: %s: Order date
 #: includes/class-wc-order-refund.php:85
-#: includes/data-stores/abstract-wc-order-data-store-cpt.php:402
+#: includes/data-stores/abstract-wc-order-data-store-cpt.php:401
 #: includes/data-stores/class-wc-order-refund-data-store-cpt.php:152
 #: src/Internal/DataStores/Orders/OrdersTableRefundDataStore.php:207
 msgctxt "Order date parsed by DateTime::format"
@@ -15294,11 +15293,11 @@ msgid "Buy postage when you need it"
 msgstr "Compra franqueo cuando lo necesites"
 
 #. translators: %s is a table name.
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2124
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2111
 msgid "Could not persist order to database table \"%s\"."
 msgstr "No se pudo mantener el pedido en la tabla de la base de datos «%s»."
 
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2105
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2092
 msgid "Could not create order in posts table."
 msgstr "No se pudo crear el pedido en a tabla 'posts'."
 
@@ -39069,7 +39068,7 @@ msgid "[Remove]"
 msgstr "[Eliminar]"
 
 #. translators: %s: Order date
-#: includes/data-stores/abstract-wc-order-data-store-cpt.php:402
+#: includes/data-stores/abstract-wc-order-data-store-cpt.php:401
 msgid "Order &ndash; %s"
 msgstr "Pedido &ndash; %s"
 
@@ -41138,7 +41137,7 @@ msgstr "El cupón no existe."
 
 #: includes/class-wc-download-handler.php:164
 #: includes/class-wc-form-handler.php:805
-#: includes/data-stores/abstract-wc-order-data-store-cpt.php:150
+#: includes/data-stores/abstract-wc-order-data-store-cpt.php:149
 #: includes/shortcodes/class-wc-shortcode-checkout.php:253
 #: includes/shortcodes/class-wc-shortcode-my-account.php:140
 #: includes/wc-order-functions.php:767
@@ -44754,7 +44753,6 @@ msgstr "Nada"
 #: assets/client/admin/components/index.js:2
 #: assets/client/admin/email-editor/index.js:2
 #: assets/client/admin/onboarding/index.js:1
-#: assets/client/admin/product-editor/index.js:2
 #: assets/client/admin/wp-admin-scripts/email-editor-integration.js:2
 #: assets/client/admin/wp-admin-scripts/settings-embed.js:2
 #: assets/client/blocks/all-products.js:13
