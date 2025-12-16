@@ -19,6 +19,9 @@ docker-compose.override.yml
 
 # Environment files
 .env
+*.local
+*.env.local
+
 
 # Vendor / dependencias externas
 vendor/
@@ -50,3 +53,17 @@ Thumbs.db
 # README u otros archivos de documentación que no quieras subir
 README*
 readme.md
+
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+*.sql
+*.sqlite
+*.db
+
+.svn/
+.cvs/
+.idea/
+.vscode/
+*.iml
