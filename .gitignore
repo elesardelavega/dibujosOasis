@@ -1,69 +1,49 @@
-# Node.js artifacts
+# ----------------------------------------------------------------------
+# 1. ARTEFACTOS DE BUILD Y DEPENDENCIAS
+# ----------------------------------------------------------------------
 node_modules/
 dist/
+vendor/
+package-lock.json
+npm-debug.log*
+yarn-error.log*
 
-# WordPress uploads, cache y backups
+# ----------------------------------------------------------------------
+# 2. WORDPRESS - Archivos generados y persistentes
+# ----------------------------------------------------------------------
 wp-content/uploads/
 wp-content/cache/
 wp-content/upgrade/
 wp-content/backup-db/
 
-# WordPress config
+# ----------------------------------------------------------------------
+# 3. CONFIGURACIÓN LOCAL Y SECRETA
+# ----------------------------------------------------------------------
 wp-config.php
-
-# Docker overrides
 docker-compose.override.yml
-
-# Logs
-*.log
-
-# Environment files
 .env
 *.local
 *.env.local
 
-
-# Vendor / dependencias externas
-vendor/
-
-# IDE / editor
-.idea/
-.vscode/
-
-# OS artifacts
-.DS_Store
-Thumbs.db
-
-# Compiled files
-*.class
-*.py[cod]
-*.jar
-*.war
-*.exe
-*.app
-
-# Media / grandes archivos binarios que no versionaremos
-*.mp4
-*.tiff
-*.avi
-*.flv
-*.mov
-*.wmv
-
-# README u otros archivos de documentación que no quieras subir
-README*
-readme.md
-
-npm-debug.log*
-yarn-error.log*
-package-lock.json
-
+# ----------------------------------------------------------------------
+# 4. LOGS Y BASES DE DATOS
+# ----------------------------------------------------------------------
+*.log
 *.sql
 *.sqlite
 *.db
 
-.svn/
-.cvs/
+# ----------------------------------------------------------------------
+# 5. DOCUMENTACIÓN (Excluye el README)
+# ----------------------------------------------------------------------
+README*
+readme.md
+
+# ----------------------------------------------------------------------
+# 6. IDE / EDITOR Y SISTEMA
+# ----------------------------------------------------------------------
 .idea/
 .vscode/
 *.iml
+.DS_Store
+Thumbs.db
