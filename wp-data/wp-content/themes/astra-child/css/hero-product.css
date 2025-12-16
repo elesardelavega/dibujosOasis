@@ -1,0 +1,67 @@
+.hero-product {
+  padding: 144px 0 80px;
+  height: 373px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-product .hero-overlay {
+  background-color: #141004;
+  opacity: 0.7;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.hero-product .wp-block-uagb-container.hero-name-page {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero-product .uagb-ifb-title-prefix {
+  color: var(--ast-global-color-5);
+  margin-bottom: 8px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1em;
+  letter-spacing: 2px;
+}
+
+.hero-product .uagb-ifb-title {
+  color: var(--ast-global-color-0);
+  margin-bottom: 8px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 4.0625rem;
+  font-weight: 600;
+  font-family: 'Outfit', sans-serif;
+  line-height: 1.4em;
+}
+
+.hero-product .uagb-ifb-desc {
+  color: var(--ast-global-color-5);
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}

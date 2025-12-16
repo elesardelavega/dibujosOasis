@@ -1,0 +1,240 @@
+.woocommerce div.product {
+  margin: 20px 0;
+}
+
+/* Galería */
+.woocommerce-product-gallery {
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,.05);
+}
+
+.flex-control-thumbs li img {
+  border: 2px solid transparent;
+  opacity: 0.7;
+  transition: .2s;
+}
+
+.flex-control-thumbs li img:hover,
+.flex-control-thumbs li img.flex-active {
+  border-color: var(--ast-global-color-0);
+  opacity: 1;
+}
+
+/* Precio y título */
+.woocommerce-js div.product .product_title {
+  color: var(--ast-global-color-3);
+}
+
+.chosen-container {
+    width: 100% !important;
+}
+
+/* Categoría (etiqueta 'Animales' encima del título) */
+.product .summary .single-product-category a {
+  color: var(--ast-global-color-0);
+  font-size: 0.9em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  display: none;
+}
+
+/* Metadatos (SKU, Categoría al final del resumen) */
+.product .summary .product_meta {
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: var(--ast-global-color-3);
+}
+
+.product .summary .product_meta .sku_wrapper,
+.product .summary .product_meta .posted_in {
+  display: block;
+  margin-bottom: 5px;
+}
+.product .summary .product_meta a {
+  color: var(--ast-global-color-0);
+}
+
+.woocommerce-js div.product p.price,
+.woocommerce-js div.product span.price {
+  color: var(--ast-global-color-0);
+}
+
+.woocommerce-product-details__short-description {
+  color: var(--ast-global-color-3);
+}
+
+/* VALORACIONES */
+
+form#commentform {
+  margin-top: 20px;
+}
+
+.woocommerce-js .comment-reply-title {
+  font-size: 14px;
+  line-height: 1.2em;
+  color: var(--ast-global-color-3);
+}
+
+.woocommerce-js #reviews .comment-form-comment label,
+.woocommerce-js #reviews .comment-form-rating label {
+  font-size: 16px;
+  line-height: 1.2em;
+  color: var(--ast-global-color-3);
+}
+
+/* --- ESTILOS PARA EL BOTÓN PERSONALIZADO EN EL RESUMEN --- */
+
+.woocommerce-js div.product form.cart .button.single_add_to_cart_button {
+  background-color: #fff;
+  color: var(--ast-global-color-3);
+  border: 1px solid var(--ast-global-color-3);
+  padding: 7px 32px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.woocommerce-js div.product form.cart .button.single_add_to_cart_button:hover {
+  background-color: #fff;
+  border-color: var(--ast-global-color-0);
+  opacity: 0.9;
+  color: var(--ast-global-color-3);
+}
+
+
+.woocommerce #content div.product .woocommerce-tabs ul.tabs,
+.woocommerce div.product .woocommerce-tabs ul.tabs,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs {
+  display: flex;
+  gap: 20px;
+  align-content: center;
+  align-items: center;
+}
+
+/* --- ESTILOS DE LA TABLA DE INFORMACIÓN ADICIONAL (DENTRO DE LAS PESTAÑAS) --- */
+
+.woocommerce-Tabs-panel--additional_information table.shop_attributes {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Encabezado (Peso, Dimensiones) */
+.woocommerce-Tabs-panel--additional_information table.shop_attributes th {
+  font-weight: 600;
+  color: var(--ast-global-color-5, #3a3a3a);
+  text-transform: uppercase;
+  font-size: 0.9em;
+  padding: 10px;
+  border: 1px solid #eee;
+  text-align: left;
+  width: 30%;
+}
+
+/* Valores de la tabla */
+.woocommerce-Tabs-panel--additional_information table.shop_attributes td {
+  padding: 10px;
+  border: 1px solid #eee;
+  color: #555;
+  text-align: right;
+}
+
+/* Quitamos el borde superior/inferior del último elemento de la tabla si existe */
+.woocommerce-Tabs-panel--additional_information table.shop_attributes tr:last-child {
+  border-bottom: none;
+}
+
+.woocommerce-Tabs-panel .entry-content p {
+  margin-bottom: 0.5em !important;
+}
+
+.woocommerce-Tabs-panel h5,
+.entry-content :where(h5) {
+  font-size: 18px;
+  line-height: 1.2em;
+  color: var(--ast-global-color-2);
+  margin-bottom: 10px;
+}
+
+.woocommerce-Tabs-panel p,
+.entry-content :where(p) {
+  font-size: 14px;
+  line-height: 1.2em;
+  color: var(--ast-global-color-3);
+  margin-bottom: 20px;
+}
+
+.woocommerce-Tabs-panel ul li {
+  font-size: 14px;
+  line-height: 1.2em;
+  color: var(--ast-global-color-3);
+}
+
+.woocommerce-Tabs-panel ul li p {
+  margin-bottom: 10px;
+}
+
+.woocommerce-Tabs-panel ul li::marker {
+  color: var(--ast-global-color-0);
+}
+
+/* --- 4. ESTILOS DE LA SECCIÓN 'TAMBIÉN TE RECOMENDAMOS' (Up-sells) --- */
+
+/* Título de la sección "También te recomendamos..." */
+.upsells.products h2 {
+  color: var(--ast-global-color-0);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+/* Contenedor de la cuadrícula de productos */
+.upsells.products .products {
+  margin: 0 -10px;
+}
+
+/* Estilo de cada tarjeta de producto (Colibrí, Mario Bros, etc.) */
+.upsells.products .products .ast-article-single {
+  padding: 0 10px;
+  text-align: center;
+}
+
+/* Envoltura del resumen del producto (Título, Precio) */
+.upsells.products .astra-shop-summary-wrap {
+  padding: 10px 0;
+}
+
+/* Título del producto en la lista de relacionados */
+.upsells.products .woocommerce-loop-product__title {
+  color: var(--ast-global-color-5);
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+/* Precio en la lista de relacionados */
+.upsells.products .price {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: var(--ast-global-color-0);
+}
+
+.woocommerce ul.products li.product.desktop-align-left,
+.woocommerce-page ul.products li.product.desktop-align-left {
+  margin-bottom: 0;
+}

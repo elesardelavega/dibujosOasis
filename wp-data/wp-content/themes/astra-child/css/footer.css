@@ -1,0 +1,4 @@
+#astra-footer-menu > .menu-item > .menu-link:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+}

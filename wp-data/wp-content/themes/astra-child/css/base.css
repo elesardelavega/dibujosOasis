@@ -1,0 +1,15 @@
+/* Breadcrumbs */
+.woocommerce-breadcrumb,
+.ast-breadcrumbs-wrapper {
+  display: none !important;
+}
+
+/* Botones UAGB */
+.uagb-button__icon,
+.uagb-button__link {
+  transition: transform 0.3s ease;
+}
+
+.uagb-buttons-repeater:hover .uagb-button__icon {
+  transform: translateX(6px);
+}

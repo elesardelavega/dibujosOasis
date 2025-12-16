@@ -1,0 +1,41 @@
+
+/* Upsells */
+.upsells.products h2 {
+  text-align: center;
+  color: var(--ast-global-color-0);
+}
+
+/* --- REDUCCIÓN DE TAMAÑO DEL LOADER DE AJAX (Círculo Giratorio) --- */
+
+.jQuery-plainOverlay-progress {
+  width: 70px !important;
+  height: 70px !important;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  border-top-width: 2px !important;
+  border-left-width: 2px !important;
+  border-right-width: 2px !important;
+  border-bottom-width: 2px !important;
+}
+
+[style*='z-index: 9001; cursor: wait;'] {
+  width: 100% !important;
+  height: 100% !important;
+  left: 0 !important;
+  top: 0 !important;
+}
+
+.product-template-default.single.single-product .site-content .ast-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.woocommerce-js div.product .woocommerce-tabs ul.tabs li.active a {
+  color: var(--ast-global-color-3);
+  font-size: 18px;
+  font-weight: 600;
+}

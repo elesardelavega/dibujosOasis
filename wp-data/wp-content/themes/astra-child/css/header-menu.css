@@ -1,0 +1,26 @@
+.ast-theme-transparent-header .ast-builder-menu .main-header-menu li.menu-item a {
+  color: var(--ast-global-color-5) !important;
+}
+
+.ast-theme-transparent-header .ast-builder-menu .main-header-menu li.menu-item a:hover,
+.ast-theme-transparent-header .ast-builder-menu .main-header-menu li.menu-item.current-menu-item a,
+.ast-theme-transparent-header
+  .ast-builder-menu
+  .main-header-menu
+  li.menu-item.current-menu-ancestor
+  a {
+  color: var(--ast-global-color-0) !important;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 976px) {
+  .ast-theme-transparent-header .ast-builder-menu .main-header-menu li.menu-item a:hover {
+    transform: none !important;
+  }
+
+  .ast-builder-menu-mobile .main-navigation .main-header-menu .menu-item > .menu-link {
+    color: var(--ast-global-color-5);
+    transform: none !important;
+  }
+}
