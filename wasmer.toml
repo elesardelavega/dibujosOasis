@@ -1,20 +1,16 @@
 [package]
 name = "elesardelavega/dibujooasis"
 version = "0.1.0"
-description = "Aplicación WordPress o PHP"
+description = "WordPress/PHP App"
 
 [dependencies]
-# Usar un runtime PHP compatible con Wasmer
-php = "wasmer/php@latest"
+# Usar un runtime PHP simple (si es diferente a la versión "latest" que tenías)
+php = "wasmer/php@1.2.0" 
 
 [command]
 name = "start"
-module = "php:server" # Comando para iniciar el servidor PHP
+# Usar el comando de Wasmer para PHP
+module = "php:server"
 
 [fs]
-# Monta la carpeta de tu código (por ejemplo, si tienes una subcarpeta 'src')
 "./" = "/"
-
-[bindings.http]
-# Especifica el puerto por defecto (80 para web)
-port = 80
